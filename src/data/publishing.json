@@ -126,29 +126,11 @@
     "tools": [
       {
         "title": "Duotrope",
-        "subtitle": "Publisher search",
+        "subtitle": "Submission tracker",
         "homepage_url": "https://duotrope.com/",
         "square_logo_url": "https://cdn.duotrope.com/images/logo_4x.png",
         "screenshot_url": "https://cdn.duotrope.com/guides/report-submission.png",
         "description": "Duotrope is an established, award-winning resource for writers and artists. We help you save time finding publishers or agents for your work, so you can focus on creating. Our market listings are up to date and full of information you won't find elsewhere.",
-        "badges": [
-          {
-            "icon": "attach_money",
-            "text": "Paid subscriptions range $4 - $5 per month"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
-        "title": "Duosuma",
-        "subtitle": "Submission tracker",
-        "homepage_url": "https://duotrope.com/duosuma/",
-        "square_logo_url": "https://cdn.duotrope.com/images/logo_4x.png",
-        "screenshot_url": "",
-        "description": "Duosuma is Duotrope's Submission Manager platform. It helps publishing projects and literary agents receive and manage their submissions quickly, easily, and affordably.",
         "badges": [
           {
             "icon": "attach_money",

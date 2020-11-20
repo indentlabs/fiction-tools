@@ -8,6 +8,7 @@ import Grid from '@material-ui/core/Grid';
 
 import ToolCard from "./components/ToolCard/ToolCard.js";
 import ToolList from "./components/ToolList/ToolList.js";
+import TableOfContents from "./components/TableOfContents/TableOfContents.js";
 
 import worldbuilding_tools from './data/worldbuilding.json';
 import writing_tools from './data/writing.json';
@@ -22,78 +23,40 @@ function App() {
           <Typography variant="h3" component="h1" color="primary">
             Fiction.Tools
           </Typography>
+          <br />
           <Typography paragraph="true">
             A collection of helpful tools for authors looking to make things a little easier at every stage of the writing process.
           </Typography>
+          <br />
           <Typography variant="h5" component="blockquote" color="primary"  style={{borderLeft: '6px solid blue', paddingLeft: '20px'}}>
-          "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
-          ― Isaac Asimov
+            "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
+            ― Isaac Asimov
           </Typography>
         </Grid>
 
         <Grid item xs={12} md={6} style={{paddingLeft: '8em', paddingTop: '3em', paddingBottom: '3em'}}>
-          <Typography variant="h4" color="secondary" gutterBottom>
-            Table of Contents
-          </Typography>
-          <ul>
-            <li>
-              <a href="#section-worldbuilding">
-                Worldbuilding
-              </a>
-            </li>
-            <ul>
-              <li>
-                <a href="#worldbuilding-map-making-software">Map-making software</a>
-              </li>
-              <li>
-                <a href="#worldbuilding-world-wikis">World wikis</a>
-              </li>
-            </ul>
-            <li>
-              <a href="#section-writing">
-                Writing
-              </a>
-            </li>
-            <ul>
-              <li>
-                <a href="#writing-word-processors">Word processors</a>
-              </li>
-            </ul>
-            <li>
-              <a href="#section-revising">
-                Revising
-              </a>
-            </li>
-            <ul>
-              <li>
-                <a href="#revising-critiques">
-                  Critiques
-                </a>
-              </li>
-            </ul>
-            <li>
-              <a href="#section-publishing">
-                Publishing
-              </a>
-            </li>
-            <ul>
-              <li>
-                <a href="#publishing-cover-art">
-                  Cover art
-                </a>
-              </li>
-              <li>
-                <a href="#publishing-formatting">
-                  Formatting
-                </a>
-              </li>
-              <li>
-                <a href="#publishing-submitting">
-                  Submitting
-                </a>
-              </li>
-            </ul>
-          </ul>
+          <TableOfContents
+            chapters={
+              [
+                {
+                  title:    "Worldbuilding",
+                  sections: worldbuilding_tools
+                },
+                {
+                  title:    "Writing",
+                  sections: writing_tools
+                },
+                {
+                  title:    "Revising",
+                  sections: revising_tools
+                },
+                {
+                  title:    "Publishing",
+                  sections: publishing_tools
+                }
+              ]
+            }
+          />
         </Grid>
 
         <ToolList
