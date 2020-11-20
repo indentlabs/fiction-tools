@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Duotrope",
+    "subtitle": "Publisher search",
+    "homepage_url": "https://duotrope.com/",
+    "square_logo_url": "https://cdn.duotrope.com/images/logo_4x.png",
+    "screenshot_url": "https://cdn.duotrope.com/guides/report-submission.png",
+    "description": "Duotrope is an established, award-winning resource for writers and artists. We help you save time finding publishers or agents for your work, so you can focus on creating. Our market listings are up to date and full of information you won't find elsewhere.",
+    "badges": [
+      {
+        "icon": "attach_money",
+        "text": "Paid subscriptions range $4 - $5 per month"
+      }
+    ]
+  },
+  {
+    "title": "Duosuma",
+    "subtitle": "Submission tracker",
+    "homepage_url": "https://duotrope.com/duosuma/",
+    "square_logo_url": "",
+    "screenshot_url": "",
+    "description": "Duosuma is Duotrope's Submission Manager platform. It helps publishing projects and literary agents receive and manage their submissions quickly, easily, and affordably.",
+    "badges": [
+      {
+        "icon": "attach_money",
+        "text": "Paid subscriptions range $4 - $5 per month"
+      }
+    ]
+  },
+  {
+    "title": "Unsplash",
+    "subtitle": "Freely-usable image search",
+    "homepage_url": "https://unsplash.com/",
+    "square_logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJ1BMVEUAAAD////V1dWWlpZ0dHTPz89qamrh4eGQkJDk5OTR0dGtra3Y2NgWv+ptAAABL0lEQVR4nO3cMQ7CQAxFwQCBQOD+56Wms2RHxjDvAKs/vbXLqaR1qW+tmbbUPENISJiIMBghIWEiwmCEhISJCIMREhImIgxGSEiYiDAYISFhIsJghISEiQiDERISJiIMRkhImIgwGCEhYSLCYISEhIkIgxESEiYiDPb7wtsBwlvNtCLhdq5vq5lWJPziCOdHOD/C+RHOj3B+hPMjnB/h/AjnRzg/wvkRzo9wfoTzI5wf4fz+QHip6P44YNrjXrKt6KrgeoDwWrStJkJCwv4ICQn7IyQk7I+QkLA/QkLC/ggJCfsjJCTsj5CQsD9CQsL+CAkJ+yMkJOyPkJCwP0JCwv4ICQn7IyQk7G8/QLh3oz56vsq/oH09u1GSJEmSJEmSJEmSJEmSJEmSJEmSJP1rbwwaXQZE0kwUAAAAAElFTkSuQmCC",
+    "screenshot_url": "https://www.jotform.com/blog/wp-content/uploads/2018/09/unsplash-teaser.png",
+    "description": "Unsplash is home to a growing community of photographers—from hobbyists, professionals, emerging brands and everyone in between.",
+    "badges": [
+      {
+        "icon": "money_off",
+        "text": "Usage is free"
+      },
+      {
+        "icon": "cloud",
+        "text": "Web-based product"
+      }
+    ]
+  },
+  {
+    "title": "",
+    "subtitle": "",
+    "homepage_url": "",
+    "square_logo_url": "",
+    "screenshot_url": "",
+    "description": "",
+    "badges": [
+      {
+        "icon": "",
+        "text": ""
+      }
+    ]
+  }
+]

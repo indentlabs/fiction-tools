@@ -14,6 +14,13 @@ import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip';
 import Zoom from '@material-ui/core/Zoom';
 
+// According to https://stackoverflow.com/questions/56369444/how-can-i-dynamically-load-an-icon-using-its-snake-case-name-react-material-ui,
+// using the generic string-loaded Icon instead of importing individual icons
+// will massively increase the JS bundle size. For the sake of making it easier
+// for non-technical users to edit the JSON data files (which include icons),
+// we're using <Icon /> anyway. 
+import Icon from '@material-ui/core/Icon';
+
 import IconButton from '@material-ui/core/IconButton';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
@@ -28,7 +35,7 @@ class ToolCard extends Component {
 
   render() {
     return(
-      <a href="https://www.notebook.ai" style={{textDecoration: 'none'}}>
+      <a href={this.props.homepage_url} style={{textDecoration: 'none'}}>
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}
@@ -37,13 +44,15 @@ class ToolCard extends Component {
           <CardHeader
             title={this.props.title}
             subheader={this.props.subtitle}
-            avatar={<img src={this.props.square_logo} height="100" width="100" />}
+            avatar={this.props.square_logo_url ? <img src={this.props.square_logo_url} height="100" width="100" /> : <br />}
           />
-          <CardMedia
-            image={this.props.screenshot}
-            title={this.props.title}
-            style={{height: 0, paddingTop: '33.33%'}}
-          />
+          {this.props.screenshot_url && (
+            <CardMedia
+              image={this.props.screenshot_url}
+              title={this.props.title}
+              style={{height: 0, paddingTop: '33.33%'}}
+            />
+          )}
           <CardContent>
             {this.props.description.split('\n').map(function(item, key) {
               return (
@@ -53,20 +62,28 @@ class ToolCard extends Component {
               )
             })}
           </CardContent>
-          <CardActions disableSpacing>
-            <Tooltip arrow interactive 
-                     title={
-                      <div style={{fontSize: '1.5em', padding: '10px'}}>
-                        Has a free tier
-                        </div>
-                      } 
-                     TransitionComponent={Zoom}
-            >
-              <IconButton>
-                <FavoriteIcon />
-              </IconButton>
-            </Tooltip>
-          </CardActions>
+          {this.props.badges && this.props.badges.length > 0 && (
+            <CardActions disableSpacing>
+              {this.props.badges.map((badge, i) => {
+                return(
+                  <Tooltip arrow 
+                          interactive 
+                          key={i}
+                          title={
+                              <div style={{fontSize: '1.5em', padding: '10px'}}>
+                                {badge.text}
+                              </div>
+                            } 
+                          TransitionComponent={Zoom}
+                  >
+                    <IconButton>
+                      <Icon>{badge.icon}</Icon>
+                    </IconButton>
+                  </Tooltip>
+                );
+              })}
+            </CardActions>
+          )}
         </Card>
       </a>
     )
@@ -78,3 +95,6 @@ ToolCard.propTypes = {};
 ToolCard.defaultProps = {};
 
 export default ToolCard;
+
+
+// free -> "offers some or all of its features for free"

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "ProWritingAid",
+    "subtitle": "For the smarter writer",
+    "homepage_url": "https://prowritingaid.com/",
+    "square_logo_url": "https://prowritingaid.com/Images/prof_large.png",
+    "screenshot_url": "https://cdn.prowritingaid.com/website/2.1.10841/images/integration-desktop-page/desktopscreen2.JPG",
+    "description": "ProWritingAid is the only platform that offers world-class grammar and style checking combined with more in-depth reports to help you strengthen your writing. Our unique combination of suggestions, articles, videos, and quizzes makes writing fun and interactive.",
+    "badges": [
+      {
+        "icon": "attach_money",
+        "text": "Paid subscriptions range $20 - $79 per month"
+      },
+      {
+        "icon": "money_off",
+        "text": "Offers a free tier"
+      },
+      {
+        "icon": "cloud",
+        "text": "Web-based product"
+      },
+      {
+        "icon": "extension",
+        "text": "Browser extension available"
+      }
+    ]
+  },
+  {
+    "title": "Grammarly",
+    "subtitle": "Great Writing, Simplified",
+    "homepage_url": "https://app.grammarly.com/",
+    "square_logo_url": "https://www.grammarly.com/press/media-resources/docs/icon-grammarly.png",
+    "screenshot_url": "https://emaildesign.beefree.io/wp-content/uploads/2016/04/grammarly2.png",
+    "description": "Compose bold, clear, mistake-free writing with Grammarly’s AI-powered writing assistant.",
+    "badges": [
+      {
+        "icon": "attach_money",
+        "text": "Paid subscriptions range $12 - $30 per month"
+      },
+      {
+        "icon": "money_off",
+        "text": "Offers a free tier"
+      },
+      {
+        "icon": "cloud",
+        "text": "Web-based product"
+      },
+      {
+        "icon": "extension",
+        "text": "Browser extension available"
+      }
+    ]
+  },
+  {
+    "title": "",
+    "subtitle": "",
+    "homepage_url": "",
+    "square_logo_url": "",
+    "screenshot_url": "",
+    "description": "",
+    "badges": [
+      {
+        "icon": "",
+        "text": ""
+      }
+    ]
+  }
+]

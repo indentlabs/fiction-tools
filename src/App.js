@@ -7,18 +7,25 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 import ToolCard from "./components/ToolCard/ToolCard.js";
+import ToolList from "./components/ToolList/ToolList.js";
+
+import worldbuilding_tools from './data/worldbuilding.json';
+import writing_tools from './data/writing.json';
+import revising_tools from './data/revising.json';
+import publishing_tools from './data/publishing.json';
 
 function App() {
   return (
     <Container className="App" fixed>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Typography variant="h3" component="h1" align="center" color="primary">
+          <Typography variant="h3" component="h1" color="primary">
             Fiction.Tools
           </Typography>
-          <Typography align="center" paragraph="true">
+          <Typography paragraph="true">
             A collection of helpful tools for authors at every stage of the writing process.
           </Typography>
+          <blockquote>quote about using tools?</blockquote>
         </Grid>
 
         <Grid item xs={12}>
@@ -26,28 +33,45 @@ function App() {
             Table of Contents
           </Typography>
           <ul>
-            <li>Worldbuilding</li>
+            <li>
+              <a href="#section-worldbuilding">
+                Worldbuilding
+              </a>
+            </li>
+            <li>
+              <a href="#section-writing">
+                Writing
+              </a>
+            </li>
+            <li>
+              <a href="#section-revising">
+                Revising
+              </a>
+            </li>
+            <li>
+              <a href="#section-publishing">
+                Publishing
+              </a>
+            </li>
           </ul>
         </Grid>
 
-        <Grid item xs={12}>
-          <Typography variant="h4" component="h2" color="secondary" gutterBottom>
-            Worldbuilding
-          </Typography>
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={4}>
-          <ToolCard
-            title={"Notebook.ai"}
-            subtitle={"The smart worldbuilding notebook"}
-            square_logo={"https://www.notebook.ai/assets/logos/book-small-42459c9b5feab2a71f20540b0f3035507802ecb7f9aa5899238ed8f69e34560d.png"}
-            screenshot={"https://www.notebook.ai/assets/logos/book-small-42459c9b5feab2a71f20540b0f3035507802ecb7f9aa5899238ed8f69e34560d.png"}
-            description={`
-              Your digital notebook grows and collaborates with you as you create magnificent universes — and everything within them.
-              Create a universe (literally) and track every aspect of its characters, locations, items, and more. Our AI writing assistant asks questions about your content, helping you dive deeper than ever into your world.
-            `}
-          />
-        </Grid>
-
+        <ToolList
+          title="Worldbuilding"
+          tool_list={worldbuilding_tools}
+        />
+        <ToolList
+          title="Writing"
+          tool_list={writing_tools}
+        />
+        <ToolList
+          title="Revising"
+          tool_list={revising_tools}
+        />
+        <ToolList
+          title="Publishing"
+          tool_list={publishing_tools}
+        />
       </Grid>
     </Container>
   );
