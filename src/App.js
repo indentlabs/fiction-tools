@@ -16,7 +16,7 @@ import publishing_tools from './data/publishing.json';
 
 function App() {
   return (
-    <Container className="App" fixed>
+    <Container className="App" maxWidth="lg">
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
           <Typography variant="h3" component="h1" color="primary">
@@ -31,7 +31,7 @@ function App() {
           </Typography>
         </Grid>
 
-        <Grid item xs={12} md={6} style={{paddingLeft: '8em'}}>
+        <Grid item xs={12} md={6} style={{paddingLeft: '8em', paddingTop: '3em', paddingBottom: '3em'}}>
           <Typography variant="h4" color="secondary" gutterBottom>
             Table of Contents
           </Typography>

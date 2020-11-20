@@ -57,7 +57,7 @@ class ToolCard extends Component {
           <CardContent>
             {this.props.description.split('\n').map(function(item, key) {
               return (
-                <Typography key={key} paragraph="true">
+                <Typography key={key} paragraph={true}>
                   {item}
                 </Typography>
               )
