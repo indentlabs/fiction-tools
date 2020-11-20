@@ -201,6 +201,10 @@
         "description": "WriteRoom is a distraction-free environment for Mac. It promotes a full-screen environment that allows Mac users to focus on writing.",
         "badges": [
           {
+            "icon": "attach_money",
+            "text": "One-time payment of $10"
+          },
+          {
             "icon": "desktop_mac",
             "text": "Available on Mac"
           }

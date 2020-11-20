@@ -24,8 +24,8 @@ function App() {
             Fiction.Tools
           </Typography>
           <br />
-          <Typography paragraph="true">
-            A collection of helpful tools for authors looking to make things a little easier at every stage of the writing process.
+          <Typography paragraph={true}>
+            A growing collection of helpful tools for authors looking to make things a little easier at every stage of the writing process.
           </Typography>
           <br />
           <Typography variant="h5" component="blockquote" color="primary"  style={{borderLeft: '6px solid blue', paddingLeft: '20px'}}>
@@ -75,6 +75,17 @@ function App() {
           title="Publishing"
           tool_list={publishing_tools}
         />
+      </Grid>
+
+      <Grid item xs={12} align="center">
+        <Typography paragraph={true} color="secondary">
+          Made with <strong style={{color: 'red'}}>&hearts;</strong> by <a href="http://www.indentlabs.com">
+            Indent Labs
+          </a>.
+        </Typography>
+        <Typography paragraph={true} color="primary">
+          This website is <a href="https://github.com/indentlabs/fiction-tools">open source</a>. Feel free to suggest changes!
+        </Typography>
       </Grid>
     </Container>
   );
