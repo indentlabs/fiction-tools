@@ -1,177 +1,232 @@
 [
   {
-    "title": "Notebook.ai",
-    "subtitle": "The smart worldbuilding notebook",
-    "homepage_url": "https://www.notebook.ai",
-    "square_logo_url": "https://www.notebook.ai/assets/logos/book-small-42459c9b5feab2a71f20540b0f3035507802ecb7f9aa5899238ed8f69e34560d.png",
-    "screenshot_url": "https://miro.medium.com/max/3792/1*4RE_0ryQqtiJeCLL4LIh6w.png",
-    "description": "Your digital notebook grows and collaborates with you as you create magnificent universes — and everything within them.\nCreate a universe and track every aspect of its characters, locations, items, and more. Our AI writing assistant asks questions about your content, helping you dive deeper than ever into your world.",
-    "badges": [
+    "section": "Map-making software",
+    "tools": [
       {
-        "icon": "attach_money",
-        "text": "Paid subscriptions range $7 - $9 per month"
+        "title": "Inkarnate",
+        "subtitle": "Map-making software",
+        "homepage_url": "https://inkarnate.com/",
+        "square_logo_url": "https://inkarnate.s3.amazonaws.com/dragon-eye.png",
+        "screenshot_url": "https://inkarnate.com/static/media/regional-map.fa3db033.jpg",
+        "description": "Turn your ideas into incredible fantasy maps with Inkarnate's easy-to-use online map-making platform.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $2 - $5 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
       },
       {
-        "icon": "money_off",
-        "text": "Offers a free tier"
+        "title": "Wonderdraft",
+        "subtitle": "Map-making software",
+        "homepage_url": "https://www.wonderdraft.net/",
+        "square_logo_url": "https://beta.cartographyassets.com/wp-content/uploads/2020/08/wonderdraft_icon-300x300.png",
+        "screenshot_url": "https://external-preview.redd.it/Y0JnQBoZE1ay1lEKQw-msKaEl3T9FyspXEP-BnXOTfI.png?width=960&crop=smart&format=pjpg&auto=webp&s=5e4a119699401f6ba912331effa8e6ad89d16bdb",
+        "description": "Wonderdraft is an intuitive yet powerful fantasy map creation tool for 64-bit Windows 10, Linux, and MacOSX.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "One-time payment of $30"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          }
+        ]
       },
       {
-        "icon": "cloud",
-        "text": "Web-based product"
-      },
-      {
-        "icon": "groups",
-        "text": "Open-source software"
+        "title": "Campaign Cartographer 3+",
+        "subtitle": "Map-making software",
+        "homepage_url": "https://www.profantasy.com/products/cc3.asp",
+        "square_logo_url": "https://www.profantasy.com/images/cc3/icon_cc_narrow.gif",
+        "screenshot_url": "https://www.profantasy.com/products/cc3plus/new-large-icons-interface.png",
+        "description": "Authors, games designers and thousands of gamers have mapped out the worlds of their imagination with Campaign Cartographer 3+.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "One-time payment of $22"
+          },
+          {
+            "icon": "shopping_cart",
+            "text": "Additional paid DLC available"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          }
+        ]
       }
     ]
   },
+
   {
-    "title": "One Stop For Writers",
-    "subtitle": "",
-    "homepage_url": "https://onestopforwriters.com/",
-    "square_logo_url": "https://d2pryasq1k28yo.cloudfront.net/assets/logo/brand-black-8de8e413b488cc10497e519630c6b89cc20db95c12b253d9fa338fecd9f62a9d.svg",
-    "screenshot_url": "https://i2.wp.com/writershelpingwriters.net/wp-content/uploads/2017/02/One-Stop-For-Writers-World-Building-survey-1.jpg?resize=600%2C416&ssl=1",
-    "description": "With the right tools, your writing career can soar. Spellbinding worlds, unforgettable characters, and powerful storytelling are just a click away.",
-    "badges": [
+    "section": "World wikis",
+    "tools": [
       {
-        "icon": "attach_money",
-        "text": "Paid subscriptions range $3.33 - $8.50 per month"
+        "title": "Notebook.ai",
+        "subtitle": "The smart worldbuilding notebook",
+        "homepage_url": "https://www.notebook.ai",
+        "square_logo_url": "https://www.notebook.ai/assets/logos/book-small-42459c9b5feab2a71f20540b0f3035507802ecb7f9aa5899238ed8f69e34560d.png",
+        "screenshot_url": "https://miro.medium.com/max/3792/1*4RE_0ryQqtiJeCLL4LIh6w.png",
+        "description": "Your digital notebook grows and collaborates with you as you create magnificent universes — and everything within them.\nCreate a universe and track every aspect of its characters, locations, items, and more. Our AI writing assistant asks questions about your content, helping you dive deeper than ever into your world.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $7 - $9 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
       },
       {
-        "icon": "access_time",
-        "text": "Offers a two week free trial"
+        "title": "One Stop For Writers",
+        "subtitle": "",
+        "homepage_url": "https://onestopforwriters.com/",
+        "square_logo_url": "https://d2pryasq1k28yo.cloudfront.net/assets/logo/brand-black-8de8e413b488cc10497e519630c6b89cc20db95c12b253d9fa338fecd9f62a9d.svg",
+        "screenshot_url": "https://i2.wp.com/writershelpingwriters.net/wp-content/uploads/2017/02/One-Stop-For-Writers-World-Building-survey-1.jpg?resize=600%2C416&ssl=1",
+        "description": "With the right tools, your writing career can soar. Spellbinding worlds, unforgettable characters, and powerful storytelling are just a click away.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $3.33 - $8.50 per month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a two week free trial"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
       },
       {
-        "icon": "cloud",
-        "text": "Web-based product"
-      }
-    ]
-  },
-  {
-    "title": "Plot Factory",
-    "subtitle": "Online story planner",
-    "homepage_url": "https://plotfactory.com/",
-    "square_logo_url": "https://plotfactory.com/images/plot-factory-icon-black.png",
-    "screenshot_url": "https://plotfactory.com/images/screenshots/pf-reader-chapter-1.jpg",
-    "description": "An online collaborative story planner that lets writers plan, organize, and write stories & fictional universes.",
-    "badges": [
-      {
-        "icon": "attach_money",
-        "text": "Paid subscriptions range $9 - $19 per month"
+        "title": "Plot Factory",
+        "subtitle": "Online story planner",
+        "homepage_url": "https://plotfactory.com/",
+        "square_logo_url": "https://plotfactory.com/images/plot-factory-icon-black.png",
+        "screenshot_url": "https://plotfactory.com/images/screenshots/pf-reader-chapter-1.jpg",
+        "description": "An online collaborative story planner that lets writers plan, organize, and write stories & fictional universes.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $9 - $19 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
       },
       {
-        "icon": "money_off",
-        "text": "Offers a free tier"
+        "title": "World Anvil",
+        "subtitle": "",
+        "homepage_url": "https://www.worldanvil.com/",
+        "square_logo_url": "https://i2.wp.com/nerdarchy.com/wp-content/uploads/2018/03/world-anvil-logo.jpg?fit=256%2C256&ssl=1",
+        "screenshot_url": "https://i0.wp.com/blog.worldanvil.com/wp-content/uploads/2020/02/World-anvil-interaface-settings.jpg?resize=1024%2C565",
+        "description": "World Anvil is a set of worldbuilding tools that helps you create, organize and store your world setting.\n\nWith wiki-like articles, interactive maps, historical timelines, an RPG Campaign Manager and a full novel-writing software, we have all the tools you’ll need to run your RPG Campaign or write your novel!",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $3.33 - $8.50 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
       },
       {
-        "icon": "cloud",
-        "text": "Web-based product"
-      }
-    ]
-  },
-  {
-    "title": "World Anvil",
-    "subtitle": "",
-    "homepage_url": "https://www.worldanvil.com/",
-    "square_logo_url": "https://i2.wp.com/nerdarchy.com/wp-content/uploads/2018/03/world-anvil-logo.jpg?fit=256%2C256&ssl=1",
-    "screenshot_url": "https://i0.wp.com/blog.worldanvil.com/wp-content/uploads/2020/02/World-anvil-interaface-settings.jpg?resize=1024%2C565",
-    "description": "World Anvil is a set of worldbuilding tools that helps you create, organize and store your world setting.\n\nWith wiki-like articles, interactive maps, historical timelines, an RPG Campaign Manager and a full novel-writing software, we have all the tools you’ll need to run your RPG Campaign or write your novel!",
-    "badges": [
-      {
-        "icon": "attach_money",
-        "text": "Paid subscriptions range $3.33 - $8.50 per month"
+        "title": "World Scribe",
+        "subtitle": "for Android",
+        "homepage_url": "https://play.google.com/store/apps/details?id=com.averi.worldscribe&hl=en_US&gl=US",
+        "square_logo_url": "https://play-lh.googleusercontent.com/C-plJcQLtEj-Y3CXu6tcIck-xvxzGr9eDsHgQxBOQSVyqlWTqUjoSacg1WzhMOxsotc=s180-rw",
+        "screenshot_url": "https://play-lh.googleusercontent.com/cjX8TjXOL-PDnxmGux_7xudO4wvI7efUUuMy2GNJfYYEQDk0keqGgAMmeCPc0YRlUw=w720-h310-rw",
+        "description": "Ever wanted to create a fictional setting — for your next novel, comic, screenplay, or what-have-you — but find it difficult to keep everything organized?\n\nWorld Scribe eases the creation process by letting you keep track of every important element in your world, including the ways in which they're connected.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free app"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          }
+        ]
       },
       {
-        "icon": "money_off",
-        "text": "Offers a free tier"
+        "title": "Campfire Pro",
+        "subtitle": "",
+        "homepage_url": "https://www.campfiretechnology.com/",
+        "square_logo_url": "https://www.campfiretechnology.com/wp-content/uploads/2019/09/Logo-With-Moon-Web.png",
+        "screenshot_url": "https://www.campfiretechnology.com/wp-content/uploads/2020/10/blaze-home-sm-1-600x341.jpg",
+        "description": "Plan out your story with this affordable desktop software. This is our original software (launched October 2018), perfect for hobbyists looking for a more affordable choice. No word processor included, but lots of planning tools.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "One-time payment of $50 or $75"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a 10-day free trial"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          }
+        ]
       },
       {
-        "icon": "cloud",
-        "text": "Web-based product"
-      }
-    ]
-  },
-  {
-    "title": "World Scribe",
-    "subtitle": "for Android",
-    "homepage_url": "https://play.google.com/store/apps/details?id=com.averi.worldscribe&hl=en_US&gl=US",
-    "square_logo_url": "https://play-lh.googleusercontent.com/C-plJcQLtEj-Y3CXu6tcIck-xvxzGr9eDsHgQxBOQSVyqlWTqUjoSacg1WzhMOxsotc=s180-rw",
-    "screenshot_url": "https://play-lh.googleusercontent.com/cjX8TjXOL-PDnxmGux_7xudO4wvI7efUUuMy2GNJfYYEQDk0keqGgAMmeCPc0YRlUw=w720-h310-rw",
-    "description": "Ever wanted to create a fictional setting — for your next novel, comic, screenplay, or what-have-you — but find it difficult to keep everything organized?\n\nWorld Scribe eases the creation process by letting you keep track of every important element in your world, including the ways in which they're connected.",
-    "badges": [
-      {
-        "icon": "money_off",
-        "text": "Free app"
-      },
-      {
-        "icon": "phone_android",
-        "text": "Available on Android"
-      }
-    ]
-  },
-  {
-    "title": "Campfire Pro",
-    "subtitle": "",
-    "homepage_url": "https://www.campfiretechnology.com/",
-    "square_logo_url": "https://www.campfiretechnology.com/wp-content/uploads/2019/09/Logo-With-Moon-Web.png",
-    "screenshot_url": "https://www.campfiretechnology.com/wp-content/uploads/2020/10/blaze-home-sm-1-600x341.jpg",
-    "description": "Plan out your story with this affordable desktop software. This is our original software (launched October 2018), perfect for hobbyists looking for a more affordable choice. No word processor included, but lots of planning tools.",
-    "badges": [
-      {
-        "icon": "attach_money",
-        "text": "One-time payment of $50 or $75"
-      },
-      {
-        "icon": "access_time",
-        "text": "Offers a 10-day free trial"
-      },
-      {
-        "icon": "desktop_windows",
-        "text": "Available on Windows"
-      },
-      {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
-      }
-    ]
-  },
-  {
-    "title": "Wonderdraft",
-    "subtitle": "Map-making software",
-    "homepage_url": "https://www.wonderdraft.net/",
-    "square_logo_url": "",
-    "screenshot_url": "https://external-preview.redd.it/Y0JnQBoZE1ay1lEKQw-msKaEl3T9FyspXEP-BnXOTfI.png?width=960&crop=smart&format=pjpg&auto=webp&s=5e4a119699401f6ba912331effa8e6ad89d16bdb",
-    "description": "Wonderdraft is an intuitive yet powerful fantasy map creation tool for 64-bit Windows 10, Linux, and MacOSX.",
-    "badges": [
-      {
-        "icon": "attach_money",
-        "text": "One-time payment of $30"
-      },
-      {
-        "icon": "desktop_windows",
-        "text": "Available on Windows"
-      },
-      {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
-      },
-      {
-        "icon": "desktop_windows",
-        "text": "Available on Linux"
-      }
-    ]
-  },
-  {
-    "title": "",
-    "subtitle": "",
-    "homepage_url": "",
-    "square_logo_url": "",
-    "screenshot_url": "",
-    "description": "",
-    "badges": [
-      {
-        "icon": "",
-        "text": ""
+        "title": "",
+        "subtitle": "",
+        "homepage_url": "",
+        "square_logo_url": "",
+        "screenshot_url": "",
+        "description": "",
+        "badges": [
+          {
+            "icon": "",
+            "text": ""
+          }
+        ]
       }
     ]
   }

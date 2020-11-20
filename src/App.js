@@ -23,9 +23,12 @@ function App() {
             Fiction.Tools
           </Typography>
           <Typography paragraph="true">
-            A collection of helpful tools for authors at every stage of the writing process.
+            A collection of helpful tools for authors looking to make things a little easier at every stage of the writing process.
           </Typography>
-          <blockquote>quote about using tools?</blockquote>
+          <Typography component="blockquote" color="primary"  style={{borderLeft: '6px solid blue', paddingLeft: '20px'}}>
+            "There is nothing to writing. All you do is sit down at a typewriter and bleed."
+            ― Ernest Hemingway
+          </Typography>
         </Grid>
 
         <Grid item xs={12}>
@@ -38,21 +41,58 @@ function App() {
                 Worldbuilding
               </a>
             </li>
+            <ul>
+              <li>
+                <a href="#worldbuilding-map-making-software">Map-making software</a>
+              </li>
+              <li>
+                <a href="#worldbuilding-world-wikis">World wikis</a>
+              </li>
+            </ul>
             <li>
               <a href="#section-writing">
                 Writing
               </a>
             </li>
+            <ul>
+              <li>
+                <a href="#writing-word-processors">Word processors</a>
+              </li>
+            </ul>
             <li>
               <a href="#section-revising">
                 Revising
               </a>
             </li>
+            <ul>
+              <li>
+                <a href="#revising-critiques">
+                  Critiques
+                </a>
+              </li>
+            </ul>
             <li>
               <a href="#section-publishing">
                 Publishing
               </a>
             </li>
+            <ul>
+              <li>
+                <a href="#publishing-cover-art">
+                  Cover art
+                </a>
+              </li>
+              <li>
+                <a href="#publishing-formatting">
+                  Formatting
+                </a>
+              </li>
+              <li>
+                <a href="#publishing-submitting">
+                  Submitting
+                </a>
+              </li>
+            </ul>
           </ul>
         </Grid>
 

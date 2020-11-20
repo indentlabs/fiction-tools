@@ -1,175 +1,224 @@
-[
+[ 
   {
-    "title": "Scrivener",
-    "subtitle": "Word Processor",
-    "homepage_url": "https://www.literatureandlatte.com/scrivener/overview",
-    "square_logo_url": "https://outthinkgroup.com/wp-content/uploads/2014/07/scrivener-logo.png",
-    "screenshot_url": "https://www.literatureandlatte.com/assets/image/scrivener/general/big-sur/1-four-screens.jpg?w=1013&h=491",
-    "description": "Typewriter. Ring-binder. Scrapbook. Scrivener combines everything you need to craft your first draft, from nascent notion to final full stop.",
-    "badges": [
+    "section": "Word processors",
+    "tools": [
       {
-        "icon": "attach_money",
-        "text": "One-time payment of $49"
+        "title": "Scrivener",
+        "subtitle": "Word Processor",
+        "homepage_url": "https://www.literatureandlatte.com/scrivener/overview",
+        "square_logo_url": "https://outthinkgroup.com/wp-content/uploads/2014/07/scrivener-logo.png",
+        "screenshot_url": "https://www.literatureandlatte.com/assets/image/scrivener/general/big-sur/1-four-screens.jpg?w=1013&h=491",
+        "description": "Typewriter. Ring-binder. Scrapbook. Scrivener combines everything you need to craft your first draft, from nascent notion to final full stop.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "One-time payment of $49"
+          },
+          {
+            "icon": "school",
+            "text": "Available to academics for $42"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS & iPadOS for $20"
+          }
+        ]
       },
       {
-        "icon": "school",
-        "text": "Available to academics for $42"
+        "title": "LibreOffice Writer",
+        "subtitle": "Word Processor",
+        "homepage_url": "https://www.libreoffice.org/discover/writer/",
+        "square_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LibreOffice_6.1_Writer_Icon.svg/1024px-LibreOffice_6.1_Writer_Icon.svg.png",
+        "screenshot_url": "https://www.libreoffice.org/assets/Uploads/Discover/Screenshots/Screenshot-01-New-EN.png",
+        "description": "LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice).\n\nIts clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
       },
       {
-        "icon": "desktop_windows",
-        "text": "Available on Windows"
+        "title": "Ulysses",
+        "subtitle": "Word Processor",
+        "homepage_url": "https://ulysses.app/",
+        "square_logo_url": "https://ulysses.app/assets/logos/Ulysses-iOS.png",
+        "screenshot_url": "https://photos5.appleinsider.com/gallery/24763-32739-001-Ulysses-main-screen-Mac-l.jpg",
+        "description": "A pleasant, focused writing experience combined with effective document management, fast syncing and flexible export options make Ulysses the first choice for writers of all kinds.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $4 - $6 per month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a free trial"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS & iPadOS"
+          }
+        ]
       },
       {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
+        "title": "Reedsy",
+        "subtitle": "Word Processor",
+        "homepage_url": "https://reedsy.com/write-a-book",
+        "square_logo_url": "data:image/jpeg;base64,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",
+        "screenshot_url": "https://assets-cdn.reedsy.com/assets/landing/editor-placeholder-3afc4da8b93b8ef8af46adc630ced7aad94ee10f1439f249c6e8183f04ed695d.jpg",
+        "description": "A free writing tool from Reedsy. Write and export a beautifully typeset book.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
       },
       {
-        "icon": "phone_iphone",
-        "text": "Available on iOS & iPadOS for $20"
-      }
-    ]
-  },
-  {
-    "title": "LibreOffice Writer",
-    "subtitle": "Word Processor",
-    "homepage_url": "https://www.libreoffice.org/discover/writer/",
-    "square_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LibreOffice_6.1_Writer_Icon.svg/1024px-LibreOffice_6.1_Writer_Icon.svg.png",
-    "screenshot_url": "https://www.libreoffice.org/assets/Uploads/Discover/Screenshots/Screenshot-01-New-EN.png",
-    "description": "LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice).\n\nIts clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.",
-    "badges": [
-      {
-        "icon": "money_off",
-        "text": "Free software"
+        "title": "yWriter",
+        "subtitle": "Word Processor",
+        "homepage_url": "http://www.spacejock.com/yWriter5.html",
+        "square_logo_url": "data:image/jpeg;base64,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",
+        "screenshot_url": "data:image/jpeg;base64,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",
+        "description": "yWriter is a word processor which breaks your novel into chapters and scenes, helping you keep track of your work while leaving your mind free to create.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS"
+          }
+        ]
       },
       {
-        "icon": "desktop_windows",
-        "text": "Available on Windows"
+        "title": "The Novel Factory",
+        "subtitle": "Word processor",
+        "homepage_url": "https://www.novel-software.com/",
+        "square_logo_url": "",
+        "screenshot_url": "https://www.novel-software.com/images/featurescharactersonline.jpg",
+        "description": "The Novel Factory helps guide new writers through the novel writing process - while completing your first manuscript.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $6 - $60 per month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a 30-day free trial"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          }
+        ]
       },
       {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
+        "title": "iA Writer",
+        "subtitle": "Distraction-free writing",
+        "homepage_url": "https://ia.net/writer",
+        "square_logo_url": "data:image/png;base64,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",
+        "screenshot_url": "https://sandbox.spcollege.edu/wp-content/uploads/2013/10/2013-10-20-19.01.19.png",
+        "description": "iA Writer removes distractions, giving you a calm, focused writing space.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "One-time payment of $30"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a free trial"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS & iPadOS"
+          }
+        ]
       },
       {
-        "icon": "desktop_windows",
-        "text": "Available on Linux"
+        "title": "WriteRoom",
+        "subtitle": "Distraction-free writing",
+        "homepage_url": "https://apps.apple.com/us/app/writeroom/id417967324?mt=12",
+        "square_logo_url": "https://i.pcmag.com/imagery/reviews/02KMtHAKbI7IPrtBAk8sr5O-7.1569473030.fit_scale.size_1182x667.jpg",
+        "screenshot_url": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/2acb45d2-9b2d-11e6-b9ed-00163ec9f5fa/2789374685/writeroom-screenshot.png",
+        "description": "WriteRoom is a distraction-free environment for Mac. It promotes a full-screen environment that allows Mac users to focus on writing.",
+        "badges": [
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          }
+        ]
       },
       {
-        "icon": "groups",
-        "text": "Open-source software"
-      }
-    ]
-  },
-  {
-    "title": "Ulysses",
-    "subtitle": "Word Processor",
-    "homepage_url": "https://ulysses.app/",
-    "square_logo_url": "https://ulysses.app/assets/logos/Ulysses-iOS.png",
-    "screenshot_url": "https://photos5.appleinsider.com/gallery/24763-32739-001-Ulysses-main-screen-Mac-l.jpg",
-    "description": "A pleasant, focused writing experience combined with effective document management, fast syncing and flexible export options make Ulysses the first choice for writers of all kinds.",
-    "badges": [
-      {
-        "icon": "attach_money",
-        "text": "Paid subscriptions range $4 - $6 per month"
-      },
-      {
-        "icon": "access_time",
-        "text": "Offers a free trial"
-      },
-      {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
-      },
-      {
-        "icon": "phone_iphone",
-        "text": "Available on iOS & iPadOS"
-      }
-    ]
-  },
-  {
-    "title": "yWriter",
-    "subtitle": "Word Processor",
-    "homepage_url": "http://www.spacejock.com/yWriter5.html",
-    "square_logo_url": "data:image/jpeg;base64,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",
-    "screenshot_url": "data:image/jpeg;base64,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",
-    "description": "yWriter is a word processor which breaks your novel into chapters and scenes, helping you keep track of your work while leaving your mind free to create.",
-    "badges": [
-      {
-        "icon": "money_off",
-        "text": "Free software"
-      },
-      {
-        "icon": "desktop_windows",
-        "text": "Available on Windows"
-      },
-      {
-        "icon": "phone_android",
-        "text": "Available on Android"
-      },
-      {
-        "icon": "phone_iphone",
-        "text": "Available on iOS"
-      }
-    ]
-  },
-  {
-    "title": "iA Writer",
-    "subtitle": "Distraction-free writing",
-    "homepage_url": "https://ia.net/writer",
-    "square_logo_url": "data:image/png;base64,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",
-    "screenshot_url": "https://sandbox.spcollege.edu/wp-content/uploads/2013/10/2013-10-20-19.01.19.png",
-    "description": "iA Writer removes distractions, giving you a calm, focused writing space.",
-    "badges": [
-      {
-        "icon": "attach_money",
-        "text": "One-time payment of $30"
-      },
-      {
-        "icon": "access_time",
-        "text": "Offers a free trial"
-      },
-      {
-        "icon": "desktop_windows",
-        "text": "Available on Windows"
-      },
-      {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
-      },
-      {
-        "icon": "phone_android",
-        "text": "Available on Android"
-      },
-      {
-        "icon": "phone_iphone",
-        "text": "Available on iOS & iPadOS"
-      }
-    ]
-  },
-  {
-    "title": "WriteRoom",
-    "subtitle": "Distraction-free writing",
-    "homepage_url": "https://apps.apple.com/us/app/writeroom/id417967324?mt=12",
-    "square_logo_url": "https://i.pcmag.com/imagery/reviews/02KMtHAKbI7IPrtBAk8sr5O-7.1569473030.fit_scale.size_1182x667.jpg",
-    "screenshot_url": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/2acb45d2-9b2d-11e6-b9ed-00163ec9f5fa/2789374685/writeroom-screenshot.png",
-    "description": "WriteRoom is a distraction-free environment for Mac. It promotes a full-screen environment that allows Mac users to focus on writing.",
-    "badges": [
-      {
-        "icon": "desktop_mac",
-        "text": "Available on Mac"
-      }
-    ]
-  },
-  {
-    "title": "",
-    "subtitle": "",
-    "homepage_url": "",
-    "square_logo_url": "",
-    "screenshot_url": "",
-    "description": "",
-    "badges": [
-      {
-        "icon": "",
-        "text": ""
+        "title": "",
+        "subtitle": "",
+        "homepage_url": "",
+        "square_logo_url": "",
+        "screenshot_url": "",
+        "description": "",
+        "badges": [
+          {
+            "icon": "",
+            "text": ""
+          }
+        ]
       }
     ]
   }

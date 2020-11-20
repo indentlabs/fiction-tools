@@ -27,7 +27,7 @@ class ToolList extends Component {
 
   render() {
     return(
-      <React.Fragment>
+      <Grid container spacing={2}>
         <Grid item xs={12}>
           <Typography
             variant="h4"
@@ -39,21 +39,40 @@ class ToolList extends Component {
             {this.props.title}
           </Typography>
         </Grid>
-        {this.props.tool_list.map((tool) => {
-          // We store blank templates in the JSON for easy reference
-          if (tool.title === "") {
-            return;
-          }
-
+        {this.props.tool_list.map((section) => {
           return(
-            <Grid item xs={12} sm={12} md={6} lg={4}>
-              <ToolCard
-                {...tool}
-              />
-            </Grid>
+            <React.Fragment>
+              <Grid item xs={12}>
+                <Typography
+                  variant="h5"
+                  component="h3"
+                  color="secondary"
+                  id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
+                  gutterBottom
+                >
+                  {section.section}
+                </Typography>
+              </Grid>
+              {section.tools && section.tools.map((tool) => {
+                // We store blank templates in the JSON for easy reference
+                if (tool.title === "") {
+                  return;
+                }
+
+                return(
+                  <Grid item xs={12} sm={12} md={6} lg={4}>
+                    <ToolCard
+                      {...tool}
+                    />
+                  </Grid>
+                );
+              })}
+              <Grid item xs={12} style={{marginBottom: '3em'}}></Grid>
+            </React.Fragment>
           );
         })}
-      </React.Fragment>
+        <Grid item xs={12} style={{marginBottom: '1em'}}></Grid>
+      </Grid>
     );
   }
 };

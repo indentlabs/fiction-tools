@@ -44,13 +44,13 @@ class ToolCard extends Component {
           <CardHeader
             title={this.props.title}
             subheader={this.props.subtitle}
-            avatar={this.props.square_logo_url ? <img src={this.props.square_logo_url} height="100" width="100" /> : <br />}
+            avatar={this.props.square_logo_url ? <img src={this.props.square_logo_url} height="60" width="60" /> : <br />}
           />
           {this.props.screenshot_url && (
             <CardMedia
               image={this.props.screenshot_url}
               title={this.props.title}
-              style={{height: 0, paddingTop: '33.33%'}}
+              style={{height: 0, paddingTop: '50%'}}
             />
           )}
           <CardContent>
