@@ -13,6 +13,8 @@ import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 
+import Masonry from 'react-masonry-component';
+
 import Container from '@material-ui/core/Container';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -53,20 +55,31 @@ class ToolList extends Component {
                   {section.section}
                 </Typography>
               </Grid>
-              {section.tools && section.tools.map((tool) => {
-                // We store blank templates in the JSON for easy reference
-                if (tool.title === "") {
-                  return;
-                }
+              <Grid item xs={12}>
+                <Masonry
+                    disableImagesLoaded={false} // default false
+                    updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
+                    options={{
+                      gutter: 20
+                    }}
+                >
+                  {section.tools && section.tools.map((tool) => {
+                    // We store blank templates in the JSON for easy reference
+                    if (tool.title === "") {
+                      return;
+                    }
 
-                return(
-                  <Grid item xs={12} sm={12} md={6} lg={4}>
-                    <ToolCard
-                      {...tool}
-                    />
-                  </Grid>
-                );
-              })}
+                    return(
+                      <Grid item xs={12} md={4} lg={3} style={{marginBottom: '20px'}}>
+                        <ToolCard
+                          {...tool}
+                          className="tool"
+                        />
+                      </Grid>
+                    );
+                  })}
+                </Masonry>
+              </Grid>
               <Grid item xs={12} style={{marginBottom: '3em'}}></Grid>
             </React.Fragment>
           );

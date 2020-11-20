@@ -10,6 +10,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 import Tooltip from '@material-ui/core/Tooltip';
 import Zoom from '@material-ui/core/Zoom';
@@ -35,7 +36,7 @@ class ToolCard extends Component {
 
   render() {
     return(
-      <a href={this.props.homepage_url} style={{textDecoration: 'none'}}>
+      <a href={this.props.homepage_url} style={{textDecoration: 'none'}} className="ToolCard">
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}
