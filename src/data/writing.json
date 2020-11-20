@@ -207,6 +207,36 @@
         ]
       },
       {
+        "title": "Manuskript",
+        "subtitle": "Open-source tool for writers",
+        "homepage_url": "https://www.theologeek.ch/manuskript/",
+        "square_logo_url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/04/icon.svg.png",
+        "screenshot_url": "https://lh3.googleusercontent.com/proxy/VVcGjue315XbLsjPhjoyLODWOXL1_TKeD3LwIecJ4BB4eUbOnp-9HwbreDP0UDRH75VRL6jR2OEUCUjl4UV6brhyQBsqzNas-m8X6EqYKvPQfgE1X5fGosUE215mif8fqTJ2m5OpJ8CekTWxY6rY2JWE41bykhuKs2fL",
+        "description": "Everything you need to unleash the creator within you. Manuskript is a perfect tool for those writer who like to organize and plan everything before writing.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
         "title": "",
         "subtitle": "",
         "homepage_url": "",

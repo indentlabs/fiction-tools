@@ -18,20 +18,20 @@ function App() {
   return (
     <Container className="App" fixed>
       <Grid container spacing={3}>
-        <Grid item xs={12}>
+        <Grid item xs={12} md={6}>
           <Typography variant="h3" component="h1" color="primary">
             Fiction.Tools
           </Typography>
           <Typography paragraph="true">
             A collection of helpful tools for authors looking to make things a little easier at every stage of the writing process.
           </Typography>
-          <Typography component="blockquote" color="primary"  style={{borderLeft: '6px solid blue', paddingLeft: '20px'}}>
-            "There is nothing to writing. All you do is sit down at a typewriter and bleed."
-            ― Ernest Hemingway
+          <Typography variant="h5" component="blockquote" color="primary"  style={{borderLeft: '6px solid blue', paddingLeft: '20px'}}>
+          "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
+          ― Isaac Asimov
           </Typography>
         </Grid>
 
-        <Grid item xs={12}>
+        <Grid item xs={12} md={6} style={{paddingLeft: '8em'}}>
           <Typography variant="h4" color="secondary" gutterBottom>
             Table of Contents
           </Typography>

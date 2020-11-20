@@ -77,11 +77,33 @@
       },
       {
         "title": "Kindle Create",
-        "subtitle": "Create beautiful books",
+        "subtitle": "For publishing on Amazon",
         "homepage_url": "https://vellum.pub/",
         "square_logo_url": "https://2.bp.blogspot.com/-yEiGm5ZgMqE/WiMw8wpyMXI/AAAAAAAACCI/_8S2InEFJvkfQbIeeuzvwKGEDEVbmRy9wCLcBGAs/s1600/Kindle%2BCreate%2Blogo.png",
         "screenshot_url": "https://m.media-amazon.com/images/G/01/kindle-publication/Kindle_create/KC_FM_BM_TOC._CB439322150_.png",
         "description": "Kindle Create is a free interior formatting tool that works well for books to publish on Amazon.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          }
+        ]
+      },
+      {
+        "title": "Blurb Bookwright",
+        "subtitle": "Publishing software",
+        "homepage_url": "https://www.blurb.com/bookwright",
+        "square_logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Blurb_logo.svg/1200px-Blurb_logo.svg.png",
+        "screenshot_url": "https://i.ytimg.com/vi/Q0VgwajizVw/maxresdefault.jpg",
+        "description": "Blurb BookWright is a powerful and free publishing software anyone can use. Design and publish beautiful photo books, trade books, ebooks, and more.",
         "badges": [
           {
             "icon": "money_off",
@@ -113,6 +135,10 @@
           {
             "icon": "attach_money",
             "text": "Paid subscriptions range $4 - $5 per month"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
           }
         ]
       },
@@ -127,6 +153,28 @@
           {
             "icon": "attach_money",
             "text": "Paid subscriptions range $4 - $5 per month"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "WritersDB",
+        "subtitle": "Submission tracker",
+        "homepage_url": "https://www.writersdb.com/",
+        "square_logo_url": "https://www.writersdb.com/images/wdb3-icon.png",
+        "screenshot_url": "",
+        "description": "A free submission and market tracker for freelance writers.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
           }
         ]
       }
