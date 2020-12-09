@@ -73,7 +73,7 @@
         ]
       },
       {
-        "title": "Azgaar's Fantasy Map Generator",
+        "title": "Fantasy Map Generator",
         "subtitle": "Map generator",
         "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
         "square_logo_url": "",
@@ -104,7 +104,7 @@
         "homepage_url": "https://dungeonmapdoodler.com/index.html",
         "square_logo_url": "",
         "screenshot_url": "https://dungeonmapdoodler.ca/images/background.png",
-        "description": "A free-to-use drawing tool for creating maps from scratch.",
+        "description": "A free-to-use drawing tool for creating your own maps from scratch.",
         "badges": [
           {
             "icon": "money_off",
