@@ -63,6 +63,36 @@
         ]
       },
       {
+        "title": "Zoho Writer",
+        "subtitle": "Word Processor",
+        "homepage_url": "https://www.zoho.com/writer/",
+        "square_logo_url": "https://www.zohowebstatic.com/sites/default/files/styles/product-home-page/public/zoho-writer-logo_2.png?itok=SG_dEmD5",
+        "screenshot_url": "https://www.zohowebstatic.com/sites/default/files/office_suit%402x.png",
+        "description": "The complete desktop word processor that has everything, but costs nothing.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS"
+          }
+        ]
+      },
+      {
         "title": "Ulysses",
         "subtitle": "Word Processor",
         "homepage_url": "https://ulysses.app/",
@@ -89,24 +119,6 @@
         ]
       },
       {
-        "title": "Reedsy",
-        "subtitle": "Word Processor",
-        "homepage_url": "https://reedsy.com/write-a-book",
-        "square_logo_url": "data:image/jpeg;base64,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",
-        "screenshot_url": "https://assets-cdn.reedsy.com/assets/landing/editor-placeholder-3afc4da8b93b8ef8af46adc630ced7aad94ee10f1439f249c6e8183f04ed695d.jpg",
-        "description": "A free writing tool from Reedsy. Write and export a beautifully typeset book.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
         "title": "yWriter",
         "subtitle": "Word Processor",
         "homepage_url": "http://www.spacejock.com/yWriter5.html",
@@ -129,6 +141,24 @@
           {
             "icon": "phone_iphone",
             "text": "Available on iOS"
+          }
+        ]
+      },
+      {
+        "title": "Reedsy",
+        "subtitle": "Word Processor",
+        "homepage_url": "https://reedsy.com/write-a-book",
+        "square_logo_url": "data:image/jpeg;base64,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",
+        "screenshot_url": "https://assets-cdn.reedsy.com/assets/landing/editor-placeholder-3afc4da8b93b8ef8af46adc630ced7aad94ee10f1439f249c6e8183f04ed695d.jpg",
+        "description": "A free writing tool from Reedsy. Write and export a beautifully typeset book.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
           }
         ]
       },
@@ -215,8 +245,8 @@
         "subtitle": "Open-source tool for writers",
         "homepage_url": "https://www.theologeek.ch/manuskript/",
         "square_logo_url": "https://dashboard.snapcraft.io/site_media/appmedia/2019/04/icon.svg.png",
-        "screenshot_url": "https://lh3.googleusercontent.com/proxy/VVcGjue315XbLsjPhjoyLODWOXL1_TKeD3LwIecJ4BB4eUbOnp-9HwbreDP0UDRH75VRL6jR2OEUCUjl4UV6brhyQBsqzNas-m8X6EqYKvPQfgE1X5fGosUE215mif8fqTJ2m5OpJ8CekTWxY6rY2JWE41bykhuKs2fL",
-        "description": "Everything you need to unleash the creator within you. Manuskript is a perfect tool for those writer who like to organize and plan everything before writing.",
+        "screenshot_url": "",
+        "description": "Everything you need to unleash the creator within you. Manuskript is a perfect tool for those writers who like to organize and plan everything before writing.",
         "badges": [
           {
             "icon": "money_off",

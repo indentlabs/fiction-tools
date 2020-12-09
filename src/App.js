@@ -24,13 +24,13 @@ function App() {
             Fiction.Tools
           </Typography>
           <br />
-          <Typography paragraph={true}>
-            A growing collection of helpful tools for authors looking to make things a little easier at every stage of the writing process.
-          </Typography>
-          <br />
           <Typography variant="h5" component="blockquote" color="primary"  style={{borderLeft: '6px solid blue', paddingLeft: '20px'}}>
             "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
             ― Isaac Asimov
+          </Typography>
+          <br />
+          <Typography paragraph={true}>
+            The below is a growing collection of helpful tools for authors looking to make things just a little easier at every stage of the writing process &mdash; and help you get that perfect story out just a little bit faster.
           </Typography>
         </Grid>
 

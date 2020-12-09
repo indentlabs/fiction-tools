@@ -97,6 +97,60 @@
             "text": "Open-source software"
           }
         ]
+      },
+      {
+        "title": "Dungeon Map Doodler",
+        "subtitle": "Dungeon map editor",
+        "homepage_url": "https://dungeonmapdoodler.com/index.html",
+        "square_logo_url": "",
+        "screenshot_url": "https://dungeonmapdoodler.ca/images/background.png",
+        "description": "A free-to-use drawing tool for creating maps from scratch.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "One Page Dungeon",
+        "subtitle": "Dungeon map generator",
+        "homepage_url": "https://watabou.itch.io/one-page-dungeon",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/one-page-dungeon.png",
+        "description": "A generator for randomized dungeon maps, including points of interest within the dungeon.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Medieval Fantasy City Generator",
+        "subtitle": "City map generator",
+        "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/medieval-fantasy-city.png",
+        "description": "A generator with some basic editing functionality for randomized city maps.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
       }
     ]
   },

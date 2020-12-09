@@ -36,7 +36,7 @@ class ToolCard extends Component {
 
   render() {
     return(
-      <a href={this.props.homepage_url} style={{textDecoration: 'none'}} className="ToolCard">
+      <a href={this.props.homepage_url} style={{textDecoration: 'none'}} className="ToolCard" target="_black">
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}

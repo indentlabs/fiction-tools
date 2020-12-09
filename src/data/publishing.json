@@ -1,6 +1,6 @@
 [
   {
-    "section": "Cover art",
+    "section": "Cover art / Illustrations",
     "tools": [
       {
         "title": "Unsplash",
@@ -9,6 +9,60 @@
         "square_logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJ1BMVEUAAAD////V1dWWlpZ0dHTPz89qamrh4eGQkJDk5OTR0dGtra3Y2NgWv+ptAAABL0lEQVR4nO3cMQ7CQAxFwQCBQOD+56Wms2RHxjDvAKs/vbXLqaR1qW+tmbbUPENISJiIMBghIWEiwmCEhISJCIMREhImIgxGSEiYiDAYISFhIsJghISEiQiDERISJiIMRkhImIgwGCEhYSLCYISEhIkIgxESEiYiDPb7wtsBwlvNtCLhdq5vq5lWJPziCOdHOD/C+RHOj3B+hPMjnB/h/AjnRzg/wvkRzo9wfoTzI5wf4fz+QHip6P44YNrjXrKt6KrgeoDwWrStJkJCwv4ICQn7IyQk7I+QkLA/QkLC/ggJCfsjJCTsj5CQsD9CQsL+CAkJ+yMkJOyPkJCwP0JCwv4ICQn7IyQk7G8/QLh3oz56vsq/oH09u1GSJEmSJEmSJEmSJEmSJEmSJEmSJP1rbwwaXQZE0kwUAAAAAElFTkSuQmCC",
         "screenshot_url": "https://www.jotform.com/blog/wp-content/uploads/2018/09/unsplash-teaser.png",
         "description": "Unsplash is home to a growing community of photographers—from hobbyists, professionals, emerging brands and everyone in between. Unsplash images are free to use.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "PxHere",
+        "subtitle": "Freely-usable image search",
+        "homepage_url": "https://pxhere.com/",
+        "square_logo_url": "https://s.pxhere.com/media/images/logo.png?v=73",
+        "screenshot_url": "/screenshots/pxhere.png",
+        "description": "On Pxhere you may find and share images free of copyrights. All pictures are released under Creative Commons CC0 into the public domain.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Pixabay",
+        "subtitle": "Freely-usable image search",
+        "homepage_url": "https://pixabay.com/",
+        "square_logo_url": "https://cdn.worldvectorlogo.com/logos/pixabay.svg",
+        "screenshot_url": "/screenshots/pixabay.png",
+        "description": "Over 1.8 million+ high quality stock images, videos and music shared by our talented community.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Pexels",
+        "subtitle": "Freely-usable image search",
+        "homepage_url": "https://www.pexels.com/",
+        "square_logo_url": "https://theme.zdassets.com/theme_assets/9028340/1e73e5cb95b89f1dce8b59c5236ca1fc28c7113b.png",
+        "screenshot_url": "/screenshots/pexels.png",
+        "description": "Free stock photos you can use everywhere. Free for commercial use. No attribution required.",
         "badges": [
           {
             "icon": "money_off",
@@ -35,6 +89,32 @@
           {
             "icon": "money_off",
             "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Artbreeder",
+        "subtitle": "Image generation and manipulation",
+        "homepage_url": "https://artbreeder.com/,",
+        "square_logo_url": "",
+        "screenshot_url": "https://miro.medium.com/max/3776/1*F6CSUKLTRKyZ7icFCRc3ZA.jpeg",
+        "description": "Artbreeder aims to be a new type of creative tool that empowers users creativity by making it easier to generate new artwork with artificial intelligence.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid tiers start at $9/month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
           }
         ]
       },
@@ -118,11 +198,41 @@
             "text": "Available on Mac"
           }
         ]
+      },
+      {
+        "title": "Pandoc",
+        "subtitle": "Universal document converter",
+        "homepage_url": "https://pandoc.org/index.html",
+        "square_logo_url": "",
+        "screenshot_url": "https://keleshev.com/my-book-writing-setup/screenshot.png",
+        "description": "A document converter from dozens of different file types into dozens more.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
       }
     ]
   },
   {
-    "section": "Submitting",
+    "section": "Querying / Submitting",
     "tools": [
       {
         "title": "Duotrope",
@@ -157,6 +267,51 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Marketing",
+    "tools": [
+      {
+        "title": "BookSirens",
+        "subtitle": "Get more book reviews",
+        "homepage_url": "https://booksprout.co/",
+        "square_logo_url": "https://pbs.twimg.com/profile_images/1002916751707951105/TZNc2I4Z_400x400.jpg",
+        "screenshot_url": "https://pbs.twimg.com/media/EoPra7vVkAMRitC.jpg",
+        "description": "Get more Amazon & Goodreads reviews from your Advance Review Copy readers and our community of 15,000+ book reviewers & influencers.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Pay-as-you-go services start at $10/ARC"
+          },
+          {
+            "icon": "attach_money",
+            "text": "Paid tiers start at $20/month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          }
+        ]
+      },
+      {
+        "title": "Booksprout",
+        "subtitle": "Get more book reviews",
+        "homepage_url": "https://booksprout.co/",
+        "square_logo_url": "https://play-lh.googleusercontent.com/CHHNwmI4bYXZo4XaQ780DxpqdzYBXRj80JuNq8Y15gxLVKtj0zDNZe3DFThEdnycWvxl",
+        "screenshot_url": "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd5ab7e2c7d3a7e9ae43575/images/5f9b2ae94cedfd00165ab605/5f9b2ae99583d.png",
+        "description": "Automate your Advance Review Copy process and get more honest book reviews on sites like Amazon.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid tiers start at $10/month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
           }
         ]
       }
