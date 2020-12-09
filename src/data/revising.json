@@ -21,6 +21,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },

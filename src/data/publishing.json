@@ -53,6 +53,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
@@ -71,6 +75,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
@@ -89,6 +97,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
@@ -117,7 +129,7 @@
       {
         "title": "Artbreeder",
         "subtitle": "Image generation and manipulation",
-        "homepage_url": "https://artbreeder.com/,",
+        "homepage_url": "https://artbreeder.com/",
         "square_logo_url": "",
         "screenshot_url": "/screenshots/artbreeder.jpeg",
         "description": "Artbreeder aims to be a new type of creative tool that empowers users creativity by making it easier to generate new artwork with artificial intelligence.",
@@ -176,7 +188,7 @@
       {
         "title": "Kindle Create",
         "subtitle": "For publishing on Amazon",
-        "homepage_url": "https://vellum.pub/",
+        "homepage_url": "https://www.amazon.com/Kindle-Create/b?node=18292298011",
         "square_logo_url": "/logos/kindle-create.png",
         "screenshot_url": "/screenshots/kindle-create.png",
         "description": "Kindle Create is a free interior formatting tool that works well for books to publish on Amazon.",
@@ -344,7 +356,7 @@
       {
         "title": "BookBaby",
         "subtitle": "Self-publishing software",
-        "homepage_url": "https://tablo.io/",
+        "homepage_url": "https://www.bookbaby.com/",
         "square_logo_url": "/logos/bookbaby.gif",
         "screenshot_url": "/screenshots/bookbaby.png",
         "description": "Self-publish, print and distribute your book worldwide at Amazon, Kindle, Apple Books and Barnes & Noble. We make book printing & publishing fast, easy and affordable.",
@@ -403,7 +415,7 @@
       {
         "title": "BookSirens",
         "subtitle": "Get more book reviews",
-        "homepage_url": "https://booksprout.co/",
+        "homepage_url": "https://booksirens.com/",
         "square_logo_url": "/logos/booksirens.jpg",
         "screenshot_url": "/screenshots/booksirens.jpg",
         "description": "Get more Amazon & Goodreads reviews from your Advance Review Copy readers and our community of 15,000+ book reviewers & influencers.",
@@ -443,7 +455,7 @@
       {
         "title": "Pubby",
         "subtitle": "Get more book reviews",
-        "homepage_url": "https://booksprout.co/",
+        "homepage_url": "https://pubby.co/",
         "square_logo_url": "data:image/png;base64,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",
         "screenshot_url": "/screenshots/pubby.png",
         "description": "Pubby provides authors with visibility and credibility on the largest online bookstore through verified reviews.",

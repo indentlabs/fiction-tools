@@ -225,6 +225,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
@@ -247,6 +251,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
@@ -305,6 +313,67 @@
           {
             "icon": "",
             "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Generators",
+    "tools": [
+      {
+        "title": "Fantasy Name Generators",
+        "subtitle": "Content generators",
+        "homepage_url": "https://www.fantasynamegenerators.com/",
+        "description": "Over 1,300 name generators across a ton of specialized contexts, plus many description generators",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Seventh Sanctum",
+        "subtitle": "Content generators",
+        "homepage_url": "https://www.seventhsanctum.com/",
+        "description": "A well-organized collection of all kinds of generators.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      },
+      {
+        "title": "Plot Generator",
+        "subtitle": "Content generators",
+        "homepage_url": "https://www.plot-generator.org.uk/",
+        "description": "A long list of fill-in-the-blank plot generators to inspire your next story.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       }
