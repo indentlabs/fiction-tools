@@ -6,7 +6,7 @@
         "title": "SelfPubBookCovers",
         "subtitle": "Premade cover marketplace",
         "homepage_url": "http://www.selfpubbookcovers.com/",
-        "square_logo_url": "https://pbs.twimg.com/profile_images/2193368291/GreenSelfPubLogo.jpg",
+        "square_logo_url": "/logos/self-pub-book-covers.jpg",
         "screenshot_url": "/screenshots/selfpubbookcovers.png",
         "description": "Welcome to the world's leading marketplace for high-quality, affordably-priced pre-made book covers.",
         "badges": [
@@ -25,7 +25,7 @@
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://unsplash.com/",
         "square_logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJ1BMVEUAAAD////V1dWWlpZ0dHTPz89qamrh4eGQkJDk5OTR0dGtra3Y2NgWv+ptAAABL0lEQVR4nO3cMQ7CQAxFwQCBQOD+56Wms2RHxjDvAKs/vbXLqaR1qW+tmbbUPENISJiIMBghIWEiwmCEhISJCIMREhImIgxGSEiYiDAYISFhIsJghISEiQiDERISJiIMRkhImIgwGCEhYSLCYISEhIkIgxESEiYiDPb7wtsBwlvNtCLhdq5vq5lWJPziCOdHOD/C+RHOj3B+hPMjnB/h/AjnRzg/wvkRzo9wfoTzI5wf4fz+QHip6P44YNrjXrKt6KrgeoDwWrStJkJCwv4ICQn7IyQk7I+QkLA/QkLC/ggJCfsjJCTsj5CQsD9CQsL+CAkJ+yMkJOyPkJCwP0JCwv4ICQn7IyQk7G8/QLh3oz56vsq/oH09u1GSJEmSJEmSJEmSJEmSJEmSJEmSJP1rbwwaXQZE0kwUAAAAAElFTkSuQmCC",
-        "screenshot_url": "https://www.jotform.com/blog/wp-content/uploads/2018/09/unsplash-teaser.png",
+        "screenshot_url": "/screenshots/unsplash.png",
         "description": "Unsplash is home to a growing community of photographers—from hobbyists, professionals, emerging brands and everyone in between. Unsplash images are free to use.",
         "badges": [
           {
@@ -42,7 +42,7 @@
         "title": "PxHere",
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://pxhere.com/",
-        "square_logo_url": "https://s.pxhere.com/media/images/logo.png?v=73",
+        "square_logo_url": "/logos/pxhere.png",
         "screenshot_url": "/screenshots/pxhere.png",
         "description": "On Pxhere you may find and share images free of copyrights. All pictures are released under Creative Commons CC0 into the public domain.",
         "badges": [
@@ -60,7 +60,7 @@
         "title": "Pixabay",
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://pixabay.com/",
-        "square_logo_url": "https://cdn.worldvectorlogo.com/logos/pixabay.svg",
+        "square_logo_url": "/logos/pixabay.svg",
         "screenshot_url": "/screenshots/pixabay.png",
         "description": "Over 1.8 million+ high quality stock images, videos and music shared by our talented community.",
         "badges": [
@@ -78,7 +78,7 @@
         "title": "Pexels",
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://www.pexels.com/",
-        "square_logo_url": "https://theme.zdassets.com/theme_assets/9028340/1e73e5cb95b89f1dce8b59c5236ca1fc28c7113b.png",
+        "square_logo_url": "/logos/pexels.png",
         "screenshot_url": "/screenshots/pexels.png",
         "description": "Free stock photos you can use everywhere. Free for commercial use. No attribution required.",
         "badges": [
@@ -96,8 +96,8 @@
         "title": "Canva",
         "subtitle": "Book cover maker",
         "homepage_url": "https://www.canva.com/create/book-covers/",
-        "square_logo_url": "https://i.pinimg.com/originals/96/ec/ad/96ecadb9206b308292f06621f381bacd.png",
-        "screenshot_url": "https://static-cse.canva.com/image/76610/crop.jpg",
+        "square_logo_url": "/logos/canva.png",
+        "screenshot_url": "/screenshots/canva.webp",
         "description": "Canva's book cover maker makes designing book covers amazingly simple – even for non-designers.",
         "badges": [
           {
@@ -119,7 +119,7 @@
         "subtitle": "Image generation and manipulation",
         "homepage_url": "https://artbreeder.com/,",
         "square_logo_url": "",
-        "screenshot_url": "https://miro.medium.com/max/3776/1*F6CSUKLTRKyZ7icFCRc3ZA.jpeg",
+        "screenshot_url": "/screenshots/artbreeder.jpeg",
         "description": "Artbreeder aims to be a new type of creative tool that empowers users creativity by making it easier to generate new artwork with artificial intelligence.",
         "badges": [
           {
@@ -159,8 +159,8 @@
         "title": "Vellum",
         "subtitle": "Create beautiful books",
         "homepage_url": "https://vellum.pub/",
-        "square_logo_url": "https://s3.amazonaws.com/180g/web/images/vellum-icon-drop-256.png",
-        "screenshot_url": "https://vellum.pub/images/tour-update-generate.jpg",
+        "square_logo_url": "/logos/vellum.png",
+        "screenshot_url": "/screenshots/vellum.jpg",
         "description": "Format your manuscript for print or ebook publishing with page numbers, margins, headers, font, line spacing, and more.",
         "badges": [
           {
@@ -177,8 +177,8 @@
         "title": "Kindle Create",
         "subtitle": "For publishing on Amazon",
         "homepage_url": "https://vellum.pub/",
-        "square_logo_url": "https://2.bp.blogspot.com/-yEiGm5ZgMqE/WiMw8wpyMXI/AAAAAAAACCI/_8S2InEFJvkfQbIeeuzvwKGEDEVbmRy9wCLcBGAs/s1600/Kindle%2BCreate%2Blogo.png",
-        "screenshot_url": "https://m.media-amazon.com/images/G/01/kindle-publication/Kindle_create/KC_FM_BM_TOC._CB439322150_.png",
+        "square_logo_url": "/logos/kindle-create.png",
+        "screenshot_url": "/screenshots/kindle-create.png",
         "description": "Kindle Create is a free interior formatting tool that works well for books to publish on Amazon.",
         "badges": [
           {
@@ -199,8 +199,8 @@
         "title": "Blurb Bookwright",
         "subtitle": "Publishing software",
         "homepage_url": "https://www.blurb.com/bookwright",
-        "square_logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Blurb_logo.svg/1200px-Blurb_logo.svg.png",
-        "screenshot_url": "https://i.ytimg.com/vi/Q0VgwajizVw/maxresdefault.jpg",
+        "square_logo_url": "/logos/blurb.png",
+        "screenshot_url": "/screenshots/blurb.jpg",
         "description": "Blurb BookWright is a powerful and free publishing software anyone can use. Design and publish beautiful photo books, trade books, ebooks, and more.",
         "badges": [
           {
@@ -222,7 +222,7 @@
         "subtitle": "Universal document converter",
         "homepage_url": "https://pandoc.org/index.html",
         "square_logo_url": "",
-        "screenshot_url": "https://keleshev.com/my-book-writing-setup/screenshot.png",
+        "screenshot_url": "/screenshots/pandoc.png",
         "description": "A document converter from dozens of different file types into dozens more.",
         "badges": [
           {
@@ -251,8 +251,8 @@
         "title": "Calibre",
         "subtitle": "Ebook management software",
         "homepage_url": "https://calibre-ebook.com/",
-        "square_logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Calibre_logo_3.png",
-        "screenshot_url": "https://cdn.lo4d.com/t/screenshot/calibre.png",
+        "square_logo_url": "/logos/calibre.png",
+        "screenshot_url": "/screenshots/calibre.png",
         "description": "The one stop solution for all your e-book needs.",
         "badges": [
           {
@@ -286,8 +286,8 @@
         "title": "Duotrope",
         "subtitle": "Submission tracker",
         "homepage_url": "https://duotrope.com/",
-        "square_logo_url": "https://cdn.duotrope.com/images/logo_4x.png",
-        "screenshot_url": "https://cdn.duotrope.com/guides/report-submission.png",
+        "square_logo_url": "/logos/duotrope.webp",
+        "screenshot_url": "/screenshots/duotrope.webp",
         "description": "Duotrope is an established, award-winning resource for writers and artists. We help you save time finding publishers or agents for your work, so you can focus on creating.",
         "badges": [
           {
@@ -304,7 +304,7 @@
         "title": "WritersDB",
         "subtitle": "Submission tracker",
         "homepage_url": "https://www.writersdb.com/",
-        "square_logo_url": "https://www.writersdb.com/images/wdb3-icon.png",
+        "square_logo_url": "/logos/writersdb.png",
         "screenshot_url": "",
         "description": "A free submission and market tracker for freelance writers.",
         "badges": [
@@ -327,8 +327,8 @@
         "title": "Tablo",
         "subtitle": "Self-publishing software",
         "homepage_url": "https://tablo.io/",
-        "square_logo_url": "https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/vvqsoxkqhptjo56z3d4d",
-        "screenshot_url": "https://tablo.io/assets/tablo-writer-browser-5cc7a4b5b28d1a31d59484ce7e6d2e7a649b4643bd6072424e78ee87a48004e1.png",
+        "square_logo_url": "/logos/tablo.png",
+        "screenshot_url": "/screenshots/tablo.png",
         "description": "Tablo is a platform for publishing books to every bookshop in the world.",
         "badges": [
           {
@@ -345,8 +345,8 @@
         "title": "BookBaby",
         "subtitle": "Self-publishing software",
         "homepage_url": "https://tablo.io/",
-        "square_logo_url": "https://blog.bookbaby.com/wp-content/uploads/2018/10/brandGuidelines-square-light-May-2018.gif",
-        "screenshot_url": "https://support.bookbaby.com/hc/article_attachments/360055097814/Upload_page.PNG",
+        "square_logo_url": "/logos/bookbaby.gif",
+        "screenshot_url": "/screenshots/bookbaby.png",
         "description": "Self-publish, print and distribute your book worldwide at Amazon, Kindle, Apple Books and Barnes & Noble. We make book printing & publishing fast, easy and affordable.",
         "badges": [
           {
@@ -363,8 +363,8 @@
         "title": "StreetLib",
         "subtitle": "Self-publishing software",
         "homepage_url": "https://www.streetlib.com/",
-        "square_logo_url": "https://blog-cdn.reedsy.com/uploads/2019/05/logo.png",
-        "screenshot_url": "https://help.streetlib.com/hc/article_attachments/360001734238/dash.png",
+        "square_logo_url": "/logos/streetlib.png",
+        "screenshot_url": "/screenshots/streetlib.png",
         "description": "Distribute your ebooks, audiobooks, POD books, podcasts, online literature, comics, and magazines in any language with StreetLib.",
         "badges": [
           {
@@ -381,8 +381,8 @@
         "title": "Kindle Direct Publishing",
         "subtitle": "Self-publishing software",
         "homepage_url": "https://kdp.amazon.com/",
-        "square_logo_url": "https://pbs.twimg.com/profile_images/903653197071437829/NPb3iLVF.jpg",
-        "screenshot_url": "https://lululolobooks.com/wp-content/uploads/2018/07/Dashboard.png",
+        "square_logo_url": "/logos/kindle-direct-publishing.jpg",
+        "screenshot_url": "/screenshots/kindle-direct-publishing.png",
         "description": "Self-publish eBooks and paperbacks for free with Kindle Direct Publishing, and reach millions of readers on Amazon.",
         "badges": [
           {
@@ -404,8 +404,8 @@
         "title": "BookSirens",
         "subtitle": "Get more book reviews",
         "homepage_url": "https://booksprout.co/",
-        "square_logo_url": "https://pbs.twimg.com/profile_images/1002916751707951105/TZNc2I4Z_400x400.jpg",
-        "screenshot_url": "https://pbs.twimg.com/media/EoPra7vVkAMRitC.jpg",
+        "square_logo_url": "/logos/booksirens.jpg",
+        "screenshot_url": "/screenshots/booksirens.jpg",
         "description": "Get more Amazon & Goodreads reviews from your Advance Review Copy readers and our community of 15,000+ book reviewers & influencers.",
         "badges": [
           {
@@ -426,8 +426,8 @@
         "title": "Booksprout",
         "subtitle": "Get more book reviews",
         "homepage_url": "https://booksprout.co/",
-        "square_logo_url": "https://play-lh.googleusercontent.com/CHHNwmI4bYXZo4XaQ780DxpqdzYBXRj80JuNq8Y15gxLVKtj0zDNZe3DFThEdnycWvxl",
-        "screenshot_url": "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd5ab7e2c7d3a7e9ae43575/images/5f9b2ae94cedfd00165ab605/5f9b2ae99583d.png",
+        "square_logo_url": "/logos/booksprout.png",
+        "screenshot_url": "/screenshots/booksprout.png",
         "description": "Automate your Advance Review Copy process and get more honest book reviews on sites like Amazon.",
         "badges": [
           {
@@ -445,7 +445,7 @@
         "subtitle": "Get more book reviews",
         "homepage_url": "https://booksprout.co/",
         "square_logo_url": "data:image/png;base64,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",
-        "screenshot_url": "https://miro.medium.com/max/1100/1*o7-BMlDf-aa874BFCOTixw.png",
+        "screenshot_url": "/screenshots/pubby.png",
         "description": "Pubby provides authors with visibility and credibility on the largest online bookstore through verified reviews.",
         "badges": [
           {

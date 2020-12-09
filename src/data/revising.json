@@ -6,8 +6,8 @@
         "title": "Scribophile",
         "subtitle": "Critiques from peers",
         "homepage_url": "https://www.scribophile.com//",
-        "square_logo_url": "https://www.scribophile.com/images/logo-square.png",
-        "screenshot_url": "https://www.scribophile.com/images/help/homepage-circles.svg",
+        "square_logo_url": "/logos/scribophile.png",
+        "screenshot_url": "/screenshots/scribophile.svg",
         "description": "Scribophile is a respectful online writing workshop and writer’s community. Writers of all skill levels join to improve each other’s work with thoughtful critiques and by sharing their writing experience.",
         "badges": [
           {
@@ -28,8 +28,8 @@
         "title": "ProWritingAid",
         "subtitle": "For the smarter writer",
         "homepage_url": "https://prowritingaid.com/",
-        "square_logo_url": "https://prowritingaid.com/Images/prof_large.png",
-        "screenshot_url": "https://cdn.prowritingaid.com/website/2.1.10841/images/integration-desktop-page/desktopscreen2.JPG",
+        "square_logo_url": "/logos/pro-writing-aid.png",
+        "screenshot_url": "/screenshots/pro-writing-aid.jpeg",
         "description": "ProWritingAid is the only platform that offers world-class grammar and style checking combined with more in-depth reports to help you strengthen your writing. Our unique combination of suggestions, articles, videos, and quizzes makes writing fun and interactive.",
         "badges": [
           {
@@ -54,8 +54,8 @@
         "title": "Grammarly",
         "subtitle": "Great Writing, Simplified",
         "homepage_url": "https://app.grammarly.com/",
-        "square_logo_url": "https://www.grammarly.com/press/media-resources/docs/icon-grammarly.png",
-        "screenshot_url": "https://emaildesign.beefree.io/wp-content/uploads/2016/04/grammarly2.png",
+        "square_logo_url": "/logos/grammarly.png",
+        "screenshot_url": "/screenshots/grammarly.png",
         "description": "Compose bold, clear, mistake-free writing with Grammarly’s AI-powered writing assistant.",
         "badges": [
           {
