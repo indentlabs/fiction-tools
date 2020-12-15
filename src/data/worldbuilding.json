@@ -1,5 +1,144 @@
 [
   {
+    "section": "Idea generators",
+    "tools": [
+      {
+        "title": "Fantasy Map Generator",
+        "subtitle": "Map generator",
+        "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/fantasy-map-generator.png",
+        "description": "Fantasy Map Generator is a tool that creates highly customizable fantasy worlds for you. It runs in a browser and does not require any software installation. It’s free and you can use created maps for any purposes including commercial.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
+        "title": "Medieval Fantasy City Generator",
+        "subtitle": "City map generator",
+        "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/medieval-fantasy-city.png",
+        "description": "A generator with some basic editing functionality for randomized city maps.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "One Page Dungeon",
+        "subtitle": "Dungeon map generator",
+        "homepage_url": "https://watabou.itch.io/one-page-dungeon",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/one-page-dungeon.png",
+        "description": "A generator for randomized dungeon maps, including points of interest within the dungeon.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Fantasy Name Generators",
+        "subtitle": "Content generators",
+        "homepage_url": "https://www.fantasynamegenerators.com/",
+        "description": "Over 1,300 name generators across a ton of specialized contexts, plus many description generators",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Seventh Sanctum",
+        "subtitle": "Content generators",
+        "homepage_url": "https://www.seventhsanctum.com/",
+        "description": "A well-organized collection of all kinds of generators.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      },
+      {
+        "title": "Plot Generator",
+        "subtitle": "Plot generators",
+        "homepage_url": "https://www.plot-generator.org.uk/",
+        "description": "A long list of fill-in-the-blank plot generators to inspire your next story.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      },
+      {
+        "title": "Myth Weavers Dungeon Generator",
+        "subtitle": "Dungeon generator",
+        "homepage_url": "https://www.myth-weavers.com/generate_dungeon.php",
+        "description": "A customizable generator for grid-based dungeons.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "section": "Map-making software",
     "tools": [
       {
@@ -73,74 +212,12 @@
         ]
       },
       {
-        "title": "Fantasy Map Generator",
-        "subtitle": "Map generator",
-        "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/fantasy-map-generator.png",
-        "description": "Fantasy Map Generator is a tool that creates highly customizable fantasy worlds for you. It runs in a browser and does not require any software installation. It’s free and you can use created maps for any purposes including commercial.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          },
-          {
-            "icon": "desktop_windows",
-            "text": "Available on Windows"
-          },
-          {
-            "icon": "groups",
-            "text": "Open-source software"
-          }
-        ]
-      },
-      {
         "title": "Dungeon Map Doodler",
         "subtitle": "Dungeon map editor",
         "homepage_url": "https://dungeonmapdoodler.com/index.html",
         "square_logo_url": "",
         "screenshot_url": "/screenshots/dungeon-map-doodler.png",
         "description": "A free-to-use drawing tool for creating your own maps from scratch.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
-        "title": "One Page Dungeon",
-        "subtitle": "Dungeon map generator",
-        "homepage_url": "https://watabou.itch.io/one-page-dungeon",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/one-page-dungeon.png",
-        "description": "A generator for randomized dungeon maps, including points of interest within the dungeon.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
-        "title": "Medieval Fantasy City Generator",
-        "subtitle": "City map generator",
-        "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/medieval-fantasy-city.png",
-        "description": "A generator with some basic editing functionality for randomized city maps.",
         "badges": [
           {
             "icon": "money_off",
@@ -335,67 +412,6 @@
           {
             "icon": "",
             "text": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "section": "Generators",
-    "tools": [
-      {
-        "title": "Fantasy Name Generators",
-        "subtitle": "Content generators",
-        "homepage_url": "https://www.fantasynamegenerators.com/",
-        "description": "Over 1,300 name generators across a ton of specialized contexts, plus many description generators",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
-        "title": "Seventh Sanctum",
-        "subtitle": "Content generators",
-        "homepage_url": "https://www.seventhsanctum.com/",
-        "description": "A well-organized collection of all kinds of generators.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          },
-          {
-            "icon": "picture_in_picture_alt",
-            "text": "Ad-supported"
-          }
-        ]
-      },
-      {
-        "title": "Plot Generator",
-        "subtitle": "Content generators",
-        "homepage_url": "https://www.plot-generator.org.uk/",
-        "description": "A long list of fill-in-the-blank plot generators to inspire your next story.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          },
-          {
-            "icon": "picture_in_picture_alt",
-            "text": "Ad-supported"
           }
         ]
       }
