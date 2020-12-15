@@ -303,6 +303,28 @@
         ]
       },
       {
+        "title": "Refsheet",
+        "subtitle": "Your Characters, Organized.",
+        "homepage_url": "https://refsheet.net/",
+        "square_logo_url": "/logos/refsheet.png",
+        "screenshot_url": "/screenshots/refsheet.png",
+        "description": "A new, convenient way to organize your character designs and art.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free app"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
         "title": "",
         "subtitle": "",
         "homepage_url": "",
