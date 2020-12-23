@@ -3,10 +3,10 @@
     "section": "Idea generators",
     "tools": [
       {
-        "title": "Fantasy Name Generators",
+        "title": "Seventh Sanctum",
         "subtitle": "Content generators",
-        "homepage_url": "https://www.fantasynamegenerators.com/",
-        "description": "Over 1,300 name generators across a ton of specialized contexts, plus many description generators",
+        "homepage_url": "https://www.seventhsanctum.com/",
+        "description": "A well-organized collection of all kinds of generators.",
         "badges": [
           {
             "icon": "money_off",
@@ -23,10 +23,10 @@
         ]
       },
       {
-        "title": "Seventh Sanctum",
+        "title": "Fantasy Name Generators",
         "subtitle": "Content generators",
-        "homepage_url": "https://www.seventhsanctum.com/",
-        "description": "A well-organized collection of all kinds of generators.",
+        "homepage_url": "https://www.fantasynamegenerators.com/",
+        "description": "Over 1,300 name generators across a ton of specialized contexts, plus many description generators",
         "badges": [
           {
             "icon": "money_off",
