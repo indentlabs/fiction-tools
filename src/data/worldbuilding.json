@@ -336,6 +336,28 @@
         ]
       },
       {
+        "title": "LegendKeeper",
+        "subtitle": "",
+        "homepage_url": "https://legendkeeper.com/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/legendkeeper.jpeg",
+        "description": "LegendKeeper makes it easy to build immersive worlds for stories and RPG campaigns.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Beta access available for $5/month"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      },
+      {
         "title": "World Scribe",
         "subtitle": "for Android",
         "homepage_url": "https://play.google.com/store/apps/details?id=com.averi.worldscribe&hl=en_US&gl=US",
