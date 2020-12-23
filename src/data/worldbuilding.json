@@ -3,68 +3,6 @@
     "section": "Idea generators",
     "tools": [
       {
-        "title": "Fantasy Map Generator",
-        "subtitle": "Map generator",
-        "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/fantasy-map-generator.png",
-        "description": "Fantasy Map Generator is a tool that creates highly customizable fantasy worlds for you. It runs in a browser and does not require any software installation. It’s free and you can use created maps for any purposes including commercial.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          },
-          {
-            "icon": "desktop_windows",
-            "text": "Available on Windows"
-          },
-          {
-            "icon": "groups",
-            "text": "Open-source software"
-          }
-        ]
-      },
-      {
-        "title": "Medieval Fantasy City Generator",
-        "subtitle": "City map generator",
-        "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/medieval-fantasy-city.png",
-        "description": "A generator with some basic editing functionality for randomized city maps.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
-        "title": "One Page Dungeon",
-        "subtitle": "Dungeon map generator",
-        "homepage_url": "https://watabou.itch.io/one-page-dungeon",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/one-page-dungeon.png",
-        "description": "A generator for randomized dungeon maps, including points of interest within the dungeon.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
         "title": "Fantasy Name Generators",
         "subtitle": "Content generators",
         "homepage_url": "https://www.fantasynamegenerators.com/",
@@ -77,6 +15,10 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
@@ -119,12 +61,19 @@
             "text": "Ad-supported"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "section": "Map generators",
+    "tools": [
       {
-        "title": "Myth Weavers Dungeon Generator",
-        "subtitle": "Dungeon generator",
-        "homepage_url": "https://www.myth-weavers.com/generate_dungeon.php",
-        "description": "A customizable generator for grid-based dungeons.",
+        "title": "Fantasy Map Generator",
+        "subtitle": "Map generator",
+        "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/fantasy-map-generator.png",
+        "description": "Fantasy Map Generator is a tool that creates highly customizable fantasy worlds for you. It runs in a browser and does not require any software installation. It’s free and you can use created maps for any purposes including commercial.",
         "badges": [
           {
             "icon": "money_off",
@@ -133,6 +82,107 @@
           {
             "icon": "cloud",
             "text": "Web-based product"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
+        "title": "Oskar Stalberg's City Generator",
+        "subtitle": "City map generator",
+        "homepage_url": "http://www.oskarstalberg.com/game/CityGenerator/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/stalberg.png",
+        "description": "An interactive generator for developing city roadmaps.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "donjon's Fantasy World Generator",
+        "subtitle": "World map generator",
+        "homepage_url": "https://donjon.bin.sh/fantasy/world/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/donjon.png",
+        "description": "A customizable generator for fictional world maps.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Medieval Fantasy City Generator",
+        "subtitle": "City map generator",
+        "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/medieval-fantasy-city.png",
+        "description": "A generator with some basic editing functionality for randomized city maps.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "One Page Dungeon",
+        "subtitle": "Dungeon map generator",
+        "homepage_url": "https://watabou.itch.io/one-page-dungeon",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/one-page-dungeon.png",
+        "description": "A generator for randomized dungeon maps, including points of interest within the dungeon.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Myth Weavers Dungeon Generator",
+        "subtitle": "Dungeon generator",
+        "homepage_url": "https://www.myth-weavers.com/generate_dungeon.php",
+        "description": "A customizable generator for grid-based dungeons.",
+        "screenshot_url": "/screenshots/weaver.png",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       }
