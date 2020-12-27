@@ -48,7 +48,7 @@ class ToolList extends Component {
                 <Typography
                   variant="h5"
                   component="h3"
-                  color="secondary"
+                  color="primary"
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
                 >
@@ -64,7 +64,7 @@ class ToolList extends Component {
                     }}
                 >
                   {section.tools && section.tools.map((tool) => {
-                    // We store blank templates in the JSON for easy reference
+                    // We store blank templates in the JSON for easy reference, so lets make sure we skip over those
                     if (tool.title === "") {
                       return;
                     }

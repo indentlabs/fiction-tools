@@ -30,7 +30,7 @@ function App() {
           </Typography>
           <br />
           <Typography paragraph={true}>
-            The below is a growing collection of helpful tools for authors looking to make things just a little easier at every stage of the writing process &mdash; and help you get that perfect story out just a little bit faster.
+            This is a growing collection of helpful tools for authors looking to make things just a little easier at every stage of the writing process.
           </Typography>
         </Grid>
 
