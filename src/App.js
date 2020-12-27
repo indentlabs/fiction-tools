@@ -19,7 +19,7 @@ function App() {
   return (
     <Container className="App" maxWidth="lg">
       <Grid container spacing={3}>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={12}>
           <Typography variant="h3" component="h1" color="primary">
             Fiction.Tools
           </Typography>
@@ -34,7 +34,7 @@ function App() {
           </Typography>
         </Grid>
 
-        <Grid item xs={12} md={6} style={{paddingLeft: '8em', paddingTop: '3em', paddingBottom: '3em'}}>
+        <Grid item xs={12} md={12} style={{paddingLeft: '8em', paddingTop: '3em', paddingBottom: '3em'}}>
           <TableOfContents
             chapters={
               [
