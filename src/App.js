@@ -38,8 +38,8 @@ function App() {
         <Grid container spacing={3}>
           <Grid item xs={12} md={12}>
             <Typography paragraph={true} style={{fontSize: '2rem', marginBottom: '3em'}}>
-              Fiction.tools is a growing collection of helpful tools for authors. Work through every stage of the writing 
-              process to get your perfect story out just a little faster.
+              Fiction.tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
+              process and get your perfect story out just a little faster.
             </Typography>
           </Grid>
 
