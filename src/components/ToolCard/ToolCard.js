@@ -11,6 +11,7 @@ import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Divider from '@material-ui/core/Divider';
 
 import Tooltip from '@material-ui/core/Tooltip';
 import Zoom from '@material-ui/core/Zoom';
@@ -36,12 +37,12 @@ class ToolCard extends Component {
 
   render() {
     return(
-      <a href={this.props.homepage_url} style={{textDecoration: 'none'}} className="ToolCard" target="_blank">
+      <a href={this.props.homepage_url} style={{textDecoration: 'none', display: 'inline-block', width: '30%'}} className="ToolCard" target="_blank">
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}
           elevation={this.state.highlighted ? 10 : 0}
-          style={{border: '1px solid lightgrey'}}
+          style={{border: '1px solid lightgrey', marginBottom: '20px'}}
         >
           <CardHeader
             title={this.props.title}
@@ -64,6 +65,7 @@ class ToolCard extends Component {
               )
             })}
           </CardContent>
+          <Divider/>
           {this.props.badges && this.props.badges.length > 0 && (
             <CardActions disableSpacing>
               {this.props.badges.map((badge, i) => {

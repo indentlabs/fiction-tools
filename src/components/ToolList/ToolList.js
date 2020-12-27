@@ -51,9 +51,10 @@ class ToolList extends Component {
                   color="primary"
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
+                  style={{paddingTop: '1em'}}
                 >
                   <a href={'#' + this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
-                     style={{color: '#F50057', textDecoration: 'none'}}>
+                    style={{color: '#F50057', textDecoration: 'none'}}>
                     &para;
                   </a>
                   &nbsp;
@@ -75,17 +76,15 @@ class ToolList extends Component {
                     }
 
                     return(
-                      <Grid item xs={12} md={4} lg={3} style={{marginBottom: '20px'}}>
-                        <ToolCard
-                          {...tool}
-                          className="tool"
-                        />
-                      </Grid>
+                      <ToolCard
+                        {...tool}
+                        className="tool"
+                      />
                     );
                   })}
                 </Masonry>
               </Grid>
-              <Grid item xs={12} style={{marginBottom: '3em'}}></Grid>
+              <Grid item xs={12} style={{marginBottom: '1em'}}></Grid>
             </React.Fragment>
           );
         })}
