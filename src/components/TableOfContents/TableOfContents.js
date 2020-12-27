@@ -54,7 +54,7 @@ class TableOfContents extends Component {
 
   renderStepper() {
     return (
-      <div style={{marginBottom: '50px'}}>
+      <div style={{marginBottom: '50px', width: '100%'}}>
         <Typography variant="h6" color="primary" style={{textAlign: 'center'}}>
           Table of Contents
         </Typography>

@@ -52,6 +52,11 @@ class ToolList extends Component {
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
                 >
+                  <a href={'#' + this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
+                     style={{color: '#F50057', textDecoration: 'none'}}>
+                    &para;
+                  </a>
+                  &nbsp;
                   {section.section}
                 </Typography>
               </Grid>

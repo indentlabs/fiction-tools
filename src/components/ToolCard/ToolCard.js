@@ -40,7 +40,8 @@ class ToolCard extends Component {
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}
-          elevation={this.state.highlighted ? 10 : 3}
+          elevation={this.state.highlighted ? 10 : 0}
+          style={{border: '1px solid lightgrey'}}
         >
           <CardHeader
             title={this.props.title}
