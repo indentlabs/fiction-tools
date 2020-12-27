@@ -1,33 +1,7 @@
 [
   {
-    "section": "Critiques",
+    "section": "Line editing",
     "tools": [
-      {
-        "title": "Scribophile",
-        "subtitle": "Critiques from peers",
-        "homepage_url": "https://www.scribophile.com//",
-        "square_logo_url": "/logos/scribophile.png",
-        "screenshot_url": "/screenshots/scribophile.svg",
-        "description": "Scribophile is a respectful online writing workshop and writer’s community. Writers of all skill levels join to improve each other’s work with thoughtful critiques and by sharing their writing experience.",
-        "badges": [
-          {
-            "icon": "attach_money",
-            "text": "Paid subscriptions range $5 - $9 per month"
-          },
-          {
-            "icon": "money_off",
-            "text": "Offers a free tier"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          },
-          {
-            "icon": "picture_in_picture_alt",
-            "text": "Ad-supported"
-          }
-        ]
-      },
       {
         "title": "ProWritingAid",
         "subtitle": "For the smarter writer",
@@ -77,6 +51,37 @@
           {
             "icon": "extension",
             "text": "Browser extension available"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Critiques",
+    "tools": [
+      {
+        "title": "Scribophile",
+        "subtitle": "Critiques from peers",
+        "homepage_url": "https://www.scribophile.com//",
+        "square_logo_url": "/logos/scribophile.png",
+        "screenshot_url": "/screenshots/scribophile.svg",
+        "description": "Scribophile is a respectful online writing workshop and writer’s community. Writers of all skill levels join to improve each other’s work with thoughtful critiques and by sharing their writing experience.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $5 - $9 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
           }
         ]
       },
