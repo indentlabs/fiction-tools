@@ -32,7 +32,7 @@ class ToolCard extends Component {
 
   render() {
     return(
-      <a href={this.props.homepage_url} style={{textDecoration: 'none', display: 'inline-block', width: '30%'}} className="ToolCard" target="_blank">
+      <a href={this.props.homepage_url} style={{textDecoration: 'none', display: 'inline-block', width: '30%'}} className="ToolCard" target="_blank" rel="noreferrer">
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}

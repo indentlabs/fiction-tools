@@ -20,3 +20,4 @@ The following points of interest exist in the database:
 * [/public/screenshots](https://github.com/indentlabs/fiction-tools/tree/main/public/screenshots) contains screenshots for each tool
 * [/src/data](https://github.com/indentlabs/fiction-tools/tree/main/src/data) contains JSON files for each top-level topic of tools
 
+To add a new tool, please include its information in the relevant JSON file and a screenshot or logo (if applicable).
