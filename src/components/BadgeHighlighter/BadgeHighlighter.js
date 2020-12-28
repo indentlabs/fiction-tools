@@ -1,33 +1,7 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './BadgeHighlighter.css';
 
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
-import Drawer from '@material-ui/core/Drawer';
-import Divider from '@material-ui/core/Divider';
-import Stepper from '@material-ui/core/Stepper';
-import Step from '@material-ui/core/Step';
-import StepLabel from '@material-ui/core/StepLabel';
-import Check from '@material-ui/icons/Check';
-import SettingsIcon from '@material-ui/icons/Settings';
-import GroupAddIcon from '@material-ui/icons/GroupAdd';
-import VideoLabelIcon from '@material-ui/icons/VideoLabel';
-import StepConnector from '@material-ui/core/StepConnector';
-import StepButton from '@material-ui/core/StepButton';
-import StepContent from '@material-ui/core/StepContent';
-import Button from '@material-ui/core/Button';
 import Tooltip from '@material-ui/core/Tooltip';
 import Zoom from '@material-ui/core/Zoom';
 import Icon from '@material-ui/core/Icon';
@@ -74,8 +48,11 @@ class BadgeHighlighter extends Component {
           if (badges.indexOf(icon) === -1) {
             badges.push(icon);
           }
+          return null;
         });
+        return null;
       });
+      return null;
     });
 
     badges.sort();
@@ -89,9 +66,9 @@ class BadgeHighlighter extends Component {
           What's important to you?
         </Typography>
         <div style={{border: '1px solid lightgrey', background: 'white', padding: '0.3em 0'}}>
-          {this.all_unique_badges().map((badge) => {
+          {this.all_unique_badges().map((badge, i) => {
             return (
-              <span onClick={() => { this.props.toggle_highlighted_badge_ref(badge) }}>
+              <span key={i} onClick={() => { this.props.toggle_highlighted_badge_ref(badge) }}>
                 <Tooltip arrow
                   interactive
                   title={

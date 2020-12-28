@@ -1,26 +1,11 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './ToolList.css';
 
 import ToolCard from "../ToolCard/ToolCard.js";
-
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 
 import Masonry from 'react-masonry-component';
-
-import Container from '@material-ui/core/Container';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-
-import Tooltip from '@material-ui/core/Tooltip';
-import Zoom from '@material-ui/core/Zoom';
 
 class ToolList extends Component {
   constructor(props) {
@@ -32,7 +17,7 @@ class ToolList extends Component {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <a href="#top" style={{float: 'right', color: 'lightgrey', textDecoration: 'none'}}>
-            <i class="material-icons" style={{position: 'relative', top: '0.2em'}}>arrow_upward</i>
+            <i className="material-icons" style={{position: 'relative', top: '0.2em'}}>arrow_upward</i>
             Back to top
           </a>
           <Typography
@@ -45,9 +30,9 @@ class ToolList extends Component {
             {this.props.title}
           </Typography>
         </Grid>
-        {this.props.tool_list.map((section) => {
+        {this.props.tool_list.map((section, i) => {
           return(
-            <React.Fragment>
+            <React.Fragment key={i}>
               <Grid item xs={12}>
                 <Typography
                   variant="h5"
@@ -73,7 +58,7 @@ class ToolList extends Component {
                       gutter: 20
                     }}
                 >
-                  {section.tools && section.tools.map((tool) => {
+                  {section.tools && section.tools.map((tool, j) => {
                     // We store blank templates in the JSON for easy reference, so lets make sure we skip over those
                     if (tool.title === "") {
                       return;
@@ -81,6 +66,7 @@ class ToolList extends Component {
 
                     return(
                       <ToolCard
+                        key={j}
                         {...tool}
                         highlighted_badges={this.props.highlighted_badges}
                         className="tool"

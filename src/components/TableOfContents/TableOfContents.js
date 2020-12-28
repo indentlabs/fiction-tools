@@ -1,33 +1,14 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './TableOfContents.css';
 
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import Drawer from '@material-ui/core/Drawer';
 import Divider from '@material-ui/core/Divider';
 import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
-import StepLabel from '@material-ui/core/StepLabel';
-import Check from '@material-ui/icons/Check';
-import SettingsIcon from '@material-ui/icons/Settings';
-import GroupAddIcon from '@material-ui/icons/GroupAdd';
-import VideoLabelIcon from '@material-ui/icons/VideoLabel';
-import StepConnector from '@material-ui/core/StepConnector';
 import StepButton from '@material-ui/core/StepButton';
-import StepContent from '@material-ui/core/StepContent';
-import Button from '@material-ui/core/Button';
 
 class TableOfContents extends Component {
   constructor(props) {
@@ -61,7 +42,7 @@ class TableOfContents extends Component {
         <Stepper nonLinear alternativeLabel activeStep={-1} style={{border: '1px solid lightgrey'}}>
           {this.props.chapters.map((chapter, i) => {
             return(
-              <Step>
+              <Step key={i}>
                 <StepButton completed={true} icon={<i className="material-icons">{this.icon_mapping(chapter.title)}</i>}>
                   <span style={{fontSize: '1.5em'}}>
                     {chapter.title}
@@ -70,7 +51,7 @@ class TableOfContents extends Component {
 
                   {chapter.sections.map((section, j) => {
                     return(
-                      <div style={{textAlign: 'left', fontSize: '1.1em'}}>
+                      <div style={{textAlign: 'left', fontSize: '1.1em'}} key={j}>
                         <a href={"#" + chapter.title.toLowerCase().split(' ').join('-') + '-' + section.section.toLowerCase().split(' ').join('-')}
                           style={{textDecoration: 'none', color: '#3F51B5'}}>
                             <span style={{color: '#F50057'}}>&para;</span>

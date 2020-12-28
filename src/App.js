@@ -1,13 +1,10 @@
 import './App.css';
-import React, { Component } from 'react';
+import React from 'react';
 
-import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
-import ToolCard from "./components/ToolCard/ToolCard.js";
 import ToolList from "./components/ToolList/ToolList.js";
 import TableOfContents from "./components/TableOfContents/TableOfContents.js";
 import BadgeHighlighter from "./components/BadgeHighlighter/BadgeHighlighter.js";
