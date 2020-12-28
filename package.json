@@ -12,6 +12,7 @@
     "react-dom": "^17.0.1",
     "react-masonry-component": "^6.2.1",
     "react-scripts": "4.0.0",
+    "typewriter-effect": "^2.17.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

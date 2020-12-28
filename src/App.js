@@ -17,6 +17,8 @@ import writing_tools from './data/writing.json';
 import revising_tools from './data/revising.json';
 import publishing_tools from './data/publishing.json';
 
+import Typewriter from 'typewriter-effect/dist/core';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -42,6 +44,13 @@ class App extends React.Component {
   }
 
   render() {
+    setTimeout(() => { 
+      new Typewriter('#top', {
+        strings: ['Fiction.Tools', 'Fiction Tools', 'Tools for writing fiction', 'Fiction.Tools', 'fiction-tools', "Tiction Fools", '"Fiction.Tools", by Indent Labs', 'FT', 'Fiction.Tools'],
+        autoStart: true,
+        loop: true
+      });
+    }, 1000);
     return (
       <React.Fragment>
         <Container maxWidth="lg" style={{marginTop: '30px'}}>
