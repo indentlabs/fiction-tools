@@ -21,3 +21,5 @@ The following points of interest exist in the database:
 * [/src/data](https://github.com/indentlabs/fiction-tools/tree/main/src/data) contains JSON files for each top-level topic of tools
 
 To add a new tool, please include its information in the relevant JSON file and a screenshot or logo (if applicable).
+
+To fork this repo and build a new list of tools for another topic, you'll also want to customize the page text in [App.js](https://github.com/indentlabs/fiction-tools/blob/main/src/App.js).
