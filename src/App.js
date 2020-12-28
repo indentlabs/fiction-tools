@@ -50,7 +50,7 @@ class App extends React.Component {
         autoStart: true,
         loop: true
       });
-    }, 1000);
+    }, 8000);
     return (
       <React.Fragment>
         <Container maxWidth="lg" style={{marginTop: '30px'}}>
