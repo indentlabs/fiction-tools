@@ -1,3 +1,11 @@
 .ToolCard {
-  
+  text-decoration: none;
+  display: inline-block;
+  width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  .ToolCard {
+    width: 100%;
+  }
 }
