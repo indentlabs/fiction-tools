@@ -30,6 +30,9 @@ import StepContent from '@material-ui/core/StepContent';
 import Button from '@material-ui/core/Button';
 import Tooltip from '@material-ui/core/Tooltip';
 import Zoom from '@material-ui/core/Zoom';
+import Icon from '@material-ui/core/Icon';
+
+import IconButton from '@material-ui/core/IconButton';
 
 class BadgeHighlighter extends Component {
   constructor(props) {
@@ -40,8 +43,25 @@ class BadgeHighlighter extends Component {
     };
   }
 
-  badge_text_mapping() {
+  badge_text_mapping(icon) {
+    switch(icon) {
+      case 'access_time':     return "Offers a timed free trial of paid services";
+      case 'attach_money':    return "Paid service or product";
+      case 'money_off':       return "Offers a free tier and/or is free";
+      case 'picture_in_picture_alt': return "Ad-supported";
+      case 'school':          return "Offers some kind of educational/school discount";
+      case 'shopping_cart':   return "Optional DLC available at additional costs";
 
+      case 'cloud':           return "Web-based software";
+      case 'desktop_mac':     return "Mac download available";
+      case 'desktop_windows': return "Windows download available";
+      case 'phone_android':   return "Android download available";
+      case 'phone_iphone':    return "iPhone download available";
+
+      case 'extension':       return "An extension or plugin for other software";
+      case 'groups':          return "Open-source software";
+      default:                return icon;
+    }
   }
 
   all_unique_badges() {
@@ -64,9 +84,9 @@ class BadgeHighlighter extends Component {
 
   render() {
     return (
-      <div style={{textAlign: 'center', width: '100%', marginBottom: '7em'}}>
+      <div style={{textAlign: 'center', width: '100%', marginBottom: '5em'}}>
         <Typography variant="h6" color="primary" style={{textAlign: 'center'}}>
-          Icon key
+          What's important to you?
         </Typography>
         <div style={{border: '1px solid lightgrey', background: 'white', padding: '0.3em 0'}}>
           {this.all_unique_badges().map((badge) => {
@@ -76,22 +96,23 @@ class BadgeHighlighter extends Component {
                   interactive
                   title={
                       <div style={{fontSize: '1.5em', padding: '10px'}}>
-                        {badge}
+                        {this.badge_text_mapping(badge)}
                       </div>
                     } 
                   TransitionComponent={Zoom}
                 >
-                  <i className="material-icons" style={{
-                    fontSize: '2.5em', 
-                    padding: '0.3em', 
-                    color: this.props.highlighted_badges.indexOf(badge) === -1 ? 'grey' : 'orange'
+                  <IconButton style={{
+                    color: this.props.highlighted_badges.indexOf(badge) === -1 ? 'grey' : '#F50057'
                   }}>
-                    { badge }
-                  </i>
+                    <Icon style={{fontSize: '1.4em'}}>{badge}</Icon>
+                  </IconButton>
                 </Tooltip>
               </span>
             )
           })}
+        </div>
+        <div style={{color: 'grey', paddingTop: '0.3em'}}>
+          Click any icon to toggle its highlighting.
         </div>
       </div>
     );
