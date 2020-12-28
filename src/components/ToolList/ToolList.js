@@ -31,6 +31,10 @@ class ToolList extends Component {
     return(
       <Grid container spacing={2}>
         <Grid item xs={12}>
+          <span style={{float: 'right', color: 'lightgrey'}}>
+            <i class="material-icons" style={{position: 'relative', top: '0.2em'}}>arrow_upward</i>
+            Back to top
+          </span>
           <Typography
             variant="h4"
             component="h2"

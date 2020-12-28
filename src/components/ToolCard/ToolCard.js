@@ -50,11 +50,15 @@ class ToolCard extends Component {
             avatar={this.props.square_logo_url ? <img src={this.props.square_logo_url} height="60" width="60" /> : <br />}
           />
           {this.props.screenshot_url && (
-            <CardMedia
-              image={this.props.screenshot_url}
-              title={this.props.title}
-              style={{height: 0, paddingTop: '50%'}}
-            />
+            <React.Fragment>
+              <Divider />
+              <CardMedia
+                image={this.props.screenshot_url}
+                title={this.props.title}
+                style={{height: 0, paddingTop: '50%'}}
+              />
+              <Divider />
+            </React.Fragment>
           )}
           <CardContent>
             {this.props.description.split('\n').map(function(item, key) {

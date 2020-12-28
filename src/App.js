@@ -10,6 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import ToolCard from "./components/ToolCard/ToolCard.js";
 import ToolList from "./components/ToolList/ToolList.js";
 import TableOfContents from "./components/TableOfContents/TableOfContents.js";
+import BadgeHighlighter from "./components/BadgeHighlighter/BadgeHighlighter.js";
 
 import worldbuilding_tools from './data/worldbuilding.json';
 import writing_tools from './data/writing.json';
@@ -65,6 +66,13 @@ function App() {
               ]
             }
           />
+
+          <BadgeHighlighter tool_list={[].concat(
+            worldbuilding_tools,
+            writing_tools,
+            revising_tools,
+            publishing_tools
+          )} />
 
           <ToolList
             title="Worldbuilding"
