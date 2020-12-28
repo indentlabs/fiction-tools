@@ -230,6 +230,36 @@
         ]
       },
       {
+        "title": "Calibre",
+        "subtitle": "Ebook management software",
+        "homepage_url": "https://calibre-ebook.com/",
+        "square_logo_url": "/logos/calibre.png",
+        "screenshot_url": "/screenshots/calibre.png",
+        "description": "The one stop solution for all your e-book needs.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
         "title": "Pandoc",
         "subtitle": "Universal document converter",
         "homepage_url": "https://pandoc.org/index.html",
@@ -260,12 +290,12 @@
         ]
       },
       {
-        "title": "Calibre",
-        "subtitle": "Ebook management software",
-        "homepage_url": "https://calibre-ebook.com/",
-        "square_logo_url": "/logos/calibre.png",
-        "screenshot_url": "/screenshots/calibre.png",
-        "description": "The one stop solution for all your e-book needs.",
+        "title": "Sigil",
+        "subtitle": "EPUB editor",
+        "homepage_url": "https://sigil-ebook.com/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/sigil.jpg",
+        "description": "Sigil is a multi-platform EPUB eBook editor.",
         "badges": [
           {
             "icon": "money_off",
@@ -396,6 +426,42 @@
         "square_logo_url": "/logos/kindle-direct-publishing.jpg",
         "screenshot_url": "/screenshots/kindle-direct-publishing.png",
         "description": "Self-publish eBooks and paperbacks for free with Kindle Direct Publishing, and reach millions of readers on Amazon.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Pricing starts at 30% commission on book sales"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Smashwords",
+        "subtitle": "Self-publishing platform",
+        "homepage_url": "https://www.smashwords.com/",
+        "square_logo_url": "/logos/smashwords.jpg",
+        "screenshot_url": "/screenshots/smashwords.jpg",
+        "description": "Smashwords makes it fast, free and easy for any author or publisher to publish and distribute ebooks to the major retailers and thousands of libraries.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Pricing starts at 15% commission on book sales"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Google Play Books Partner Center",
+        "subtitle": "Self-publishing platform",
+        "homepage_url": "https://play.google.com/books/publish/",
+        "square_logo_url": "/logos/google-play-books.png",
+        "screenshot_url": "/screenshots/google-play-books.png",
+        "description": "A platform for publishing and managing your book on Google Play Books.",
         "badges": [
           {
             "icon": "attach_money",

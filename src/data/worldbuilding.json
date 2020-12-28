@@ -404,6 +404,28 @@
         ]
       },
       {
+        "title": "Dramatica",
+        "subtitle": "The Next Chapter in Story Development",
+        "homepage_url": "https://dramatica.com/",
+        "square_logo_url": "/logos/dramatica.jpg",
+        "screenshot_url": "/screenshots/dramatica.png",
+        "description": "You provide the idea—maybe a character sketch or two, perhaps even a hint of theme—and Dramatica helps you pull it all together into one cohesive powerful work.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "One-time payment of $99 (Windows) or $119 (Mac)"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          }
+        ]
+      },
+      {
         "title": "World Scribe",
         "subtitle": "for Android",
         "homepage_url": "https://play.google.com/store/apps/details?id=com.averi.worldscribe&hl=en_US&gl=US",

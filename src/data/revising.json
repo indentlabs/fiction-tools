@@ -3,6 +3,50 @@
     "section": "Line editing",
     "tools": [
       {
+        "title": "StoryTeller",
+        "subtitle": "",
+        "homepage_url": "https://prowritingaid.com/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/storyteller.png",
+        "description": "StoryTeller demystifies story editing and helps you tell stories readers connect with.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions are $20/month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a two-week free trial"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "AutoCrit",
+        "subtitle": "Online book editor",
+        "homepage_url": "https://www.autocrit.com/",
+        "square_logo_url": "/logos/autocrit.png",
+        "screenshot_url": "/screenshots/autocrit.png",
+        "description": "AutoCrit gives you step-by-step recommendations for improving your manuscript based on what real readers want to see.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions are $30/month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a two-week free trial"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
         "title": "ProWritingAid",
         "subtitle": "For the smarter writer",
         "homepage_url": "https://prowritingaid.com/",
