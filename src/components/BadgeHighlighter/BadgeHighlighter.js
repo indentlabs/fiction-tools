@@ -112,7 +112,7 @@ class BadgeHighlighter extends Component {
           })}
         </div>
         <div style={{color: 'grey', paddingTop: '0.3em'}}>
-          Click any icon to toggle its highlighting.
+          Click any icon to highlight it on relevant tools.
         </div>
       </div>
     );
