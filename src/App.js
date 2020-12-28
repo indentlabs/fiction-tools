@@ -48,28 +48,31 @@ class App extends React.Component {
         loop: true
       });
     }, 8000);
+
     return (
       <React.Fragment>
         <Container maxWidth="lg" style={{marginTop: '30px'}}>
-          <Typography id="top" variant="h3" component="h1" color="secondary">
+          <Typography id="top" variant="h3" component="h1" className="primary-text">
             Fiction.Tools
           </Typography>
         </Container>
         <div style={{
           padding: '5em 10%',
           marginTop: '1em',
-          background: '#3A54A8'
+          marginBottom: '4em',
+          background: '#467444'
         }}>
-          <Typography variant="h5" component="blockquote" style={{borderLeft: '6px solid #F50057', paddingLeft: '20px', fontSize: '3.8rem', color: 'white'}}>
+          <Typography variant="h5" component="blockquote" style={{borderLeft: '6px solid white', paddingLeft: '20px', fontSize: '3.8rem', color: 'white'}}>
             "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
-          </Typography><br />
+          </Typography>
+          <br />
           <div style={{fontSize: '2rem', color: 'lightgrey', float: 'right'}}>― Isaac Asimov</div>
         </div>
         <Container className="App" maxWidth="lg">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
               <Typography paragraph={true} style={{fontSize: '2rem', marginBottom: '1.6em'}}>
-                Fiction.tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
+                Fiction.Tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
                 process and get your perfect story out just a little faster.
               </Typography>
             </Grid>
@@ -131,12 +134,12 @@ class App extends React.Component {
           </Grid>
 
           <Grid item xs={12} align="center">
-            <Typography paragraph={true} color="secondary">
+            <Typography paragraph={true} className="primary-text">
               Made with <strong style={{color: 'red'}}>&hearts;</strong> by <a href="http://www.indentlabs.com">
                 Indent Labs
               </a>.
             </Typography>
-            <Typography paragraph={true} color="primary">
+            <Typography paragraph={true} className="secondary-text">
               This website is <a href="https://github.com/indentlabs/fiction-tools">open source</a>. Feel free to suggest changes!
             </Typography>
           </Grid>

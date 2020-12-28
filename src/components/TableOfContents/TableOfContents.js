@@ -36,7 +36,7 @@ class TableOfContents extends Component {
   renderStepper() {
     return (
       <div style={{marginBottom: '50px', width: '100%'}}>
-        <Typography variant="h6" color="primary" style={{textAlign: 'center'}}>
+        <Typography variant="h6" className="secondary-text" style={{textAlign: 'center'}}>
           Table of Contents
         </Typography>
         <Stepper nonLinear alternativeLabel activeStep={-1} style={{border: '1px solid lightgrey'}}>
@@ -44,7 +44,7 @@ class TableOfContents extends Component {
             return(
               <Step key={i}>
                 <StepButton completed={true} icon={<i className="material-icons">{this.icon_mapping(chapter.title)}</i>}>
-                  <span style={{fontSize: '1.5em'}}>
+                  <span style={{fontSize: '1.5em'}} className="primary-text">
                     {chapter.title}
                   </span>
                   <Divider style={{margin: '10px 0'}} />
@@ -53,8 +53,8 @@ class TableOfContents extends Component {
                     return(
                       <div style={{textAlign: 'left', fontSize: '1.1em'}} key={j}>
                         <a href={"#" + chapter.title.toLowerCase().split(' ').join('-') + '-' + section.section.toLowerCase().split(' ').join('-')}
-                          style={{textDecoration: 'none', color: '#3F51B5'}}>
-                            <span style={{color: '#F50057'}}>&para;</span>
+                          className="secondary-text">
+                            <span className="tertiary-text">&para;</span>
                             &nbsp;
                             {section.section}
                         </a>
@@ -88,7 +88,7 @@ class TableOfContents extends Component {
           <i class="material-icons">
             chevron_left
           </i>
-          <Typography variant="h6" color="primary" style={{padding: '0 10px'}}>
+          <Typography variant="h6" color="secondary" style={{padding: '0 10px'}}>
             Table of Contents
           </Typography>
         </div>
@@ -98,15 +98,14 @@ class TableOfContents extends Component {
           return(
             <React.Fragment>
               <a href={"#section-" + chapter.title.toLowerCase().split(' ').join('-')}
-                 style={{textDecoration: 'none', marginTop: '10px'}}>
+                 style={{marginTop: '10px'}}>
                 <Typography variant="h6" color="secondary" style={{padding: '0 10px'}}>
                   {chapter.title}
                 </Typography>
               </a>
               {chapter.sections.map((section, j) => {
                 return(
-                  <a href={"#" + chapter.title.toLowerCase().split(' ').join('-') + '-' + section.section.toLowerCase().split(' ').join('-')}
-                     style={{textDecoration: 'none'}}>
+                  <a href={"#" + chapter.title.toLowerCase().split(' ').join('-') + '-' + section.section.toLowerCase().split(' ').join('-')}>
                     <ListItem button key={j} dense={true} style={{paddingLeft: '32px'}}>
                       <ListItemText primary={section.section} />
                     </ListItem>
@@ -132,7 +131,7 @@ class TableOfContents extends Component {
             return(
               <React.Fragment>
                 <li key={i}>
-                  <a href={"#section-" + chapter.title.toLowerCase().split(' ').join('-')} style={{textDecoration: 'none', color: 'blue'}}>
+                  <a href={"#section-" + chapter.title.toLowerCase().split(' ').join('-')} style={{color: 'blue'}}>
                     {chapter.title}
                   </a>
                 </li>
@@ -141,7 +140,7 @@ class TableOfContents extends Component {
                   return(
                     <li key={j}>
                       <a href={"#" + chapter.title.toLowerCase().split(' ').join('-') + '-' + section.section.toLowerCase().split(' ').join('-')}
-                          style={{textDecoration: 'none', color: 'blue'}}>
+                          style={{color: 'blue'}}>
                         {section.section}
                       </a>
                     </li>

@@ -62,7 +62,7 @@ class BadgeHighlighter extends Component {
   render() {
     return (
       <div style={{textAlign: 'center', width: '100%', marginBottom: '5em'}}>
-        <Typography variant="h6" color="primary" style={{textAlign: 'center'}}>
+        <Typography variant="h6" className="secondary-text" style={{textAlign: 'center'}}>
           What's important to you?
         </Typography>
         <div style={{border: '1px solid lightgrey', background: 'white', padding: '0.3em 0'}}>
@@ -79,7 +79,7 @@ class BadgeHighlighter extends Component {
                   TransitionComponent={Zoom}
                 >
                   <IconButton style={{
-                    color: this.props.highlighted_badges.indexOf(badge) === -1 ? 'grey' : '#F50057'
+                    color: this.props.highlighted_badges.indexOf(badge) === -1 ? 'grey' : '#F4B701'
                   }}>
                     <Icon style={{fontSize: '1.4em'}}>{badge}</Icon>
                   </IconButton>

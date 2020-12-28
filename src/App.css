@@ -2,7 +2,22 @@ body {
   background: #f5f5f5;
 }
 
+a {
+  text-decoration: none;
+}
+
 .App {
-  padding-top: 5%;
-  padding-bottom: 3%;
+  
+}
+
+.primary-text {
+  color: #E63946 !important;
+}
+
+.secondary-text {
+  color: #467444 !important;
+}
+
+.tertiary-text {
+  color: #F4B701 !important;
 }

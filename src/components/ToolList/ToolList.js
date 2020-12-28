@@ -23,7 +23,7 @@ class ToolList extends Component {
           <Typography
             variant="h4"
             component="h2"
-            color="secondary"
+            className="primary-text"
             id={"section-" + this.props.title.toLowerCase()}
             gutterBottom
           >
@@ -37,13 +37,13 @@ class ToolList extends Component {
                 <Typography
                   variant="h5"
                   component="h3"
-                  color="primary"
+                  className="secondary-text"
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
                   style={{paddingTop: '1em'}}
                 >
                   <a href={'#' + this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
-                    style={{color: '#F50057', textDecoration: 'none'}}>
+                    className="tertiary-text">
                     &para;
                   </a>
                   &nbsp;
