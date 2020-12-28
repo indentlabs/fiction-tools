@@ -84,7 +84,9 @@ class ToolCard extends Component {
                             } 
                           TransitionComponent={Zoom}
                   >
-                    <IconButton>
+                    <IconButton style={{
+                      color: this.props.highlighted_badges.indexOf(badge.icon) === -1 ? 'grey' : 'orange'
+                    }}>
                       <Icon>{badge.icon}</Icon>
                     </IconButton>
                   </Tooltip>

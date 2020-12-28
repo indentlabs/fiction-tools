@@ -82,6 +82,7 @@ class ToolList extends Component {
                     return(
                       <ToolCard
                         {...tool}
+                        highlighted_badges={this.props.highlighted_badges}
                         className="tool"
                       />
                     );

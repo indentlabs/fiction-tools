@@ -71,8 +71,8 @@ class BadgeHighlighter extends Component {
         <div style={{border: '1px solid lightgrey', background: 'white', padding: '0.3em 0'}}>
           {this.all_unique_badges().map((badge) => {
             return (
-              <span>
-                <Tooltip arrow 
+              <span onClick={() => { this.props.toggle_highlighted_badge_ref(badge) }}>
+                <Tooltip arrow
                   interactive
                   title={
                       <div style={{fontSize: '1.5em', padding: '10px'}}>
@@ -81,7 +81,13 @@ class BadgeHighlighter extends Component {
                     } 
                   TransitionComponent={Zoom}
                 >
-                  <i className="material-icons" style={{fontSize: '2.5em', padding: '0.3em', color: 'grey'}}>{ badge }</i>
+                  <i className="material-icons" style={{
+                    fontSize: '2.5em', 
+                    padding: '0.3em', 
+                    color: this.props.highlighted_badges.indexOf(badge) === -1 ? 'grey' : 'orange'
+                  }}>
+                    { badge }
+                  </i>
                 </Tooltip>
               </span>
             )
