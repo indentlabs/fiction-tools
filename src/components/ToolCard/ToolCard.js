@@ -41,7 +41,7 @@ class ToolCard extends Component {
           onMouseEnter={() => { this.setState({highlighted: true}); }}
           onMouseLeave={() => { this.setState({highlighted: false}); }}
           elevation={this.state.highlighted ? 10 : 0}
-          style={{border: '1px solid lightgrey', marginBottom: '20px'}}
+          className="bordered"
         >
           <CardHeader
             title={this.props.title}
@@ -54,7 +54,7 @@ class ToolCard extends Component {
               <CardMedia
                 image={this.props.screenshot_url}
                 title={this.props.title}
-                style={{height: 0, paddingTop: '50%'}}
+                className="screenshot"
               />
               <Divider />
             </React.Fragment>
@@ -77,7 +77,7 @@ class ToolCard extends Component {
                           interactive 
                           key={i}
                           title={
-                              <div style={{fontSize: '1.5em', padding: '10px'}}>
+                              <div className="tooltip-text">
                                 {badge.text}
                               </div>
                             } 
@@ -100,9 +100,7 @@ class ToolCard extends Component {
 };
 
 ToolCard.propTypes = {};
-
 ToolCard.defaultProps = {};
-
 export default ToolCard;
 
 

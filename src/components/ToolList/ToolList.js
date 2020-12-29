@@ -14,9 +14,9 @@ class ToolList extends Component {
 
   render() {
     return(
-      <Grid container spacing={2}>
+      <Grid container spacing={2} className="ToolList">
         <Grid item xs={12}>
-          <a href="#top" style={{float: 'right', color: 'lightgrey', textDecoration: 'none'}}>
+          <a href="#top" className="float-right light-help-text">
             <i className="material-icons" style={{position: 'relative', top: '0.2em'}}>arrow_upward</i>
             Back to top
           </a>
@@ -40,7 +40,6 @@ class ToolList extends Component {
                   className="secondary-text"
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
-                  style={{paddingTop: '1em'}}
                 >
                   <a href={'#' + this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                     className="tertiary-text">
@@ -69,17 +68,16 @@ class ToolList extends Component {
                         key={j}
                         {...tool}
                         highlighted_badges={this.props.highlighted_badges}
-                        className="tool"
                       />
                     );
                   })}
                 </Masonry>
               </Grid>
-              <Grid item xs={12} style={{marginBottom: '1em'}}></Grid>
+              <Grid item xs={12} className="vertically-spaced"></Grid>
             </React.Fragment>
           );
         })}
-        <Grid item xs={12} style={{marginBottom: '1em'}}></Grid>
+        <Grid item xs={12} className="vertically-spaced"></Grid>
       </Grid>
     );
   }

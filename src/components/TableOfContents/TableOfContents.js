@@ -35,23 +35,23 @@ class TableOfContents extends Component {
 
   renderStepper() {
     return (
-      <div style={{marginBottom: '50px', width: '100%'}}>
-        <Typography variant="h6" className="secondary-text" style={{textAlign: 'center'}}>
+      <div className="TableOfContents">
+        <Typography variant="h6" className="secondary-text center-text">
           Table of Contents
         </Typography>
-        <Stepper nonLinear alternativeLabel activeStep={-1} style={{border: '1px solid lightgrey'}}>
+        <Stepper nonLinear alternativeLabel activeStep={-1} className="bordered">
           {this.props.chapters.map((chapter, i) => {
             return(
               <Step key={i}>
                 <StepButton completed={true} icon={<i className="material-icons">{this.icon_mapping(chapter.title)}</i>}>
-                  <span style={{fontSize: '1.5em'}} className="primary-text">
+                  <span className="primary-text step-title">
                     {chapter.title}
                   </span>
-                  <Divider style={{margin: '10px 0'}} />
+                  <Divider className="vertically-spaced" />
 
                   {chapter.sections.map((section, j) => {
                     return(
-                      <div style={{textAlign: 'left', fontSize: '1.1em'}} key={j}>
+                      <div className="step-section-title" key={j}>
                         <a href={"#" + chapter.title.toLowerCase().split(' ').join('-') + '-' + section.section.toLowerCase().split(' ').join('-')}
                           className="secondary-text">
                             <span className="tertiary-text">&para;</span>

@@ -61,18 +61,18 @@ class BadgeHighlighter extends Component {
 
   render() {
     return (
-      <div style={{textAlign: 'center', width: '100%', marginBottom: '5em'}}>
-        <Typography variant="h6" className="secondary-text" style={{textAlign: 'center'}}>
+      <div className="BadgeHighlighter center-text">
+        <Typography variant="h6" className="secondary-text">
           What's important to you?
         </Typography>
-        <div style={{border: '1px solid lightgrey', background: 'white', padding: '0.3em 0'}}>
+        <div className="bordered badge-list">
           {this.all_unique_badges().map((badge, i) => {
             return (
-              <span key={i} onClick={() => { this.props.toggle_highlighted_badge_ref(badge) }}>
+              <span key={i} className="badge" onClick={() => { this.props.toggle_highlighted_badge_ref(badge) }}>
                 <Tooltip arrow
                   interactive
                   title={
-                      <div style={{fontSize: '1.5em', padding: '10px'}}>
+                      <div className="tooltip-text">
                         {this.badge_text_mapping(badge)}
                       </div>
                     } 
@@ -81,14 +81,14 @@ class BadgeHighlighter extends Component {
                   <IconButton style={{
                     color: this.props.highlighted_badges.indexOf(badge) === -1 ? 'grey' : '#F4B701'
                   }}>
-                    <Icon style={{fontSize: '1.4em'}}>{badge}</Icon>
+                    <Icon className="badge-icon">{badge}</Icon>
                   </IconButton>
                 </Tooltip>
               </span>
             )
           })}
         </div>
-        <div style={{color: 'grey', paddingTop: '0.3em'}}>
+        <div className="help-text">
           Click any icon to highlight it on relevant tools.
         </div>
       </div>
@@ -97,7 +97,5 @@ class BadgeHighlighter extends Component {
 }
 
 BadgeHighlighter.propTypes = {};
-
 BadgeHighlighter.defaultProps = {};
-
 export default BadgeHighlighter;

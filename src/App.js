@@ -43,7 +43,7 @@ class App extends React.Component {
   render() {
     setTimeout(() => { 
       new Typewriter('#top', {
-        strings: ['Fiction.Tools', 'Fiction Tools', 'Tools for writing fiction', 'Fiction.Tools', 'fiction-tools', "Tiction Fools", '"Fiction.Tools", by Indent Labs', 'FT', 'Fiction.Tools'],
+        strings: ['Fiction.Tools', 'Fiction Tools', 'Tools for writing fiction', 'Fiction.Tools', 'fiction-tools', "Tiction Fools", '"Fiction.Tools", by Indent Labs', 'Hi, mom!', 'Fiction.Tools'],
         autoStart: true,
         loop: true
       });
@@ -51,22 +51,17 @@ class App extends React.Component {
 
     return (
       <React.Fragment>
-        <Container maxWidth="lg" style={{marginTop: '30px'}}>
+        <Container maxWidth="lg" className="logo">
           <Typography id="top" variant="h3" component="h1" className="primary-text">
             Fiction.Tools
           </Typography>
         </Container>
-        <div style={{
-          padding: '5em 10%',
-          marginTop: '1em',
-          marginBottom: '4em',
-          background: '#467444'
-        }}>
-          <Typography variant="h5" component="blockquote" style={{borderLeft: '6px solid white', paddingLeft: '20px', fontSize: '3.8rem', color: 'white'}}>
+        <div className="hero-blockquote">
+          <Typography variant="h5" component="blockquote">
             "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
           </Typography>
           <br />
-          <div style={{fontSize: '2rem', color: 'lightgrey', float: 'right'}}>― Isaac Asimov</div>
+          <cite>Isaac Asimov</cite>
         </div>
         <Container className="App" maxWidth="lg">
           <Grid container spacing={3}>
@@ -135,7 +130,7 @@ class App extends React.Component {
 
           <Grid item xs={12} align="center">
             <Typography paragraph={true} className="primary-text">
-              Made with <strong style={{color: 'red'}}>&hearts;</strong> by <a href="http://www.indentlabs.com">
+              Made with <strong className="heart">&hearts;</strong> by <a href="http://www.indentlabs.com">
                 Indent Labs
               </a>.
             </Typography>

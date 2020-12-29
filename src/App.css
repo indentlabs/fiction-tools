@@ -6,18 +6,84 @@ a {
   text-decoration: none;
 }
 
-.App {
-  
-}
-
 .primary-text {
-  color: #E63946 !important;
+  color: #E63946;
 }
 
 .secondary-text {
-  color: #467444 !important;
+  color: #467444;
 }
 
 .tertiary-text {
-  color: #F4B701 !important;
+  color: #000000;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.tooltip-text {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.help-text {
+  color: grey;
+  padding-top: 0.5em;
+}
+
+.light-help-text {
+  color: lightgrey;
+  padding-top: 0.5em;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.bordered {
+  border: 1px solid lightgrey;
+}
+
+.vertically-spaced {
+  margin: 0.6em 0 !important;
+}
+
+.logo {
+  margin-top: 1rem;
+}
+
+.heart {
+  color: pink;
+  font-size: 2em;
+  position: relative;
+  top: 0.1em;
+}
+
+.hero-blockquote {
+  padding: 5em 10%;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  background: #467444;
+}
+
+.hero-blockquote blockquote {
+  border-left: 0.4rem solid white;
+  padding-left: 0.7em;
+  font-size: 3.8rem;
+  color: white;
+}
+
+.hero-blockquote cite {
+  font-size: 2rem;
+  color: lightgrey;
+  float: right;
+}
+
+.hero-blockquote cite::before {
+  content: "― ";
 }
