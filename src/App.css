@@ -22,7 +22,7 @@ a {
   color: red;
 }
 
-.lightblue-text {
+.bold-text {
   font-weight: bold;
 }
 
@@ -59,6 +59,10 @@ a {
 
 .bordered {
   border: 1px solid lightgrey;
+}
+
+.border-bottom {
+  border-bottom: 1px solid lightgrey;
 }
 
 .vertically-spaced {

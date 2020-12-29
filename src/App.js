@@ -45,11 +45,17 @@ class App extends React.Component {
       <React.Fragment>
         <div className="logo-bar">
           <Container maxWidth="lg" className="logo">
+            <div class="float-right white-text" style={{marginTop: '1.1em'}}>
+              Maintained by&nbsp;
+              <a href="http://www.indentlabs.com/" class="white-text bold-text">
+                Indent Labs
+              </a>
+            </div>
             <Typography id="top" variant="h3" component="h1" className="white-text">
               <span className="float-left">
                 <Typewriter
                   options={{
-                    strings: ["fiction", "worldbuilding", "writing", "revising", "publishing", "only the coolest"],
+                    strings: ["fiction", "worldbuilding", "writing", "revising", "publishing", "awesomely awesome"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -61,12 +67,12 @@ class App extends React.Component {
             </Typography>
           </Container>
         </div>
-        <div className="hero-blockquote">
+        <div className="hero-blockquote border-bottom">
           <Container maxWidth="lg">
             <Grid container>
               <Grid item xs={12} md={12} lg={8}>
                 <Typography variant="h5" component="blockquote">
-                  If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type <span class="lightblue-text">a little faster</span>.
+                  If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type <span class="bold-text">a little faster</span>.
                 </Typography>
                 <br />
                 <cite class="primary-text">Isaac Asimov</cite>
@@ -74,7 +80,7 @@ class App extends React.Component {
               <Grid item xs={12} md={12} lg={8}>
                 <Typography paragraph={true} className="context">
                   Fiction.Tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
-                  process and get your perfect story out just <span class="lightblue-text">a little faster</span>.
+                  process and get your perfect story out just <span class="bold-text">a little faster</span>.
                 </Typography>
               </Grid>
             </Grid>
