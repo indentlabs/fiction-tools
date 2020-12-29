@@ -14,7 +14,7 @@ import writing_tools from './data/writing.json';
 import revising_tools from './data/revising.json';
 import publishing_tools from './data/publishing.json';
 
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect';
 
 class App extends React.Component {
   constructor(props) {
@@ -41,19 +41,22 @@ class App extends React.Component {
   }
 
   render() {
-    setTimeout(() => { 
-      new Typewriter('#top', {
-        strings: ['Fiction.Tools', 'Fiction Tools', 'Tools for writing fiction', 'Fiction.Tools', 'fiction-tools', "Tiction Fools", '"Fiction.Tools", by Indent Labs', 'Hi, mom!', 'Fiction.Tools'],
-        autoStart: true,
-        loop: true
-      });
-    }, 8000);
-
     return (
       <React.Fragment>
         <Container maxWidth="lg" className="logo">
           <Typography id="top" variant="h3" component="h1" className="primary-text">
-            Fiction.Tools
+            <span className="float-left">
+              <Typewriter
+                options={{
+                  strings: ["fiction", "worldbuilding", "writing", "revising", "publishing", "only the coolest"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+            <strong>
+              &nbsp;tools
+            </strong>
           </Typography>
         </Container>
         <div className="hero-blockquote">
