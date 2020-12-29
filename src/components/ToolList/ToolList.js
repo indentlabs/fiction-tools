@@ -40,6 +40,7 @@ class ToolList extends Component {
                   className="secondary-text"
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
+                  gutterTop
                 >
                   <a href={'#' + this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                     className="tertiary-text">

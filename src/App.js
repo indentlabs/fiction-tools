@@ -43,38 +43,45 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Container maxWidth="lg" className="logo">
-          <Typography id="top" variant="h3" component="h1" className="primary-text">
-            <span className="float-left">
-              <Typewriter
-                options={{
-                  strings: ["fiction", "worldbuilding", "writing", "revising", "publishing", "only the coolest"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </span>
-            <strong>
-              &nbsp;tools
-            </strong>
-          </Typography>
-        </Container>
+        <div className="logo-bar">
+          <Container maxWidth="lg" className="logo">
+            <Typography id="top" variant="h3" component="h1" className="white-text">
+              <span className="float-left">
+                <Typewriter
+                  options={{
+                    strings: ["fiction", "worldbuilding", "writing", "revising", "publishing", "only the coolest"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </span>
+              <strong>
+                &nbsp;tools
+              </strong>
+            </Typography>
+          </Container>
+        </div>
         <div className="hero-blockquote">
-          <Typography variant="h5" component="blockquote">
-            "If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type a little faster."
-          </Typography>
-          <br />
-          <cite>Isaac Asimov</cite>
+          <Container maxWidth="lg">
+            <Grid container>
+              <Grid item xs={12} md={12} lg={8}>
+                <Typography variant="h5" component="blockquote">
+                  If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type <span class="lightblue-text">a little faster</span>.
+                </Typography>
+                <br />
+                <cite class="primary-text">Isaac Asimov</cite>
+              </Grid>
+              <Grid item xs={12} md={12} lg={8}>
+                <Typography paragraph={true} className="context">
+                  Fiction.Tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
+                  process and get your perfect story out just <span class="lightblue-text">a little faster</span>.
+                </Typography>
+              </Grid>
+            </Grid>
+          </Container>
         </div>
         <Container className="App" maxWidth="lg">
           <Grid container spacing={3}>
-            <Grid item xs={12} md={12}>
-              <Typography paragraph={true} style={{fontSize: '2rem', marginBottom: '1.6em'}}>
-                Fiction.Tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
-                process and get your perfect story out just a little faster.
-              </Typography>
-            </Grid>
-
             <TableOfContents
               chapters={
                 [

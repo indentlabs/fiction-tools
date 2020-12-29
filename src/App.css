@@ -7,7 +7,7 @@ a {
 }
 
 .primary-text {
-  color: #E63946;
+  color: #298F6B;
 }
 
 .secondary-text {
@@ -16,6 +16,18 @@ a {
 
 .tertiary-text {
   color: #000000;
+}
+
+.red-text {
+  color: red;
+}
+
+.lightblue-text {
+  font-weight: bold;
+}
+
+.white-text {
+  color: white;
 }
 
 .center-text {
@@ -53,8 +65,12 @@ a {
   margin: 0.6em 0 !important;
 }
 
+.logo-bar {
+  background: #298F6B;
+}
+
 .logo {
-  margin-top: 1rem;
+  padding: 1rem 0;
 }
 
 .heart {
@@ -66,24 +82,44 @@ a {
 
 .hero-blockquote {
   padding: 5em 10%;
-  margin-top: 1rem;
+  padding-bottom: 1em;
   margin-bottom: 4rem;
-  background: #467444;
+  background: white;
+  height: 80%;
+
+  background-image: url('https://image.shutterstock.com/image-vector/isaac-asimov-science-fiction-writer-600w-1085860217.jpg');
+  background-repeat: no-repeat;
+  background-position: 77% 140%;
 }
 
 .hero-blockquote blockquote {
   border-left: 0.4rem solid white;
-  padding-left: 0.7em;
-  font-size: 3.8rem;
-  color: white;
+  font-size: 3rem;
+  color: black;
+}
+
+.hero-blockquote blockquote::before {
+  content: '“';
+}
+
+.hero-blockquote blockquote::after {
+  content: '”';
 }
 
 .hero-blockquote cite {
   font-size: 2rem;
-  color: lightgrey;
-  float: right;
+  font-style: normal;
+  background: white;
 }
 
 .hero-blockquote cite::before {
   content: "― ";
+}
+
+.hero-blockquote .context {
+  margin-top: 1.6em;
+  font-size: 1.2em;
+  width: 80%;
+  background: white;
+  padding: 0.5em 0;
 }
