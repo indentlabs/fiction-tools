@@ -32,7 +32,7 @@ class ToolCard extends Component {
 
   render() {
     return(
-      <a href={this.props.homepage_url}
+      <a href={this.props.homepage_url + '?ref=fiction.tools'}
          className="ToolCard"
          target="_blank" 
          rel="noreferrer"
