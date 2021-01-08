@@ -5,6 +5,23 @@ import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip';
 import Zoom from '@material-ui/core/Zoom';
 import Icon from '@material-ui/core/Icon';
+import Drawer from '@material-ui/core/Drawer';
+import Button from '@material-ui/core/Button';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import Checkbox from '@material-ui/core/Checkbox';
+import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
+import CheckBoxIcon from '@material-ui/icons/CheckBox';
+
+
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Switch from '@material-ui/core/Switch';
 
 import IconButton from '@material-ui/core/IconButton';
 
@@ -13,7 +30,9 @@ class BadgeHighlighter extends Component {
     super(props);
 
     this.state = {
-      open: true
+      open: false,
+
+      filter_type: this.props.filter_type
     };
   }
 
@@ -59,7 +78,69 @@ class BadgeHighlighter extends Component {
     return badges;
   }
 
+  toggle_drawer() {
+    this.setState({ open: !this.state.open });
+  }
+
   render() {
+    return this.renderDrawer();
+  }
+
+  renderDrawer() {
+    return(
+      <React.Fragment>
+        <span style={{position: 'fixed', right: 5, bottom: 10, background: 'white', zIndex: 1000}}>
+          <Button variant="outlined" size="large" onClick={() => { this.toggle_drawer() }}>
+            <i className="material-icons left" style={{marginRight: '0.25em'}}>filter_list</i>
+            {this.props.filter_type} tools
+          </Button>
+        </span>
+        <Drawer anchor='right' open={this.state.open} onClose={() => { this.toggle_drawer() }}>
+
+          <ListItem>
+            <RadioGroup name="filter_type"
+                        value={this.props.filter_type}
+                        onChange={(evt) => { this.props.change_filter_type_ref(evt.target.value ); }}
+            >
+              <FormControlLabel value="Highlight" control={<Radio />} label="Highlight tools" />
+              <FormControlLabel value="Filter"    control={<Radio />} label="Filter tools" />
+            </RadioGroup>
+          </ListItem>
+
+          <Divider />
+          <List style={{width: '500px', overflowY: 'scroll'}}>
+            {this.all_unique_badges().map((badge) => {
+              if (badge == '') { return; }
+              return (
+                <ListItem key={badge}>
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        checked={ this.props.highlighted_badges.indexOf(badge) > -1 }
+                        onChange={() => { this.props.toggle_highlighted_badge_ref(badge); }}
+                        name="highlight"
+                      />
+                    }
+                    label={
+                      <React.Fragment>
+                        <i class="material-icons left" style={{position: 'relative', top: '3px'}}>{badge}</i>
+                        <span style={{position: 'relative', top: '-2px', left: '5px'}}>
+                          {this.badge_text_mapping(badge)}
+                        </span>
+                      </React.Fragment>
+                    }
+                  />
+                </ListItem>
+              )
+            })}
+          </List>
+          <Divider />
+        </Drawer>
+      </React.Fragment>
+    );
+  }
+
+  renderInline() {
     return (
       <div className="BadgeHighlighter center-text">
         <Typography variant="h6" className="secondary-text">

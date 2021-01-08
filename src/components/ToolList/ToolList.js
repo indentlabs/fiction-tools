@@ -31,6 +31,8 @@ class ToolList extends Component {
           </Typography>
         </Grid>
         {this.props.tool_list.map((section, i) => {
+          let tools_not_shown = 0;
+
           return(
             <React.Fragment key={i}>
               <Grid item xs={12}>
@@ -64,6 +66,25 @@ class ToolList extends Component {
                       return;
                     }
 
+                    if (this.props.filter_type == 'Filter') {
+                      let passed_filter = false;
+
+                      // If we're in filter mode, we only want to show tools if they have at least one of the selected badges.
+                      tool.badges.forEach((badge) => {
+                        console.log('checking ' + badge.icon);
+                        console.log(this.props.highlighted_badges.indexOf(badge.icon));
+                        if (this.props.highlighted_badges.indexOf(badge.icon) > -1) {
+                          passed_filter = true;
+                          // return;
+                        }
+                      });
+
+                      if (!passed_filter) {
+                        tools_not_shown++;
+                        return;
+                      }
+                    }
+
                     return(
                       <ToolCard
                         key={j}
@@ -73,6 +94,11 @@ class ToolList extends Component {
                     );
                   })}
                 </Masonry>
+                { tools_not_shown > 0 && (
+                  <Typography style={{color: 'grey', textAlign: 'center'}}>
+                    {tools_not_shown} tool{tools_not_shown == 1 ? '' : 's'} not shown due to your filter settings.
+                  </Typography>
+                )}
               </Grid>
               <Grid item xs={12} className="vertically-spaced"></Grid>
             </React.Fragment>

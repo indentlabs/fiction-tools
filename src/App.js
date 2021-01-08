@@ -21,7 +21,8 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      highlighted_badges: []
+      highlighted_badges: [],
+      filter_type: "Highlight"
     }
   }
 
@@ -38,6 +39,10 @@ class App extends React.Component {
 
     // Update
     this.setState({ highlighted_badges: list });
+  }
+
+  change_filter_type(new_type) {
+    this.setState({ filter_type: new_type });
   }
 
   render() {
@@ -113,7 +118,9 @@ class App extends React.Component {
 
             <BadgeHighlighter
               highlighted_badges={this.state.highlighted_badges}
+              filter_type={this.state.filter_type}
               toggle_highlighted_badge_ref={this.toggle_badge_highlight.bind(this)}
+              change_filter_type_ref={this.change_filter_type.bind(this)}
               tool_list={[].concat(
                 worldbuilding_tools,
                 writing_tools,
@@ -126,21 +133,25 @@ class App extends React.Component {
               title="Worldbuilding"
               tool_list={worldbuilding_tools}
               highlighted_badges={this.state.highlighted_badges}
+              filter_type={this.state.filter_type}
             />
             <ToolList
               title="Writing"
               tool_list={writing_tools}
               highlighted_badges={this.state.highlighted_badges}
+              filter_type={this.state.filter_type}
             />
             <ToolList
               title="Revising"
               tool_list={revising_tools}
               highlighted_badges={this.state.highlighted_badges}
+              filter_type={this.state.filter_type}
             />
             <ToolList
               title="Publishing"
               tool_list={publishing_tools}
               highlighted_badges={this.state.highlighted_badges}
+              filter_type={this.state.filter_type}
             />
           </Grid>
 
