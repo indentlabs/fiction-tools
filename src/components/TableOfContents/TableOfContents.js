@@ -44,9 +44,9 @@ class TableOfContents extends Component {
             return(
               <Step key={i}>
                 <StepButton completed={true} icon={<i className="material-icons">{this.icon_mapping(chapter.title)}</i>}>
-                  <span className="primary-text step-title">
+                  <a href={'#' + chapter.title.toLowerCase().split(' ').join('-') + '-tools'} className="primary-text step-title">
                     {chapter.title}
-                  </span>
+                  </a>
                   <Divider className="vertically-spaced" />
 
                   {chapter.sections.map((section, j) => {

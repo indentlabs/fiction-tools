@@ -24,8 +24,8 @@ class ToolList extends Component {
             variant="h4"
             component="h2"
             className="primary-text"
-            id={"section-" + this.props.title.toLowerCase()}
-            gutterBottom
+            id={this.props.title.toLowerCase() + '-tools'}
+            style={{paddingTop: '0.5em'}}
           >
             {this.props.title}
           </Typography>
@@ -43,6 +43,7 @@ class ToolList extends Component {
                   id={this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                   gutterBottom
                   gutterTop
+                  style={{paddingTop: '1em'}}
                 >
                   <a href={'#' + this.props.title.toLowerCase() + '-' + section.section.toLowerCase().split(' ').join('-')}
                     className="tertiary-text">
