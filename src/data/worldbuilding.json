@@ -77,7 +77,48 @@
             "text": "Web-based product"
           }
         ]
-      }      
+      },
+      {
+        "title": "TV Tropes",
+        "subtitle": "A rabbit-hole of ideas",
+        "square_logo_url": "/logos/tvtropes.png",
+        "homepage_url": "https://tvtropes.org/",
+        "description": "TV Tropes is a wiki that collects and documents descriptions and examples of plot conventions and devices, more commonly known as tropes, within many creative works.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      },
+      {
+        "title": "ServiceScape",
+        "subtitle": "Writing Prompt Generator",
+        "homepage_url": "https://www.servicescape.com/writing-prompt-generator",
+        "description": "The ServiceScape Writing Prompt Generator has hundreds of writing ideas, from Fantasy to Science Fiction to Horror to Romance.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      }  
     ]
   },
   {
