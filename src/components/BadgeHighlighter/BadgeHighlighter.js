@@ -115,7 +115,7 @@ class BadgeHighlighter extends Component {
                     }
                     label={
                       <React.Fragment>
-                        <i class="material-icons left" style={{position: 'relative', top: '3px'}}>{badge}</i>
+                        <i className="material-icons left" style={{position: 'relative', top: '3px'}}>{badge}</i>
                         <span style={{position: 'relative', top: '-2px', left: '5px'}}>
                           {this.badge_text_mapping(badge)}
                         </span>

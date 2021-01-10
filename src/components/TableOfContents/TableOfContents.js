@@ -85,7 +85,7 @@ class TableOfContents extends Component {
         className="TableOfContents"
       >
         <div style={{display: 'flex', alignItems: 'center', padding: '10px', justifyContent: 'flex-start', width: 260}}>
-          <i class="material-icons">
+          <i className="material-icons">
             chevron_left
           </i>
           <Typography variant="h6" color="secondary" style={{padding: '0 10px'}}>

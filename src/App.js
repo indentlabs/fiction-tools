@@ -50,9 +50,9 @@ class App extends React.Component {
       <React.Fragment>
         <div className="logo-bar">
           <Container maxWidth="lg" className="logo">
-            <div class="float-right white-text" style={{marginTop: '1.1em'}}>
+            <div className="float-right white-text" style={{marginTop: '1.1em'}}>
               Maintained by&nbsp;
-              <a href="http://www.indentlabs.com/" class="white-text bold-text">
+              <a href="http://www.indentlabs.com/" className="white-text bold-text">
                 Indent Labs
               </a>
             </div>
