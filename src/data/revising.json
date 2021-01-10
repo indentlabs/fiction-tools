@@ -2,57 +2,14 @@
   {
     "section": "Line editing",
     "tools": [
-      {
-        "title": "StoryTeller",
-        "subtitle": "",
-        "homepage_url": "https://prowritingaid.com/",
-        "square_logo_url": "",
-        "screenshot_url": "/screenshots/storyteller.png",
-        "description": "StoryTeller demystifies story editing and helps you tell stories readers connect with.",
-        "badges": [
-          {
-            "icon": "attach_money",
-            "text": "Paid subscriptions are $20/month"
-          },
-          {
-            "icon": "access_time",
-            "text": "Offers a two-week free trial"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
-      {
-        "title": "AutoCrit",
-        "subtitle": "Online book editor",
-        "homepage_url": "https://www.autocrit.com/",
-        "square_logo_url": "/logos/autocrit.png",
-        "screenshot_url": "/screenshots/autocrit.png",
-        "description": "AutoCrit gives you step-by-step recommendations for improving your manuscript based on what real readers want to see.",
-        "badges": [
-          {
-            "icon": "attach_money",
-            "text": "Paid subscriptions are $30/month"
-          },
-          {
-            "icon": "access_time",
-            "text": "Offers a two-week free trial"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          }
-        ]
-      },
+      
       {
         "title": "ProWritingAid",
         "subtitle": "For the smarter writer",
         "homepage_url": "https://prowritingaid.com/",
         "square_logo_url": "/logos/pro-writing-aid.png",
         "screenshot_url": "/screenshots/pro-writing-aid.jpeg",
-        "description": "ProWritingAid is the only platform that offers world-class grammar and style checking combined with more in-depth reports to help you strengthen your writing. Our unique combination of suggestions, articles, videos, and quizzes makes writing fun and interactive.",
+        "description": "ProWritingAid offers world-class grammar and style checking combined with more in-depth reports to help you strengthen your writing. Our unique combination of suggestions, articles, videos, and quizzes makes writing fun and interactive.",
         "badges": [
           {
             "icon": "attach_money",
@@ -95,6 +52,132 @@
           {
             "icon": "extension",
             "text": "Browser extension available"
+          }
+        ]
+      },
+      {
+        "title": "AutoCrit",
+        "subtitle": "Online book editor",
+        "homepage_url": "https://www.autocrit.com/",
+        "square_logo_url": "/logos/autocrit.png",
+        "screenshot_url": "/screenshots/autocrit.png",
+        "description": "AutoCrit gives you step-by-step recommendations for improving your manuscript based on what real readers want to see.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions are $30/month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a two-week free trial"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "StoryTeller",
+        "subtitle": "",
+        "homepage_url": "https://fictionary.co/products/storyteller/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/storyteller.png",
+        "description": "StoryTeller demystifies story editing and helps you tell stories readers connect with.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions are $20/month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a two-week free trial"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Ginger Software",
+        "subtitle": "Make No Mistake!",
+        "homepage_url": "https://www.gingersoftware.com/",
+        "square_logo_url": "/logos/ginger.jpg",
+        "screenshot_url": "/screenshots/ginger.png",
+        "description": "Ginger corrects all types of grammatical mistakes including punctuation, sentence structure and style. Everything from misused words to subject-verb agreement to contextual spelling.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $10 - $30 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS for $9"
+          },
+          {
+            "icon": "extension",
+            "text": "Browser extension available"
+          }
+        ]
+      },
+      {
+        "title": "Expresso",
+        "subtitle": "Interactive editor",
+        "homepage_url": "https://www.expresso-app.org/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/expresso.png",
+        "description": "Expresso is an interactive tool to analyze, edit and compare text styles. Expresso uses entered text to calculate style-related metrics.",
+        "badges": [
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
+        "title": "Hemingway Editor",
+        "subtitle": "Colorful editor",
+        "homepage_url": "http://www.hemingwayapp.com/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/hemingway.png",
+        "description": "Hemingway makes your writing bold and clear. It's like a spellchecker, but for style. It makes sure that your reader will focus on your message, not your prose.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Web version is free"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows for $20"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac for $20"
           }
         ]
       }

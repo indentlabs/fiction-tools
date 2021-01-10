@@ -61,7 +61,23 @@
             "text": "Ad-supported"
           }
         ]
-      }
+      },
+      {
+        "title": "Prompt Generator",
+        "subtitle": "Plot generators",
+        "homepage_url": "https://www.squibler.io/plot-generator",
+        "description": "A generator for the first line of your short story with a built-in editor.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      }      
     ]
   },
   {
@@ -281,7 +297,6 @@
       }
     ]
   },
-
   {
     "section": "World bibles",
     "tools": [
@@ -488,6 +503,213 @@
           {
             "icon": "groups",
             "text": "Open-source software"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "subtitle": "",
+        "homepage_url": "",
+        "square_logo_url": "",
+        "screenshot_url": "",
+        "description": "",
+        "badges": [
+          {
+            "icon": "",
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Mind-mapping",
+    "tools": [
+      {
+        "title": "AYOA",
+        "subtitle": "All-in-one whiteboard",
+        "homepage_url": "https://www.ayoa.com/",
+        "square_logo_url": "/logos/ayoa.jpg",
+        "screenshot_url": "/screenshots/ayoa.png",
+        "description": "Ayoa is an all-in-one online whiteboard where you can brainstorm ideas, work together and get things done.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $10 - $13 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "school",
+            "text": "Students and educators receive a 35% discount"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          }
+        ]
+      },
+      {
+        "title": "MindMeister",
+        "subtitle": "Mind-mapping tool",
+        "homepage_url": "https://www.mindmeister.com/",
+        "square_logo_url": "/logos/mindmeister.png",
+        "screenshot_url": "/screenshots/mindmeister.png",
+        "description": "MindMeister is an online mind mapping tool that lets you capture, develop and share ideas visually.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $5 - $12.50 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "school",
+            "text": "Students and educators receive a discount"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS"
+          }
+        ]
+      },
+      {
+        "title": "Coggle",
+        "subtitle": "Mind-mapping tool",
+        "homepage_url": "https://coggle.it/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/coggle.png",
+        "description": "Coggle is an online tool for creating and sharing mindmaps and flow charts. It works online in your browser: there's nothing to download or install.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $5 - $8 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "MindMup",
+        "subtitle": "Mind-mapping tool",
+        "homepage_url": "https://www.mindmup.com",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/mindmup.png",
+        "description": "Create unlimited mind maps for free, and store them in the cloud. Your mind maps are available everywhere, instantly, from any device.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $3 - $8 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "SpiderScribe",
+        "subtitle": "Mind-mapping tool",
+        "homepage_url": "https://www.mindmup.com",
+        "square_logo_url": "/logos/spiderscribe.png",
+        "screenshot_url": "/screenshots/spiderscribe.jpg",
+        "description": "SpiderScribe is an online mind mapping and brainstorming tool. It lets you organize your ideas by connecting notes, files, calendar events, etc. in free-form maps.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $5 - $25 per month"
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "school",
+            "text": "Students and educators receive a discount"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a 30-day free trial"
+          }
+        ]
+      },
+      {
+        "title": "XMind 2020",
+        "subtitle": "Mind-mapping tool",
+        "homepage_url": "https://www.xmind.net/",
+        "square_logo_url": "/logos/xmind.png",
+        "screenshot_url": "/screenshots/xmind.png",
+        "description": "XMind, a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions average $5 - $7 per month. 6-month minimum."
+          },
+          {
+            "icon": "money_off",
+            "text": "Offers a free tier"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "phone_android",
+            "text": "Available on Android"
+          },
+          {
+            "icon": "phone_iphone",
+            "text": "Available on iOS"
           }
         ]
       },
