@@ -423,6 +423,54 @@
             "text": "Available on iOS for $10"
           }
         ]
+      },
+      {
+        "title": "Scriptworthy",
+        "subtitle": "Screenwriting software",
+        "homepage_url": "https://scriptworthy.co/",
+        "square_logo_url": "/logos/scriptworthy.png",
+        "screenshot_url": "/screenshots/scriptworthy.webp",
+        "description": "Fast, focused, and secure. Scripts perfectly formatted to industry standards. Professional features that are impossibly easy to use.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions are $8 - $9 per month"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Celtx",
+        "subtitle": "Screenwriting software",
+        "homepage_url": "https://scriptworthy.co/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/celtx.jpg",
+        "description": "Fast, focused, and secure. Scripts perfectly formatted to industry standards. Professional features that are impossibly easy to use.",
+        "badges": [
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions start at $27 - $30 per month"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "school",
+            "text": "Up to 80% discounts for educators"
+          }
+        ]
       }
     ]
   }

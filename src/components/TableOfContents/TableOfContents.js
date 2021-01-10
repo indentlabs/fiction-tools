@@ -43,7 +43,7 @@ class TableOfContents extends Component {
           {this.props.chapters.map((chapter, i) => {
             return(
               <Step key={i}>
-                <StepButton completed={true} icon={<i className="material-icons">{this.icon_mapping(chapter.title)}</i>}>
+                <StepButton completed={true} icon={<i className="material-icons">{this.icon_mapping(chapter.title)}</i>} style={{paddingBottom: '4em'}}>
                   <a href={'#' + chapter.title.toLowerCase().split(' ').join('-') + '-tools'} className="primary-text step-title">
                     {chapter.title}
                   </a>
