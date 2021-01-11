@@ -27,7 +27,7 @@ class ToolList extends Component {
             id={this.props.title.toLowerCase() + '-tools'}
             style={{paddingTop: '0.5em'}}
           >
-            {this.props.title}
+            {this.props.title} tools
           </Typography>
         </Grid>
         {this.props.tool_list.map((section, i) => {

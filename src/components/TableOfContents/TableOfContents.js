@@ -24,6 +24,7 @@ class TableOfContents extends Component {
       case 'Worldbuilding': return 'language';
       case 'Writing':       return 'edit';
       case 'Revising':      return 'grading';
+      case 'Revision':      return 'grading';
       case 'Publishing':    return 'book';
       default:              return 'help';
     }

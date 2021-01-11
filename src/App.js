@@ -105,7 +105,7 @@ class App extends React.Component {
                     sections: writing_tools
                   },
                   {
-                    title:    "Revising",
+                    title:    "Revision",
                     sections: revising_tools
                   },
                   {
@@ -142,7 +142,7 @@ class App extends React.Component {
               filter_type={this.state.filter_type}
             />
             <ToolList
-              title="Revising"
+              title="Revision"
               tool_list={revising_tools}
               highlighted_badges={this.state.highlighted_badges}
               filter_type={this.state.filter_type}
