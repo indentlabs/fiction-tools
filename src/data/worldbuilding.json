@@ -125,7 +125,7 @@
     "section": "Map generators",
     "tools": [
       {
-        "title": "Fantasy Map Generator",
+        "title": "Azgaar's Fantasy Map Generator",
         "subtitle": "Map generator",
         "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
         "square_logo_url": "",
@@ -187,7 +187,7 @@
         ]
       },
       {
-        "title": "Medieval Fantasy City Generator",
+        "title": "watabou's Medieval City Generator",
         "subtitle": "City map generator",
         "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
         "square_logo_url": "",
