@@ -189,7 +189,7 @@
       {
         "title": "Scribophile",
         "subtitle": "Critiques from peers",
-        "homepage_url": "https://www.scribophile.com//",
+        "homepage_url": "https://www.scribophile.com/",
         "square_logo_url": "/logos/scribophile.png",
         "screenshot_url": "/screenshots/scribophile.svg",
         "description": "Scribophile is a respectful online writing workshop and writer’s community. Writers of all skill levels join to improve each other’s work with thoughtful critiques and by sharing their writing experience.",
@@ -201,6 +201,28 @@
           {
             "icon": "money_off",
             "text": "Offers a free tier"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "picture_in_picture_alt",
+            "text": "Ad-supported"
+          }
+        ]
+      },
+      {
+        "title": "Critters Workshop",
+        "subtitle": "Online workshops and critiques",
+        "homepage_url": "http://critters.org/c/about.ht",
+        "square_logo_url": "",
+        "screenshot_url": "",
+        "description": "Get your Science Fiction, Fantasy, and Horror work critiqued in exchange for critiquing the work of others.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
           },
           {
             "icon": "cloud",
