@@ -369,6 +369,42 @@
         ]
       },
       {
+        "title": "WritersDB",
+        "subtitle": "Submission tracker",
+        "homepage_url": "https://www.writersdb.com/",
+        "square_logo_url": "/logos/writersdb.png",
+        "screenshot_url": "",
+        "description": "A free submission and market tracker for freelance writers.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "The Grinder",
+        "subtitle": "Submission tracker",
+        "homepage_url": "https://thegrinder.diabolicalplots.com/",
+        "square_logo_url": "",
+        "screenshot_url": "/screenshots/grinder.png",
+        "description": "A submission tracker and market database for writers of fiction and poetry.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
         "title": "FundsForWriters",
         "subtitle": "Market tracker",
         "homepage_url": "https://fundsforwriters.com/",
@@ -387,24 +423,6 @@
           {
             "icon": "picture_in_picture_alt",
             "text": "Ad-supported"
-          }
-        ]
-      },
-      {
-        "title": "WritersDB",
-        "subtitle": "Submission tracker",
-        "homepage_url": "https://www.writersdb.com/",
-        "square_logo_url": "/logos/writersdb.png",
-        "screenshot_url": "",
-        "description": "A free submission and market tracker for freelance writers.",
-        "badges": [
-          {
-            "icon": "money_off",
-            "text": "Free software"
-          },
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
           }
         ]
       }
