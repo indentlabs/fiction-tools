@@ -84,7 +84,7 @@ class App extends React.Component {
               </Grid>
               <Grid item xs={12} md={12} lg={8}>
                 <Typography paragraph={true} className="context">
-                  Fiction<strong>.</strong>Tools is a growing collection of helpful tools for authors. Use tools to work through every stage of the writing 
+                  Fiction<strong>.</strong>Tools is a growing collection of helpful tools for authors. Use the right tool to work through every stage of the writing 
                   process and get your perfect story out just <span className="bold-text">a little faster</span>.
                 </Typography>
               </Grid>
