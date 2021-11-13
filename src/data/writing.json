@@ -361,37 +361,6 @@
     ]
   },
   {
-    "section": "Collaborative writing",
-    "tools": [
-      {
-        "title": "StoryWars",
-        "subtitle": "Collaborative storytelling",
-        "homepage_url": "https://www.storywars.net/",
-        "square_logo_url": "/logos/storywars.png",
-        "screenshot_url": "/screenshots/storywars.jpg",
-        "description": "Story Wars is a collaborative writing platform, where you can read, write, and expand on thousands of created story ideas, or even create your own.",
-        "badges": [
-          {
-            "icon": "cloud",
-            "text": "Web-based product"
-          },
-          {
-            "icon": "attach_money",
-            "text": "Paid subscriptions around $2 per month"
-          },
-          {
-            "icon": "phone_android",
-            "text": "Available on Android"
-          },
-          {
-            "icon": "phone_iphone",
-            "text": "Available on iOS"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "section": "Screenwriting",
     "tools": [
       {
