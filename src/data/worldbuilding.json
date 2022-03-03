@@ -118,7 +118,23 @@
             "text": "Ad-supported"
           }
         ]
-      }  
+      },
+      {
+        "title": "This Person Does Not Exist",
+        "subtitle": "Character image generator",
+        "homepage_url": "https://thispersondoesnotexist.com/",
+        "description": "An AI tool that generates a photorealistic portrait of a person who does not really exist.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      }
     ]
   },
   {
