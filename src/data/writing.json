@@ -345,6 +345,28 @@
         ]
       },
       {
+        "title": "NovelAI",
+        "subtitle": "AI-assisted writing",
+        "homepage_url": "https://novelai.net/",
+        "square_logo_url": "/logos/novelai.png",
+        "screenshot_url": "",
+        "description": "NovelAI is a monthly subscription service for AI-assisted authorship, storytelling, and virtual companionship.",
+        "badges": [
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $10 - $25 per month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a free trial"
+          }
+        ]
+      },
+      {
         "title": "",
         "subtitle": "",
         "homepage_url": "",
