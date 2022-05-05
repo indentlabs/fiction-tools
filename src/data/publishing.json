@@ -563,11 +563,29 @@
         "homepage_url": "https://unbound.com/",
         "square_logo_url": "/logos/unbound.jpeg",
         "screenshot_url": "",
-        "description": "Unbound is the world’s only book publisher to use crowdfunding to raise funds for the publishing process.",
+        "description": "Unbound is the world's only book publisher to use crowdfunding to raise funds for the publishing process.",
         "badges": [
           {
             "icon": "attach_money",
             "text": "Pricing is determined by a negotiable contract"
+          },
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          }
+        ]
+      },
+      {
+        "title": "Tales",
+        "subtitle": "Mixed-media publishing platform",
+        "homepage_url": "https://talescreator.com/",
+        "square_logo_url": "",
+        "screenshot_url": "",
+        "description": "Tales provides a platform to upgrade your plain text novel or screenplay to a visual, audible, interactive story.",
+        "badges": [
+          {
+            "icon": "money_off",
+            "text": "Usage is free"
           },
           {
             "icon": "cloud",
