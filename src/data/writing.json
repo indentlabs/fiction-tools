@@ -367,6 +367,24 @@
         ]
       },
       {
+        "title": "Wavemaker",
+        "subtitle": "Novel Planning & Writing",
+        "homepage_url": "https://wavemaker.cards/",
+        "square_logo_url": "/logos/wavemaker.webp",
+        "screenshot_url": "/screenshots/wavemaker.png",
+        "description": "Wavemaker is an all-in-one novel-planning and writing tool that's free and works offline.",
+        "badges": [
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          }
+        ]
+      },
+      {
         "title": "",
         "subtitle": "",
         "homepage_url": "",
