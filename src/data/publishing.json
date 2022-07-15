@@ -579,8 +579,8 @@
         "title": "Tales",
         "subtitle": "Mixed-media publishing platform",
         "homepage_url": "https://talescreator.com/",
-        "square_logo_url": "",
-        "screenshot_url": "",
+        "square_logo_url": "/logos/tales.png",
+        "screenshot_url": "/screenshots/tales.jpg",
         "description": "Tales provides a platform to upgrade your plain text novel or screenplay to a visual, audible, interactive story.",
         "badges": [
           {
