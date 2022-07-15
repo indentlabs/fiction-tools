@@ -385,6 +385,28 @@
         ]
       },
       {
+        "title": "4thewords",
+        "subtitle": "Gamified Writing",
+        "homepage_url": "https://4thewords.com/",
+        "square_logo_url": "/logos/4thewords.png",
+        "screenshot_url": "/screenshots/4thewords.png",
+        "description": "4thewords helps push your daily word count and build solid writing habits using monsters, quests, and rewards.",
+        "badges": [
+          {
+            "icon": "cloud",
+            "text": "Web-based product"
+          },
+          {
+            "icon": "attach_money",
+            "text": "Paid subscriptions range $2 - $4 per month"
+          },
+          {
+            "icon": "access_time",
+            "text": "Offers a 30-day free trial"
+          }
+        ]
+      },
+      {
         "title": "",
         "subtitle": "",
         "homepage_url": "",
