@@ -18,6 +18,10 @@ a {
   color: #000000;
 }
 
+.bordered-text {
+  -webkit-text-stroke: 2px white;
+}
+
 .red-text {
   color: red;
 }

@@ -76,7 +76,7 @@ class App extends React.Component {
           <Container maxWidth="lg">
             <Grid container>
               <Grid item xs={12} md={12} lg={8}>
-                <Typography variant="h5" component="blockquote">
+                <Typography variant="h5" component="blockquote" className="bordered-text">
                   If my doctor told me I had only six minutes to live, I wouldn’t brood. I’d type <span className="bold-text">a little faster</span>.
                 </Typography>
                 <br />
