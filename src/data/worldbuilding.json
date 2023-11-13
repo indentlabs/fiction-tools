@@ -771,6 +771,36 @@
         ]
       },
       {
+        "title": "Freeplane",
+        "subtitle": "Mind-mapping tool",
+        "homepage_url": "https://docs.freeplane.org/",
+        "square_logo_url": "/logos/freeplane.png",
+        "screenshot_url": "/screenshots/freeplane.png",
+        "description": "Freeplane is a free and open source software application that supports thinking, sharing information, getting things done at work, in school and at home. It provides you a set of tools for mind mapping and navigating the mapped information.",
+        "badges": [
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Windows"
+          },
+          {
+            "icon": "desktop_mac",
+            "text": "Available on Mac"
+          },
+          {
+            "icon": "desktop_windows",
+            "text": "Available on Linux"
+          },
+          {
+            "icon": "money_off",
+            "text": "Free software"
+          },
+          {
+            "icon": "groups",
+            "text": "Open-source software"
+          }
+        ]
+      },
+      {
         "title": "",
         "subtitle": "",
         "homepage_url": "",
