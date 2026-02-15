@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
 import { getComparableTools } from '../utils/toolData.js';
+import SEO from '../components/SEO.js';
 import './ComparePage.css';
 
 function BadgeCheck({ badges, icon }) {
@@ -131,6 +132,11 @@ function ComparePage() {
 
   return (
     <React.Fragment>
+      <SEO
+        title={tool1.title + ' vs ' + tool2.title}
+        description={'Compare ' + tool1.title + ' and ' + tool2.title + ' side by side. See features, pricing, and platform differences for these ' + tool1.sectionName.toLowerCase() + ' tools.'}
+        path={'/compare/' + slugs}
+      />
       <div className="compare-hero">
         <Container maxWidth="lg">
           <div className="tool-breadcrumb">

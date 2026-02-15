@@ -12,6 +12,7 @@ import Chip from '@material-ui/core/Chip';
 import Divider from '@material-ui/core/Divider';
 import Icon from '@material-ui/core/Icon';
 import { getToolBySlug, getRelatedTools, generateSlug } from '../utils/toolData.js';
+import SEO from '../components/SEO.js';
 import './ToolPage.css';
 
 function ToolPage() {
@@ -32,8 +33,18 @@ function ToolPage() {
 
   const related = getRelatedTools(tool, 6);
 
+  const seoDescription = tool.subtitle
+    ? tool.title + ' — ' + tool.subtitle + '. ' + tool.description.split('\n')[0].substring(0, 120)
+    : tool.description.split('\n')[0].substring(0, 160);
+
   return (
     <React.Fragment>
+      <SEO
+        title={tool.title + ' — ' + tool.sectionName + ' Tool'}
+        description={seoDescription}
+        path={'/tools/' + slug}
+        image={tool.screenshot_url || undefined}
+      />
       <div className="tool-hero">
         <Container maxWidth="lg">
           <div className="tool-breadcrumb">

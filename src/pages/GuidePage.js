@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
 import Icon from '@material-ui/core/Icon';
 import { getSectionBySlug, getAllSections } from '../utils/toolData.js';
+import SEO from '../components/SEO.js';
 import './GuidePage.css';
 
 function GuideToolCard({ tool, rank }) {
@@ -110,6 +111,11 @@ function GuidePage() {
 
   return (
     <React.Fragment>
+      <SEO
+        title={'Best ' + section.name + ' for Fiction Writers'}
+        description={rankedTools.length + ' ' + section.name.toLowerCase() + ' tools reviewed and ranked for fiction writers. Compare features, pricing, and platforms to find the best fit.'}
+        path={'/best/' + sectionSlug}
+      />
       <div className="guide-hero">
         <Container maxWidth="lg">
           <div className="guide-breadcrumb">
@@ -171,6 +177,11 @@ function GuidesIndexPage() {
 
   return (
     <React.Fragment>
+      <SEO
+        title="Writing Tool Guides"
+        description="Curated, ranked lists of the best tools for every part of the fiction writing process. Browse guides for worldbuilding, writing, revision, and publishing."
+        path="/guides"
+      />
       <div className="guide-hero">
         <Container maxWidth="lg">
           <Typography variant="h3" component="h1" className="guide-hero-title">

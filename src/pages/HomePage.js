@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import ToolList from '../components/ToolList/ToolList.js';
 import TableOfContents from '../components/TableOfContents/TableOfContents.js';
 import BadgeHighlighter from '../components/BadgeHighlighter/BadgeHighlighter.js';
+import SEO from '../components/SEO.js';
 import { getCategories, getAllSections } from '../utils/toolData.js';
 
 class HomePage extends React.Component {
@@ -39,6 +40,7 @@ class HomePage extends React.Component {
 
     return (
       <React.Fragment>
+        <SEO path="/" />
         <div className="hero-blockquote border-bottom">
           <Container maxWidth="lg">
             <Grid container>
