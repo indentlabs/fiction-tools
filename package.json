@@ -22,13 +22,9 @@
     "prebuild": "node scripts/generate-sitemap.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snap",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "reactSnap": {
-    "source": "build",
-    "inlineCss": false
   },
   "eslintConfig": {
     "extends": [
