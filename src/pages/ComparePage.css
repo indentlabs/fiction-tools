@@ -1,0 +1,158 @@
+.compare-hero {
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 2em 0;
+}
+
+.compare-hero-title {
+  color: #222;
+  font-weight: 700 !important;
+}
+
+.compare-hero-subtitle {
+  color: #666;
+  margin-top: 0.25em !important;
+}
+
+.compare-content {
+  padding-top: 2em !important;
+  padding-bottom: 3em !important;
+}
+
+.compare-tool-column {
+  padding: 1.5em;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.compare-tool-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.compare-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.compare-tool-title-link {
+  text-decoration: none;
+}
+
+.compare-tool-title {
+  color: #298F6B;
+  font-weight: 600 !important;
+}
+
+.compare-tool-title:hover {
+  text-decoration: underline;
+}
+
+.compare-screenshot-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px !important;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.compare-screenshot {
+  height: 0;
+  padding-top: 56%;
+}
+
+.compare-description {
+  margin-bottom: 1.5em !important;
+  color: #444;
+  line-height: 1.6 !important;
+}
+
+.compare-visit-btn {
+  border-color: #298F6B !important;
+  color: #298F6B !important;
+  text-transform: none !important;
+}
+
+.compare-table-section {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #e0e0e0;
+}
+
+.compare-table {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.compare-table-header {
+  display: flex;
+  background: #298F6B;
+  color: white;
+  font-weight: 600;
+}
+
+.compare-table-row {
+  display: flex;
+  border-top: 1px solid #e0e0e0;
+}
+
+.compare-table-row:nth-child(odd) {
+  background: #fafafa;
+}
+
+.compare-table-label {
+  flex: 1;
+  padding: 0.75em 1em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.compare-table-cell {
+  flex: 1;
+  padding: 0.75em 1em;
+  display: flex;
+  align-items: center;
+}
+
+.compare-badge-yes {
+  color: #298F6B;
+  font-size: 0.9em;
+}
+
+.compare-badge-no {
+  color: #ccc;
+}
+
+.section-heading {
+  color: #467444;
+  font-weight: 600 !important;
+}
+
+.tool-breadcrumb {
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.breadcrumb-link {
+  color: #298F6B;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-sep {
+  margin: 0 0.5em;
+  color: #999;
+}
+
+.breadcrumb-current {
+  color: #666;
+}

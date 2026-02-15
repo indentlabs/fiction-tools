@@ -4,6 +4,7 @@
     "tools": [
       {
         "title": "Seventh Sanctum",
+        "rating": 3,
         "subtitle": "Content generators",
         "homepage_url": "https://www.seventhsanctum.com/",
         "description": "A well-organized collection of all kinds of generators.",
@@ -24,6 +25,7 @@
       },
       {
         "title": "Fantasy Name Generators",
+        "rating": 3,
         "subtitle": "Content generators",
         "homepage_url": "https://www.fantasynamegenerators.com/",
         "description": "Over 1,300 name generators across a ton of specialized contexts, plus many description generators",
@@ -44,6 +46,7 @@
       },
       {
         "title": "Plot Generator",
+        "rating": 3,
         "subtitle": "Plot generators",
         "homepage_url": "https://www.plot-generator.org.uk/",
         "description": "A long list of fill-in-the-blank plot generators to inspire your next story.",
@@ -64,6 +67,7 @@
       },
       {
         "title": "Prompt Generator",
+        "rating": 3,
         "subtitle": "Plot generators",
         "homepage_url": "https://www.squibler.io/plot-generator",
         "description": "A generator for the first line of your short story with a built-in editor.",
@@ -80,6 +84,7 @@
       },
       {
         "title": "TV Tropes",
+        "rating": 3,
         "subtitle": "A rabbit-hole of ideas",
         "square_logo_url": "/logos/tvtropes.png",
         "homepage_url": "https://tvtropes.org/",
@@ -101,6 +106,7 @@
       },
       {
         "title": "ServiceScape",
+        "rating": 3,
         "subtitle": "Writing Prompt Generator",
         "homepage_url": "https://www.servicescape.com/writing-prompt-generator",
         "description": "The ServiceScape Writing Prompt Generator has hundreds of writing ideas, from Fantasy to Science Fiction to Horror to Romance.",
@@ -121,6 +127,7 @@
       },
       {
         "title": "This Person Does Not Exist",
+        "rating": 3,
         "subtitle": "Character image generator",
         "homepage_url": "https://thispersondoesnotexist.com/",
         "description": "An AI tool that generates a photorealistic portrait of a person who does not really exist.",
@@ -142,6 +149,7 @@
     "tools": [
       {
         "title": "Azgaar's Fantasy Map Generator",
+        "rating": 3,
         "subtitle": "Map generator",
         "homepage_url": "https://azgaar.github.io/Fantasy-Map-Generator/",
         "square_logo_url": "",
@@ -168,6 +176,7 @@
       },
       {
         "title": "Oskar Stalberg's City Generator",
+        "rating": 3,
         "subtitle": "City map generator",
         "homepage_url": "http://www.oskarstalberg.com/game/CityGenerator/",
         "square_logo_url": "",
@@ -186,6 +195,7 @@
       },
       {
         "title": "donjon's Fantasy World Generator",
+        "rating": 3,
         "subtitle": "World map generator",
         "homepage_url": "https://donjon.bin.sh/fantasy/world/",
         "square_logo_url": "",
@@ -204,6 +214,7 @@
       },
       {
         "title": "watabou's Medieval City Generator",
+        "rating": 3,
         "subtitle": "City map generator",
         "homepage_url": "https://watabou.itch.io/medieval-fantasy-city-generator",
         "square_logo_url": "",
@@ -222,6 +233,7 @@
       },
       {
         "title": "One Page Dungeon",
+        "rating": 3,
         "subtitle": "Dungeon map generator",
         "homepage_url": "https://watabou.itch.io/one-page-dungeon",
         "square_logo_url": "",
@@ -240,6 +252,7 @@
       },
       {
         "title": "Myth Weavers Dungeon Generator",
+        "rating": 3,
         "subtitle": "Dungeon generator",
         "homepage_url": "https://www.myth-weavers.com/generate_dungeon.php",
         "description": "A customizable generator for grid-based dungeons.",
@@ -266,6 +279,7 @@
     "tools": [
       {
         "title": "Inkarnate",
+        "rating": 3,
         "subtitle": "Map-making software",
         "homepage_url": "https://inkarnate.com/",
         "square_logo_url": "/logos/inkarnate.png",
@@ -288,6 +302,7 @@
       },
       {
         "title": "Wonderdraft",
+        "rating": 3,
         "subtitle": "Map-making software",
         "homepage_url": "https://www.wonderdraft.net/",
         "square_logo_url": "/logos/wonderdraft.png",
@@ -314,6 +329,7 @@
       },
       {
         "title": "Campaign Cartographer 3+",
+        "rating": 3,
         "subtitle": "Map-making software",
         "homepage_url": "https://www.profantasy.com/products/cc3.asp",
         "square_logo_url": "/logos/campaign-cartographer.gif",
@@ -336,6 +352,7 @@
       },
       {
         "title": "Dungeon Map Doodler",
+        "rating": 3,
         "subtitle": "Dungeon map editor",
         "homepage_url": "https://dungeonmapdoodler.com/index.html",
         "square_logo_url": "",
@@ -359,6 +376,7 @@
     "tools": [
       {
         "title": "Notebook.ai",
+        "rating": 3,
         "subtitle": "The smart worldbuilding notebook",
         "homepage_url": "https://www.notebook.ai",
         "square_logo_url": "/logos/notebook-ai.png",
@@ -385,6 +403,7 @@
       },
       {
         "title": "One Stop For Writers",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "https://onestopforwriters.com/",
         "square_logo_url": "/logos/one-stop.svg",
@@ -407,6 +426,7 @@
       },
       {
         "title": "Plot Factory",
+        "rating": 3,
         "subtitle": "Online story planner",
         "homepage_url": "https://plotfactory.com/",
         "square_logo_url": "/logos/plot-factory.png",
@@ -433,6 +453,7 @@
       },
       {
         "title": "World Anvil",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "https://www.worldanvil.com/",
         "square_logo_url": "/logos/world-anvil.jpg",
@@ -459,6 +480,7 @@
       },
       {
         "title": "LegendKeeper",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "https://legendkeeper.com/",
         "square_logo_url": "",
@@ -477,6 +499,7 @@
       },
       {
         "title": "Dramatica",
+        "rating": 3,
         "subtitle": "The Next Chapter in Story Development",
         "homepage_url": "https://dramatica.com/",
         "square_logo_url": "/logos/dramatica.jpg",
@@ -499,6 +522,7 @@
       },
       {
         "title": "World Scribe",
+        "rating": 3,
         "subtitle": "for Android",
         "homepage_url": "https://play.google.com/store/apps/details?id=com.averi.worldscribe&hl=en_US&gl=US",
         "square_logo_url": "/logos/world-scribe.webp",
@@ -517,6 +541,7 @@
       },
       {
         "title": "Campfire Pro",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "https://www.campfiretechnology.com/",
         "square_logo_url": "/logos/campfire-pro.png",
@@ -543,6 +568,7 @@
       },
       {
         "title": "Refsheet",
+        "rating": 3,
         "subtitle": "Your Characters, Organized.",
         "homepage_url": "https://refsheet.net/",
         "square_logo_url": "/logos/refsheet.png",
@@ -565,6 +591,7 @@
       },
       {
         "title": "",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "",
         "square_logo_url": "",
@@ -584,6 +611,7 @@
     "tools": [
       {
         "title": "AYOA",
+        "rating": 3,
         "subtitle": "All-in-one whiteboard",
         "homepage_url": "https://www.ayoa.com/",
         "square_logo_url": "/logos/ayoa.jpg",
@@ -626,6 +654,7 @@
       },
       {
         "title": "MindMeister",
+        "rating": 3,
         "subtitle": "Mind-mapping tool",
         "homepage_url": "https://www.mindmeister.com/",
         "square_logo_url": "/logos/mindmeister.png",
@@ -660,6 +689,7 @@
       },
       {
         "title": "Coggle",
+        "rating": 3,
         "subtitle": "Mind-mapping tool",
         "homepage_url": "https://coggle.it/",
         "square_logo_url": "",
@@ -682,6 +712,7 @@
       },
       {
         "title": "MindMup",
+        "rating": 3,
         "subtitle": "Mind-mapping tool",
         "homepage_url": "https://www.mindmup.com",
         "square_logo_url": "",
@@ -704,6 +735,7 @@
       },
       {
         "title": "SpiderScribe",
+        "rating": 3,
         "subtitle": "Mind-mapping tool",
         "homepage_url": "https://www.mindmup.com",
         "square_logo_url": "/logos/spiderscribe.png",
@@ -734,6 +766,7 @@
       },
       {
         "title": "XMind 2020",
+        "rating": 3,
         "subtitle": "Mind-mapping tool",
         "homepage_url": "https://www.xmind.net/",
         "square_logo_url": "/logos/xmind.png",
@@ -772,6 +805,7 @@
       },
       {
         "title": "Freeplane",
+        "rating": 3,
         "subtitle": "Mind-mapping tool",
         "homepage_url": "https://docs.freeplane.org/",
         "square_logo_url": "/logos/freeplane.png",
@@ -802,6 +836,7 @@
       },
       {
         "title": "",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "",
         "square_logo_url": "",

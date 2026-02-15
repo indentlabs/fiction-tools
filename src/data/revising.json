@@ -2,9 +2,9 @@
   {
     "section": "Line editing",
     "tools": [
-      
       {
         "title": "ProWritingAid",
+        "rating": 3,
         "subtitle": "For the smarter writer",
         "homepage_url": "https://prowritingaid.com/",
         "square_logo_url": "/logos/pro-writing-aid.png",
@@ -31,6 +31,7 @@
       },
       {
         "title": "Grammarly",
+        "rating": 3,
         "subtitle": "Great Writing, Simplified",
         "homepage_url": "https://app.grammarly.com/",
         "square_logo_url": "/logos/grammarly.png",
@@ -57,6 +58,7 @@
       },
       {
         "title": "AutoCrit",
+        "rating": 3,
         "subtitle": "Online book editor",
         "homepage_url": "https://www.autocrit.com/",
         "square_logo_url": "/logos/autocrit.png",
@@ -79,6 +81,7 @@
       },
       {
         "title": "StoryTeller",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "https://fictionary.co/products/storyteller/",
         "square_logo_url": "",
@@ -101,6 +104,7 @@
       },
       {
         "title": "Ginger Software",
+        "rating": 3,
         "subtitle": "Make No Mistake!",
         "homepage_url": "https://www.gingersoftware.com/",
         "square_logo_url": "/logos/ginger.jpg",
@@ -135,6 +139,7 @@
       },
       {
         "title": "Expresso",
+        "rating": 3,
         "subtitle": "Interactive editor",
         "homepage_url": "https://www.expresso-app.org/",
         "square_logo_url": "",
@@ -157,6 +162,7 @@
       },
       {
         "title": "Hemingway Editor",
+        "rating": 3,
         "subtitle": "Colorful editor",
         "homepage_url": "http://www.hemingwayapp.com/",
         "square_logo_url": "",
@@ -188,6 +194,7 @@
     "tools": [
       {
         "title": "Scribophile",
+        "rating": 3,
         "subtitle": "Critiques from peers",
         "homepage_url": "https://www.scribophile.com/",
         "square_logo_url": "/logos/scribophile.png",
@@ -214,6 +221,7 @@
       },
       {
         "title": "Critters Workshop",
+        "rating": 3,
         "subtitle": "Online workshops and critiques",
         "homepage_url": "http://critters.org/c/about.ht",
         "square_logo_url": "",
@@ -236,6 +244,7 @@
       },
       {
         "title": "",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "",
         "square_logo_url": "",
