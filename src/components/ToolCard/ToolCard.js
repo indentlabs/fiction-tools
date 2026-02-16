@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './ToolCard.css';
 
 import Card from '@material-ui/core/Card';
@@ -16,10 +17,11 @@ import Zoom from '@material-ui/core/Zoom';
 // using the generic string-loaded Icon instead of importing individual icons
 // will massively increase the JS bundle size. For the sake of making it easier
 // for non-technical users to edit the JSON data files (which include icons),
-// we're using <Icon /> anyway. 
+// we're using <Icon /> anyway.
 import Icon from '@material-ui/core/Icon';
 
 import IconButton from '@material-ui/core/IconButton';
+import { generateSlug } from '../../utils/toolData.js';
 
 class ToolCard extends Component {
   constructor(props) {
@@ -31,11 +33,11 @@ class ToolCard extends Component {
   }
 
   render() {
+    const slug = generateSlug(this.props.title);
+
     return(
-      <a href={this.props.homepage_url + '?ref=fiction.tools'}
+      <Link to={'/tools/' + slug}
          className="ToolCard"
-         target="_blank" 
-         rel="noreferrer"
       >
         <Card
           onMouseEnter={() => { this.setState({highlighted: true}); }}
@@ -46,7 +48,7 @@ class ToolCard extends Component {
           <CardHeader
             title={this.props.title}
             subheader={this.props.subtitle}
-            avatar={this.props.square_logo_url ? <img src={this.props.square_logo_url} height="60" width="60" /> : <br />}
+            avatar={this.props.square_logo_url ? <img src={this.props.square_logo_url} height="60" width="60" alt="" /> : <br />}
           />
           {this.props.screenshot_url && (
             <React.Fragment>
@@ -73,14 +75,14 @@ class ToolCard extends Component {
             <CardActions disableSpacing>
               {this.props.badges.map((badge, i) => {
                 return(
-                  <Tooltip arrow 
-                          interactive 
+                  <Tooltip arrow
+                          interactive
                           key={i}
                           title={
                               <div className="tooltip-text">
                                 {badge.text}
                               </div>
-                            } 
+                            }
                           TransitionComponent={Zoom}
                   >
                     <IconButton style={{
@@ -94,7 +96,7 @@ class ToolCard extends Component {
             </CardActions>
           )}
         </Card>
-      </a>
+      </Link>
     )
   }
 };
@@ -102,6 +104,3 @@ class ToolCard extends Component {
 ToolCard.propTypes = {};
 ToolCard.defaultProps = {};
 export default ToolCard;
-
-
-// free -> "offers some or all of its features for free"

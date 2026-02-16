@@ -91,7 +91,7 @@ a {
 .hero-blockquote {
   padding: 5em 10%;
   padding-bottom: 1em;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
   background: white;
   height: 80%;
 
@@ -107,11 +107,11 @@ a {
 }
 
 .hero-blockquote blockquote::before {
-  content: '“';
+  content: '\201C';
 }
 
 .hero-blockquote blockquote::after {
-  content: '”';
+  content: '\201D';
 }
 
 .hero-blockquote cite {
@@ -121,7 +121,7 @@ a {
 }
 
 .hero-blockquote cite::before {
-  content: "― ";
+  content: "\2015  ";
 }
 
 .hero-blockquote .context {
@@ -130,4 +130,34 @@ a {
   width: 80%;
   background: white;
   padding: 0.5em 0;
+}
+
+/* Guide link chips on home page */
+.guide-link {
+  text-decoration: none;
+  display: block;
+}
+
+.guide-chip {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.75em 1em;
+  color: #298F6B;
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.guide-chip:hover {
+  border-color: #298F6B;
+  box-shadow: 0 2px 8px rgba(41, 143, 107, 0.15);
+}
+
+.guide-chip-count {
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+  font-weight: 400;
+  margin-top: 0.25em;
 }

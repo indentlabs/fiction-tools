@@ -1,0 +1,9 @@
+.nav-link {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

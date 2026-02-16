@@ -1,9 +1,10 @@
-[ 
+[
   {
     "section": "Word processors",
     "tools": [
       {
         "title": "Scrivener",
+        "rating": 3,
         "subtitle": "Word Processor",
         "homepage_url": "https://www.literatureandlatte.com/scrivener/overview",
         "square_logo_url": "/logos/scrivener.png",
@@ -34,6 +35,7 @@
       },
       {
         "title": "LibreOffice Writer",
+        "rating": 3,
         "subtitle": "Word Processor",
         "homepage_url": "https://www.libreoffice.org/discover/writer/",
         "square_logo_url": "/logos/libreoffice.png",
@@ -64,6 +66,7 @@
       },
       {
         "title": "Zoho Writer",
+        "rating": 3,
         "subtitle": "Word Processor",
         "homepage_url": "https://www.zoho.com/writer/",
         "square_logo_url": "/logos/zohowriter.png",
@@ -94,6 +97,7 @@
       },
       {
         "title": "Ulysses",
+        "rating": 3,
         "subtitle": "Word Processor",
         "homepage_url": "https://ulysses.app/",
         "square_logo_url": "/logos/ulysses.png",
@@ -120,6 +124,7 @@
       },
       {
         "title": "yWriter",
+        "rating": 3,
         "subtitle": "Word Processor",
         "homepage_url": "http://www.spacejock.com/yWriter5.html",
         "square_logo_url": "data:image/jpeg;base64,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",
@@ -146,6 +151,7 @@
       },
       {
         "title": "Reedsy",
+        "rating": 3,
         "subtitle": "Word Processor",
         "homepage_url": "https://reedsy.com/write-a-book",
         "square_logo_url": "data:image/jpeg;base64,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",
@@ -164,6 +170,7 @@
       },
       {
         "title": "The Novel Factory",
+        "rating": 3,
         "subtitle": "Word processor",
         "homepage_url": "https://www.novel-software.com/",
         "square_logo_url": "",
@@ -190,6 +197,7 @@
       },
       {
         "title": "iA Writer",
+        "rating": 3,
         "subtitle": "Distraction-free writing",
         "homepage_url": "https://ia.net/writer",
         "square_logo_url": "data:image/png;base64,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",
@@ -224,6 +232,7 @@
       },
       {
         "title": "WriteRoom",
+        "rating": 3,
         "subtitle": "Distraction-free writing",
         "homepage_url": "https://apps.apple.com/us/app/writeroom/id417967324?mt=12",
         "square_logo_url": "/logos/writeroom.jpg",
@@ -242,6 +251,7 @@
       },
       {
         "title": "Write!",
+        "rating": 3,
         "subtitle": "Distraction-free writing",
         "homepage_url": "https://writeapp.co/",
         "square_logo_url": "/logos/writeapp.png",
@@ -272,6 +282,7 @@
       },
       {
         "title": "Manuskript",
+        "rating": 3,
         "subtitle": "Open-source tool for writers",
         "homepage_url": "https://www.theologeek.ch/manuskript/",
         "square_logo_url": "/logos/manuskript.png",
@@ -302,6 +313,7 @@
       },
       {
         "title": "LivingWriter",
+        "rating": 3,
         "subtitle": "Word processor",
         "homepage_url": "https://livingwriter.com/",
         "square_logo_url": "/logos/livingwriter.png",
@@ -324,6 +336,7 @@
       },
       {
         "title": "Squibler",
+        "rating": 3,
         "subtitle": "The Best Writing App",
         "homepage_url": "https://www.squibler.io/",
         "square_logo_url": "/logos/squibler.png",
@@ -346,6 +359,7 @@
       },
       {
         "title": "NovelAI",
+        "rating": 3,
         "subtitle": "AI-assisted writing",
         "homepage_url": "https://novelai.net/",
         "square_logo_url": "/logos/novelai.png",
@@ -368,6 +382,7 @@
       },
       {
         "title": "Wavemaker",
+        "rating": 3,
         "subtitle": "Novel Planning & Writing",
         "homepage_url": "https://wavemaker.cards/",
         "square_logo_url": "/logos/wavemaker.webp",
@@ -386,6 +401,7 @@
       },
       {
         "title": "4thewords",
+        "rating": 3,
         "subtitle": "Gamified Writing",
         "homepage_url": "https://4thewords.com/",
         "square_logo_url": "/logos/4thewords.png",
@@ -408,6 +424,7 @@
       },
       {
         "title": "",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "",
         "square_logo_url": "",
@@ -427,6 +444,7 @@
     "tools": [
       {
         "title": "Final Draft",
+        "rating": 3,
         "subtitle": "Screenwriting software",
         "homepage_url": "https://finaldraft.com/",
         "square_logo_url": "/logos/finaldraft.png",
@@ -457,6 +475,7 @@
       },
       {
         "title": "Scriptworthy",
+        "rating": 3,
         "subtitle": "Screenwriting software",
         "homepage_url": "https://scriptworthy.co/",
         "square_logo_url": "/logos/scriptworthy.png",
@@ -475,6 +494,7 @@
       },
       {
         "title": "Celtx",
+        "rating": 3,
         "subtitle": "Screenwriting software",
         "homepage_url": "https://scriptworthy.co/",
         "square_logo_url": "",

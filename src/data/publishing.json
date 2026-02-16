@@ -4,6 +4,7 @@
     "tools": [
       {
         "title": "SelfPubBookCovers",
+        "rating": 3,
         "subtitle": "Premade cover marketplace",
         "homepage_url": "http://www.selfpubbookcovers.com/",
         "square_logo_url": "/logos/self-pub-book-covers.jpg",
@@ -22,6 +23,7 @@
       },
       {
         "title": "Unsplash",
+        "rating": 3,
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://unsplash.com/",
         "square_logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJ1BMVEUAAAD////V1dWWlpZ0dHTPz89qamrh4eGQkJDk5OTR0dGtra3Y2NgWv+ptAAABL0lEQVR4nO3cMQ7CQAxFwQCBQOD+56Wms2RHxjDvAKs/vbXLqaR1qW+tmbbUPENISJiIMBghIWEiwmCEhISJCIMREhImIgxGSEiYiDAYISFhIsJghISEiQiDERISJiIMRkhImIgwGCEhYSLCYISEhIkIgxESEiYiDPb7wtsBwlvNtCLhdq5vq5lWJPziCOdHOD/C+RHOj3B+hPMjnB/h/AjnRzg/wvkRzo9wfoTzI5wf4fz+QHip6P44YNrjXrKt6KrgeoDwWrStJkJCwv4ICQn7IyQk7I+QkLA/QkLC/ggJCfsjJCTsj5CQsD9CQsL+CAkJ+yMkJOyPkJCwP0JCwv4ICQn7IyQk7G8/QLh3oz56vsq/oH09u1GSJEmSJEmSJEmSJEmSJEmSJEmSJP1rbwwaXQZE0kwUAAAAAElFTkSuQmCC",
@@ -40,6 +42,7 @@
       },
       {
         "title": "PxHere",
+        "rating": 3,
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://pxhere.com/",
         "square_logo_url": "/logos/pxhere.png",
@@ -62,6 +65,7 @@
       },
       {
         "title": "Pixabay",
+        "rating": 3,
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://pixabay.com/",
         "square_logo_url": "/logos/pixabay.svg",
@@ -84,6 +88,7 @@
       },
       {
         "title": "Pexels",
+        "rating": 3,
         "subtitle": "Freely-usable image search",
         "homepage_url": "https://www.pexels.com/",
         "square_logo_url": "/logos/pexels.png",
@@ -106,6 +111,7 @@
       },
       {
         "title": "Canva",
+        "rating": 3,
         "subtitle": "Book cover maker",
         "homepage_url": "https://www.canva.com/create/book-covers/",
         "square_logo_url": "/logos/canva.png",
@@ -128,6 +134,7 @@
       },
       {
         "title": "Artbreeder",
+        "rating": 3,
         "subtitle": "Image generation and manipulation",
         "homepage_url": "https://artbreeder.com/",
         "square_logo_url": "",
@@ -150,6 +157,7 @@
       },
       {
         "title": "",
+        "rating": 3,
         "subtitle": "",
         "homepage_url": "",
         "square_logo_url": "",
@@ -169,6 +177,7 @@
     "tools": [
       {
         "title": "Vellum",
+        "rating": 3,
         "subtitle": "Create beautiful books",
         "homepage_url": "https://vellum.pub/",
         "square_logo_url": "/logos/vellum.png",
@@ -187,6 +196,7 @@
       },
       {
         "title": "Kindle Create",
+        "rating": 3,
         "subtitle": "For publishing on Amazon",
         "homepage_url": "https://www.amazon.com/Kindle-Create/b?node=18292298011",
         "square_logo_url": "/logos/kindle-create.png",
@@ -209,6 +219,7 @@
       },
       {
         "title": "Blurb Bookwright",
+        "rating": 3,
         "subtitle": "Publishing software",
         "homepage_url": "https://www.blurb.com/bookwright",
         "square_logo_url": "/logos/blurb.png",
@@ -231,6 +242,7 @@
       },
       {
         "title": "Calibre",
+        "rating": 3,
         "subtitle": "Ebook management software",
         "homepage_url": "https://calibre-ebook.com/",
         "square_logo_url": "/logos/calibre.png",
@@ -261,6 +273,7 @@
       },
       {
         "title": "Pandoc",
+        "rating": 3,
         "subtitle": "Universal document converter",
         "homepage_url": "https://pandoc.org/index.html",
         "square_logo_url": "",
@@ -291,6 +304,7 @@
       },
       {
         "title": "Sigil",
+        "rating": 3,
         "subtitle": "EPUB editor",
         "homepage_url": "https://sigil-ebook.com/",
         "square_logo_url": "",
@@ -321,6 +335,7 @@
       },
       {
         "title": "Jutoh",
+        "rating": 3,
         "subtitle": "Digital publishing editor",
         "homepage_url": "http://www.jutoh.com/",
         "square_logo_url": "data:image/png;base64,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",
@@ -352,6 +367,7 @@
     "tools": [
       {
         "title": "Duotrope",
+        "rating": 3,
         "subtitle": "Submission tracker",
         "homepage_url": "https://duotrope.com/",
         "square_logo_url": "/logos/duotrope.webp",
@@ -370,6 +386,7 @@
       },
       {
         "title": "WritersDB",
+        "rating": 3,
         "subtitle": "Submission tracker",
         "homepage_url": "https://www.writersdb.com/",
         "square_logo_url": "/logos/writersdb.png",
@@ -388,6 +405,7 @@
       },
       {
         "title": "The Grinder",
+        "rating": 3,
         "subtitle": "Submission tracker",
         "homepage_url": "https://thegrinder.diabolicalplots.com/",
         "square_logo_url": "",
@@ -406,6 +424,7 @@
       },
       {
         "title": "FundsForWriters",
+        "rating": 3,
         "subtitle": "Market tracker",
         "homepage_url": "https://fundsforwriters.com/",
         "square_logo_url": "",
@@ -433,6 +452,7 @@
     "tools": [
       {
         "title": "Tablo",
+        "rating": 3,
         "subtitle": "Self-publishing software",
         "homepage_url": "https://tablo.io/",
         "square_logo_url": "/logos/tablo.png",
@@ -451,6 +471,7 @@
       },
       {
         "title": "BookBaby",
+        "rating": 3,
         "subtitle": "Self-publishing software",
         "homepage_url": "https://www.bookbaby.com/",
         "square_logo_url": "/logos/bookbaby.gif",
@@ -469,6 +490,7 @@
       },
       {
         "title": "StreetLib",
+        "rating": 3,
         "subtitle": "Self-publishing software",
         "homepage_url": "https://www.streetlib.com/",
         "square_logo_url": "/logos/streetlib.png",
@@ -487,6 +509,7 @@
       },
       {
         "title": "Kindle Direct Publishing",
+        "rating": 3,
         "subtitle": "Self-publishing software",
         "homepage_url": "https://kdp.amazon.com/",
         "square_logo_url": "/logos/kindle-direct-publishing.jpg",
@@ -505,6 +528,7 @@
       },
       {
         "title": "Smashwords",
+        "rating": 3,
         "subtitle": "Self-publishing platform",
         "homepage_url": "https://www.smashwords.com/",
         "square_logo_url": "/logos/smashwords.jpg",
@@ -523,6 +547,7 @@
       },
       {
         "title": "Google Play Books Partner Center",
+        "rating": 3,
         "subtitle": "Self-publishing platform",
         "homepage_url": "https://play.google.com/books/publish/",
         "square_logo_url": "/logos/google-play-books.png",
@@ -541,6 +566,7 @@
       },
       {
         "title": "Draft2Digital",
+        "rating": 3,
         "subtitle": "Self-publishing platform",
         "homepage_url": "https://www.draft2digital.com/",
         "square_logo_url": "/logos/draft2digital.jpg",
@@ -559,6 +585,7 @@
       },
       {
         "title": "Unbound",
+        "rating": 3,
         "subtitle": "Crowd-funding publisher",
         "homepage_url": "https://unbound.com/",
         "square_logo_url": "/logos/unbound.jpeg",
@@ -577,6 +604,7 @@
       },
       {
         "title": "Tales",
+        "rating": 3,
         "subtitle": "Mixed-media publishing platform",
         "homepage_url": "https://talescreator.com/",
         "square_logo_url": "/logos/tales.png",
@@ -600,6 +628,7 @@
     "tools": [
       {
         "title": "BookSirens",
+        "rating": 3,
         "subtitle": "Get more book reviews",
         "homepage_url": "https://booksirens.com/",
         "square_logo_url": "/logos/booksirens.jpg",
@@ -622,6 +651,7 @@
       },
       {
         "title": "Booksprout",
+        "rating": 3,
         "subtitle": "Get more book reviews",
         "homepage_url": "https://booksprout.co/",
         "square_logo_url": "/logos/booksprout.png",
@@ -640,6 +670,7 @@
       },
       {
         "title": "Pubby",
+        "rating": 3,
         "subtitle": "Get more book reviews",
         "homepage_url": "https://pubby.co/",
         "square_logo_url": "data:image/png;base64,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",
@@ -658,6 +689,7 @@
       },
       {
         "title": "StoryOrigin",
+        "rating": 3,
         "subtitle": "Find Reviewers. Increase Sales.",
         "homepage_url": "https://storyoriginapp.com/",
         "square_logo_url": "/logos/storyorigin.png",

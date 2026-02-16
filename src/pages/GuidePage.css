@@ -1,0 +1,214 @@
+.guide-hero {
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 2em 0;
+}
+
+.guide-breadcrumb {
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.guide-hero-title {
+  color: #222;
+  font-weight: 700 !important;
+}
+
+.guide-hero-subtitle {
+  color: #666;
+  margin-top: 0.25em !important;
+}
+
+.guide-hero-intro {
+  color: #444;
+  margin-top: 1em !important;
+  max-width: 700px;
+  line-height: 1.6 !important;
+}
+
+.guide-content {
+  padding-top: 2em !important;
+  padding-bottom: 3em !important;
+}
+
+.guide-quick-nav {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.guide-quick-nav-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.guide-quick-chip-link {
+  text-decoration: none;
+}
+
+.guide-quick-chip {
+  border-color: #298F6B !important;
+  color: #298F6B !important;
+}
+
+.guide-tool-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.guide-tool-card {
+  border-radius: 8px !important;
+  transition: box-shadow 0.2s ease;
+}
+
+.guide-tool-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+.guide-rank {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #298F6B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.guide-tool-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-bottom: 1em;
+}
+
+.guide-tool-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.guide-tool-title-link {
+  text-decoration: none;
+}
+
+.guide-tool-name {
+  color: #298F6B;
+  font-weight: 600 !important;
+}
+
+.guide-tool-name:hover {
+  text-decoration: underline;
+}
+
+.guide-screenshot-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px !important;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.guide-screenshot {
+  height: 0;
+  padding-top: 50%;
+}
+
+.guide-tool-description {
+  color: #444;
+  line-height: 1.6 !important;
+  margin-bottom: 1em !important;
+}
+
+.guide-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.5em;
+  margin-bottom: 1em;
+}
+
+.guide-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.guide-badge-icon {
+  color: #298F6B;
+  font-size: 1.1em !important;
+}
+
+.guide-badge-text {
+  font-size: 0.85em;
+  color: #666;
+}
+
+.guide-tool-actions {
+  display: flex;
+  gap: 0.75em;
+}
+
+.guide-visit-btn {
+  background: #298F6B !important;
+  color: white !important;
+  text-transform: none !important;
+}
+
+.guide-details-btn {
+  border-color: #298F6B !important;
+  color: #298F6B !important;
+  text-transform: none !important;
+}
+
+/* Guides index page */
+.guide-index-link {
+  text-decoration: none;
+  display: block;
+}
+
+.guide-index-card {
+  border-radius: 8px !important;
+  transition: box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.guide-index-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.guide-index-title {
+  color: #298F6B;
+  font-weight: 600 !important;
+}
+
+.guide-index-count {
+  margin-top: 0.75em !important;
+  background: rgba(41, 143, 107, 0.1) !important;
+  color: #298F6B !important;
+}
+
+.breadcrumb-link {
+  color: #298F6B;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-sep {
+  margin: 0 0.5em;
+  color: #999;
+}
+
+.breadcrumb-current {
+  color: #666;
+}
